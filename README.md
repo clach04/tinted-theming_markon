@@ -4,7 +4,21 @@ Experimental https://github.com/metaory/markon theme/scheme generator
 
 ## Install
 
-ADD INSTALL INSTRUCTIONS/NOTES HERE.
+TO generate:
+
+ 1. Download https://github.com/tinted-theming/tinted-builder-rust/
+ 2. Check out https://github.com/tinted-theming/schemes.git
+
+        git clone https://github.com/tinted-theming/schemes.git tinted-theming-schemes
+
+ 3. In check out of this repo issue:
+
+        tinted-builder-rust.exe --schemes-dir C:\code\terminal\tinted-theming-schemes\ build .
+
+    Alternatively skip step 2:
+
+        tinted-builder-rust sync
+        tinted-builder-rust build .
 
 ## Team
 

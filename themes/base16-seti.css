@@ -1,0 +1,29 @@
+/*
+* Name: Seti UI
+* Author: 
+*/
+
+html[data-theme="seti"][data-mode="dark"] {
+	--bg:       #151718;
+	--bg-light: #282a2b;
+	--text:     #d6d6d6;
+	--brand:    #d6d6d6;   // FIXME  Base24 #;
+	--accent:   #d6d6d6;  // FIXME Base24 #
+	--primary:  #d6d6d6;  TODO!
+	--secondary: #d6d6d6;  // FIXME Base24 #
+	--comment:  #43a5d5;
+	--meta:      #d6d6d6;  // TODO!
+	--operator: #d6d6d6;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #a074c4;  // this matches base16 - FIXME Base24 #;
+	--regex:    #55dbbe;  // this matches base16
+	--property: #d6d6d6;  // base24 #;
+	--string:   #9fca56;  // this matches base16
+	--literal:  #db7b55;  // FIXME Base24 #;
+	--hint:     #e6cd69;  // FIXME Base24 #;
+
+
+    --success:  #9fca56;  // 14 used by gruvbox dark
+    --warning:  #db7b55;  // 13 used by gruvbox dark
+    --info:     #55dbbe;  // 16 used by gruvbox dark
+    --error:    #cd3f45;  // matches base16 - 12 used by gruvbox dark
+}

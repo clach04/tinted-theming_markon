@@ -1,0 +1,29 @@
+/*
+* Name: Oxocarbon Light
+* Author: shaunsingh/IBM, Tinted Theming (https://github.com/tinted-theming)
+*/
+
+html[data-theme="oxocarbon-light"][data-mode="light"] {
+	--bg:       #f2f4f8;
+	--bg-light: #dde1e6;
+	--text:     #525f70;
+	--brand:    #525f70;   // FIXME  Base24 #;
+	--accent:   #525f70;  // FIXME Base24 #
+	--primary:  #525f70;  TODO!
+	--secondary: #525f70;  // FIXME Base24 #
+	--comment:  #68788d;
+	--meta:      #525f70;  // TODO!
+	--operator: #525f70;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #be95ff;  // this matches base16 - FIXME Base24 #;
+	--regex:    #673ab7;  // this matches base16
+	--property: #525f70;  // base24 #;
+	--string:   #42be65;  // this matches base16
+	--literal:  #ee5396;  // FIXME Base24 #;
+	--hint:     #ff6f00;  // FIXME Base24 #;
+
+
+    --success:  #42be65;  // 14 used by gruvbox dark
+    --warning:  #ee5396;  // 13 used by gruvbox dark
+    --info:     #673ab7;  // 16 used by gruvbox dark
+    --error:    #ff7eb6;  // matches base16 - 12 used by gruvbox dark
+}

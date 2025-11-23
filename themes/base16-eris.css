@@ -1,0 +1,29 @@
+/*
+* Name: eris
+* Author: ed (https://codeberg.org/ed), Tinted Theming (https://github.com/tinted-theming)
+*/
+
+html[data-theme="eris"][data-mode="dark"] {
+	--bg:       #0a0920;
+	--bg-light: #13133a;
+	--text:     #606bac;
+	--brand:    #606bac;   // FIXME  Base24 #;
+	--accent:   #606bac;  // FIXME Base24 #
+	--primary:  #606bac;  TODO!
+	--secondary: #606bac;  // FIXME Base24 #
+	--comment:  #4a5293;
+	--meta:      #606bac;  // TODO!
+	--operator: #606bac;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #c368f7;  // this matches base16 - FIXME Base24 #;
+	--regex:    #a2faf0;  // this matches base16
+	--property: #606bac;  // base24 #;
+	--string:   #a2faa8;  // this matches base16
+	--literal:  #f78968;  // FIXME Base24 #;
+	--hint:     #f7d668;  // FIXME Base24 #;
+
+
+    --success:  #a2faa8;  // 14 used by gruvbox dark
+    --warning:  #f78968;  // 13 used by gruvbox dark
+    --info:     #a2faf0;  // 16 used by gruvbox dark
+    --error:    #f768a3;  // matches base16 - 12 used by gruvbox dark
+}

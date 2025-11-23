@@ -1,0 +1,29 @@
+/*
+* Name: Digital Rain
+* Author: Nathan Byrd (https://github.com/cognitivegears)
+*/
+
+html[data-theme="digital-rain"][data-mode="dark"] {
+	--bg:       #000000;
+	--bg-light: #4a806c;
+	--text:     #00ff00;
+	--brand:    #00ff00;   // FIXME  Base24 #;
+	--accent:   #00ff00;  // FIXME Base24 #
+	--primary:  #00ff00;  TODO!
+	--secondary: #00ff00;  // FIXME Base24 #
+	--comment:  #919893;
+	--meta:      #00ff00;  // TODO!
+	--operator: #00ff00;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #9472b4;  // this matches base16 - FIXME Base24 #;
+	--regex:    #468c78;  // this matches base16
+	--property: #00ff00;  // base24 #;
+	--string:   #64c83c;  // this matches base16
+	--literal:  #c86428;  // FIXME Base24 #;
+	--hint:     #a67a50;  // FIXME Base24 #;
+
+
+    --success:  #64c83c;  // 14 used by gruvbox dark
+    --warning:  #c86428;  // 13 used by gruvbox dark
+    --info:     #468c78;  // 16 used by gruvbox dark
+    --error:    #c85a46;  // matches base16 - 12 used by gruvbox dark
+}

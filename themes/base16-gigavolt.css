@@ -1,0 +1,29 @@
+/*
+* Name: Gigavolt
+* Author: Aidan Swope (http://github.com/Whillikers)
+*/
+
+html[data-theme="gigavolt"][data-mode="dark"] {
+	--bg:       #202126;
+	--bg-light: #2d303d;
+	--text:     #e9e7e1;
+	--brand:    #e9e7e1;   // FIXME  Base24 #;
+	--accent:   #e9e7e1;  // FIXME Base24 #
+	--primary:  #e9e7e1;  TODO!
+	--secondary: #e9e7e1;  // FIXME Base24 #
+	--comment:  #cad3ff;
+	--meta:      #e9e7e1;  // TODO!
+	--operator: #e9e7e1;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #ae94f9;  // this matches base16 - FIXME Base24 #;
+	--regex:    #fb6acb;  // this matches base16
+	--property: #e9e7e1;  // base24 #;
+	--string:   #f2e6a9;  // this matches base16
+	--literal:  #19f988;  // FIXME Base24 #;
+	--hint:     #ffdc2d;  // FIXME Base24 #;
+
+
+    --success:  #f2e6a9;  // 14 used by gruvbox dark
+    --warning:  #19f988;  // 13 used by gruvbox dark
+    --info:     #fb6acb;  // 16 used by gruvbox dark
+    --error:    #ff661a;  // matches base16 - 12 used by gruvbox dark
+}

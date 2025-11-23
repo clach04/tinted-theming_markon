@@ -1,0 +1,29 @@
+/*
+* Name: 3024
+* Author: Jan T. Sott (http://github.com/idleberg)
+*/
+
+html[data-theme="3024"][data-mode="dark"] {
+	--bg:       #090300;
+	--bg-light: #3a3432;
+	--text:     #a5a2a2;
+	--brand:    #a5a2a2;   // FIXME  Base24 #;
+	--accent:   #a5a2a2;  // FIXME Base24 #
+	--primary:  #a5a2a2;  TODO!
+	--secondary: #a5a2a2;  // FIXME Base24 #
+	--comment:  #807d7c;
+	--meta:      #a5a2a2;  // TODO!
+	--operator: #a5a2a2;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #a16a94;  // this matches base16 - FIXME Base24 #;
+	--regex:    #b5e4f4;  // this matches base16
+	--property: #a5a2a2;  // base24 #;
+	--string:   #01a252;  // this matches base16
+	--literal:  #e8bbd0;  // FIXME Base24 #;
+	--hint:     #fded02;  // FIXME Base24 #;
+
+
+    --success:  #01a252;  // 14 used by gruvbox dark
+    --warning:  #e8bbd0;  // 13 used by gruvbox dark
+    --info:     #b5e4f4;  // 16 used by gruvbox dark
+    --error:    #db2d20;  // matches base16 - 12 used by gruvbox dark
+}

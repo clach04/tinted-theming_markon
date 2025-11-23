@@ -1,0 +1,29 @@
+/*
+* Name: Ashes
+* Author: Jannik Siebert (https://github.com/janniks)
+*/
+
+html[data-theme="ashes"][data-mode="dark"] {
+	--bg:       #1c2023;
+	--bg-light: #393f45;
+	--text:     #c7ccd1;
+	--brand:    #c7ccd1;   // FIXME  Base24 #;
+	--accent:   #c7ccd1;  // FIXME Base24 #
+	--primary:  #c7ccd1;  TODO!
+	--secondary: #c7ccd1;  // FIXME Base24 #
+	--comment:  #adb3ba;
+	--meta:      #c7ccd1;  // TODO!
+	--operator: #c7ccd1;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #c795ae;  // this matches base16 - FIXME Base24 #;
+	--regex:    #95aec7;  // this matches base16
+	--property: #c7ccd1;  // base24 #;
+	--string:   #95c7ae;  // this matches base16
+	--literal:  #c7c795;  // FIXME Base24 #;
+	--hint:     #aec795;  // FIXME Base24 #;
+
+
+    --success:  #95c7ae;  // 14 used by gruvbox dark
+    --warning:  #c7c795;  // 13 used by gruvbox dark
+    --info:     #95aec7;  // 16 used by gruvbox dark
+    --error:    #c7ae95;  // matches base16 - 12 used by gruvbox dark
+}

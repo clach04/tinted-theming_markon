@@ -1,0 +1,29 @@
+/*
+* Name: Blue Forest
+* Author: alonsodomin (https://github.com/alonsodomin)
+*/
+
+html[data-theme="blueforest"][data-mode="dark"] {
+	--bg:       #141f2e;
+	--bg-light: #1e5c1e;
+	--text:     #ffcc33;
+	--brand:    #ffcc33;   // FIXME  Base24 #;
+	--accent:   #ffcc33;  // FIXME Base24 #
+	--primary:  #ffcc33;  TODO!
+	--secondary: #ffcc33;  // FIXME Base24 #
+	--comment:  #1e5c1e;
+	--meta:      #ffcc33;  // TODO!
+	--operator: #ffcc33;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #0099ff;  // this matches base16 - FIXME Base24 #;
+	--regex:    #80ff80;  // this matches base16
+	--property: #ffcc33;  // base24 #;
+	--string:   #80ff80;  // this matches base16
+	--literal:  #ff8080;  // FIXME Base24 #;
+	--hint:     #91ccff;  // FIXME Base24 #;
+
+
+    --success:  #80ff80;  // 14 used by gruvbox dark
+    --warning:  #ff8080;  // 13 used by gruvbox dark
+    --info:     #80ff80;  // 16 used by gruvbox dark
+    --error:    #fffab1;  // matches base16 - 12 used by gruvbox dark
+}

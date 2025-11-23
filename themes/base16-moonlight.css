@@ -1,0 +1,29 @@
+/*
+* Name: Moonlight
+* Author: Jeremy Swinarton (https://github.com/jswinarton)
+*/
+
+html[data-theme="moonlight"][data-mode="dark"] {
+	--bg:       #212337;
+	--bg-light: #403c64;
+	--text:     #a3ace1;
+	--brand:    #a3ace1;   // FIXME  Base24 #;
+	--accent:   #a3ace1;  // FIXME Base24 #
+	--primary:  #a3ace1;  TODO!
+	--secondary: #a3ace1;  // FIXME Base24 #
+	--comment:  #a1abe0;
+	--meta:      #a3ace1;  // TODO!
+	--operator: #a3ace1;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #b994f1;  // this matches base16 - FIXME Base24 #;
+	--regex:    #04d1f9;  // this matches base16
+	--property: #a3ace1;  // base24 #;
+	--string:   #2df4c0;  // this matches base16
+	--literal:  #f67f81;  // FIXME Base24 #;
+	--hint:     #ffc777;  // FIXME Base24 #;
+
+
+    --success:  #2df4c0;  // 14 used by gruvbox dark
+    --warning:  #f67f81;  // 13 used by gruvbox dark
+    --info:     #04d1f9;  // 16 used by gruvbox dark
+    --error:    #ff5370;  // matches base16 - 12 used by gruvbox dark
+}

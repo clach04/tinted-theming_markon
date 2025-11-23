@@ -1,0 +1,29 @@
+/*
+* Name: Cupcake
+* Author: Chris Kempson (http://chriskempson.com)
+*/
+
+html[data-theme="cupcake"][data-mode="light"] {
+	--bg:       #fbf1f2;
+	--bg-light: #f2f1f4;
+	--text:     #8b8198;
+	--brand:    #8b8198;   // FIXME  Base24 #;
+	--accent:   #8b8198;  // FIXME Base24 #
+	--primary:  #8b8198;  TODO!
+	--secondary: #8b8198;  // FIXME Base24 #
+	--comment:  #a59daf;
+	--meta:      #8b8198;  // TODO!
+	--operator: #8b8198;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #bb99b4;  // this matches base16 - FIXME Base24 #;
+	--regex:    #69a9a7;  // this matches base16
+	--property: #8b8198;  // base24 #;
+	--string:   #a3b367;  // this matches base16
+	--literal:  #ebb790;  // FIXME Base24 #;
+	--hint:     #dcb16c;  // FIXME Base24 #;
+
+
+    --success:  #a3b367;  // 14 used by gruvbox dark
+    --warning:  #ebb790;  // 13 used by gruvbox dark
+    --info:     #69a9a7;  // 16 used by gruvbox dark
+    --error:    #d57e85;  // matches base16 - 12 used by gruvbox dark
+}

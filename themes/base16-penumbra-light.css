@@ -1,0 +1,29 @@
+/*
+* Name: Penumbra Light
+* Author: Zachary Weiss (https://github.com/zacharyweiss)
+*/
+
+html[data-theme="penumbra-light"][data-mode="light"] {
+	--bg:       #fffdfb;
+	--bg-light: #fff7ed;
+	--text:     #636363;
+	--brand:    #636363;   // FIXME  Base24 #;
+	--accent:   #636363;  // FIXME Base24 #
+	--primary:  #636363;  TODO!
+	--secondary: #636363;  // FIXME Base24 #
+	--comment:  #8f8f8f;
+	--meta:      #636363;  // TODO!
+	--operator: #636363;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #9481cc;  // this matches base16 - FIXME Base24 #;
+	--regex:    #00a2af;  // this matches base16
+	--property: #636363;  // base24 #;
+	--string:   #47a477;  // this matches base16
+	--literal:  #ba823a;  // FIXME Base24 #;
+	--hint:     #8d9741;  // FIXME Base24 #;
+
+
+    --success:  #47a477;  // 14 used by gruvbox dark
+    --warning:  #ba823a;  // 13 used by gruvbox dark
+    --info:     #00a2af;  // 16 used by gruvbox dark
+    --error:    #ca736c;  // matches base16 - 12 used by gruvbox dark
+}

@@ -1,0 +1,29 @@
+/*
+* Name: London Tube
+* Author: Jan T. Sott
+*/
+
+html[data-theme="tube"][data-mode="dark"] {
+	--bg:       #231f20;
+	--bg-light: #1c3f95;
+	--text:     #d9d8d8;
+	--brand:    #d9d8d8;   // FIXME  Base24 #;
+	--accent:   #d9d8d8;  // FIXME Base24 #
+	--primary:  #d9d8d8;  TODO!
+	--secondary: #d9d8d8;  // FIXME Base24 #
+	--comment:  #959ca1;
+	--meta:      #d9d8d8;  // TODO!
+	--operator: #d9d8d8;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #98005d;  // this matches base16 - FIXME Base24 #;
+	--regex:    #85cebc;  // this matches base16
+	--property: #d9d8d8;  // base24 #;
+	--string:   #00853e;  // this matches base16
+	--literal:  #f386a1;  // FIXME Base24 #;
+	--hint:     #ffd204;  // FIXME Base24 #;
+
+
+    --success:  #00853e;  // 14 used by gruvbox dark
+    --warning:  #f386a1;  // 13 used by gruvbox dark
+    --info:     #85cebc;  // 16 used by gruvbox dark
+    --error:    #ee2e24;  // matches base16 - 12 used by gruvbox dark
+}

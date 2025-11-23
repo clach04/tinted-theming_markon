@@ -1,0 +1,29 @@
+/*
+* Name: Tokyo Night Terminal Dark
+* Author: Michaël Ball
+*/
+
+html[data-theme="tokyo-night-terminal-dark"][data-mode="dark"] {
+	--bg:       #16161e;
+	--bg-light: #1a1b26;
+	--text:     #787c99;
+	--brand:    #787c99;   // FIXME  Base24 #;
+	--accent:   #787c99;  // FIXME Base24 #
+	--primary:  #787c99;  TODO!
+	--secondary: #787c99;  // FIXME Base24 #
+	--comment:  #787c99;
+	--meta:      #787c99;  // TODO!
+	--operator: #787c99;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #bb9af7;  // this matches base16 - FIXME Base24 #;
+	--regex:    #7dcfff;  // this matches base16
+	--property: #787c99;  // base24 #;
+	--string:   #41a6b5;  // this matches base16
+	--literal:  #ff9e64;  // FIXME Base24 #;
+	--hint:     #e0af68;  // FIXME Base24 #;
+
+
+    --success:  #41a6b5;  // 14 used by gruvbox dark
+    --warning:  #ff9e64;  // 13 used by gruvbox dark
+    --info:     #7dcfff;  // 16 used by gruvbox dark
+    --error:    #f7768e;  // matches base16 - 12 used by gruvbox dark
+}

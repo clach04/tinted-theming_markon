@@ -1,0 +1,29 @@
+/*
+* Name: Gruvbox Material Light, Soft
+* Author: Mayush Kumar (https://github.com/MayushKumar), sainnhe (https://github.com/sainnhe/gruvbox-material-vscode)
+*/
+
+html[data-theme="gruvbox-material-light-soft"][data-mode="light"] {
+	--bg:       #f2e5bc;
+	--bg-light: #ebdbb2;
+	--text:     #654735;
+	--brand:    #654735;   // FIXME  Base24 #;
+	--accent:   #654735;  // FIXME Base24 #
+	--primary:  #654735;  TODO!
+	--secondary: #654735;  // FIXME Base24 #
+	--comment:  #665c54;
+	--meta:      #654735;  // TODO!
+	--operator: #654735;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #945e80;  // this matches base16 - FIXME Base24 #;
+	--regex:    #4c7a5d;  // this matches base16
+	--property: #654735;  // base24 #;
+	--string:   #6c782e;  // this matches base16
+	--literal:  #c35e0a;  // FIXME Base24 #;
+	--hint:     #b47109;  // FIXME Base24 #;
+
+
+    --success:  #6c782e;  // 14 used by gruvbox dark
+    --warning:  #c35e0a;  // 13 used by gruvbox dark
+    --info:     #4c7a5d;  // 16 used by gruvbox dark
+    --error:    #c14a4a;  // matches base16 - 12 used by gruvbox dark
+}

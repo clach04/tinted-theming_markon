@@ -1,0 +1,29 @@
+/*
+* Name: XCode Dusk
+* Author: Elsa Gonsiorowski (https://github.com/gonsie)
+*/
+
+html[data-theme="xcode-dusk"][data-mode="dark"] {
+	--bg:       #282b35;
+	--bg-light: #3d4048;
+	--text:     #939599;
+	--brand:    #939599;   // FIXME  Base24 #;
+	--accent:   #939599;  // FIXME Base24 #
+	--primary:  #939599;  TODO!
+	--secondary: #939599;  // FIXME Base24 #
+	--comment:  #7e8086;
+	--meta:      #939599;  // TODO!
+	--operator: #939599;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #b21889;  // this matches base16 - FIXME Base24 #;
+	--regex:    #00a0be;  // this matches base16
+	--property: #939599;  // base24 #;
+	--string:   #df0002;  // this matches base16
+	--literal:  #786dc5;  // FIXME Base24 #;
+	--hint:     #438288;  // FIXME Base24 #;
+
+
+    --success:  #df0002;  // 14 used by gruvbox dark
+    --warning:  #786dc5;  // 13 used by gruvbox dark
+    --info:     #00a0be;  // 16 used by gruvbox dark
+    --error:    #b21889;  // matches base16 - 12 used by gruvbox dark
+}

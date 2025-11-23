@@ -1,0 +1,29 @@
+/*
+* Name: Tokyo Night Dark
+* Author: Michaël Ball
+*/
+
+html[data-theme="tokyo-night-dark"][data-mode="dark"] {
+	--bg:       #1a1b26;
+	--bg-light: #16161e;
+	--text:     #a9b1d6;
+	--brand:    #a9b1d6;   // FIXME  Base24 #;
+	--accent:   #a9b1d6;  // FIXME Base24 #
+	--primary:  #a9b1d6;  TODO!
+	--secondary: #a9b1d6;  // FIXME Base24 #
+	--comment:  #787c99;
+	--meta:      #a9b1d6;  // TODO!
+	--operator: #a9b1d6;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #bb9af7;  // this matches base16 - FIXME Base24 #;
+	--regex:    #b4f9f8;  // this matches base16
+	--property: #a9b1d6;  // base24 #;
+	--string:   #9ece6a;  // this matches base16
+	--literal:  #a9b1d6;  // FIXME Base24 #;
+	--hint:     #0db9d7;  // FIXME Base24 #;
+
+
+    --success:  #9ece6a;  // 14 used by gruvbox dark
+    --warning:  #a9b1d6;  // 13 used by gruvbox dark
+    --info:     #b4f9f8;  // 16 used by gruvbox dark
+    --error:    #c0caf5;  // matches base16 - 12 used by gruvbox dark
+}

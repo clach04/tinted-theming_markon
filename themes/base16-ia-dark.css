@@ -1,0 +1,29 @@
+/*
+* Name: iA Dark
+* Author: iA Inc. (modified by aramisgithub)
+*/
+
+html[data-theme="ia-dark"][data-mode="dark"] {
+	--bg:       #1a1a1a;
+	--bg-light: #222222;
+	--text:     #cccccc;
+	--brand:    #cccccc;   // FIXME  Base24 #;
+	--accent:   #cccccc;  // FIXME Base24 #
+	--primary:  #cccccc;  TODO!
+	--secondary: #cccccc;  // FIXME Base24 #
+	--comment:  #b8b8b8;
+	--meta:      #cccccc;  // TODO!
+	--operator: #cccccc;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #b98eb2;  // this matches base16 - FIXME Base24 #;
+	--regex:    #7c9cae;  // this matches base16
+	--property: #cccccc;  // base24 #;
+	--string:   #83a471;  // this matches base16
+	--literal:  #d86868;  // FIXME Base24 #;
+	--hint:     #b99353;  // FIXME Base24 #;
+
+
+    --success:  #83a471;  // 14 used by gruvbox dark
+    --warning:  #d86868;  // 13 used by gruvbox dark
+    --info:     #7c9cae;  // 16 used by gruvbox dark
+    --error:    #d88568;  // matches base16 - 12 used by gruvbox dark
+}

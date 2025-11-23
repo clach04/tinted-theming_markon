@@ -1,0 +1,29 @@
+/*
+* Name: Chinoiserie Midnight
+* Author: Di Wang (https://cs.cmu.edu/~diw3)
+*/
+
+html[data-theme="chinoiserie-midnight"][data-mode="dark"] {
+	--bg:       #1d1d1d;
+	--bg-light: #282828;
+	--text:     #c4cbcf;
+	--brand:    #c4cbcf;   // FIXME  Base24 #;
+	--accent:   #c4cbcf;  // FIXME Base24 #
+	--primary:  #c4cbcf;  TODO!
+	--secondary: #c4cbcf;  // FIXME Base24 #
+	--comment:  #bdaead;
+	--meta:      #c4cbcf;  // TODO!
+	--operator: #c4cbcf;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #cf8997;  // this matches base16 - FIXME Base24 #;
+	--regex:    #88b68d;  // this matches base16
+	--property: #c4cbcf;  // base24 #;
+	--string:   #aeb831;  // this matches base16
+	--literal:  #fc8c23;  // FIXME Base24 #;
+	--hint:     #fbb957;  // FIXME Base24 #;
+
+
+    --success:  #aeb831;  // 14 used by gruvbox dark
+    --warning:  #fc8c23;  // 13 used by gruvbox dark
+    --info:     #88b68d;  // 16 used by gruvbox dark
+    --error:    #ed5a56;  // matches base16 - 12 used by gruvbox dark
+}

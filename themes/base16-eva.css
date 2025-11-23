@@ -1,0 +1,29 @@
+/*
+* Name: Eva
+* Author: kjakapat (https://github.com/kjakapat)
+*/
+
+html[data-theme="eva"][data-mode="dark"] {
+	--bg:       #2a3b4d;
+	--bg-light: #3d566f;
+	--text:     #9fa2a6;
+	--brand:    #9fa2a6;   // FIXME  Base24 #;
+	--accent:   #9fa2a6;  // FIXME Base24 #
+	--primary:  #9fa2a6;  TODO!
+	--secondary: #9fa2a6;  // FIXME Base24 #
+	--comment:  #7e90a3;
+	--meta:      #9fa2a6;  // TODO!
+	--operator: #9fa2a6;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #9c6cd3;  // this matches base16 - FIXME Base24 #;
+	--regex:    #4b8f77;  // this matches base16
+	--property: #9fa2a6;  // base24 #;
+	--string:   #66ff66;  // this matches base16
+	--literal:  #ff9966;  // FIXME Base24 #;
+	--hint:     #ffff66;  // FIXME Base24 #;
+
+
+    --success:  #66ff66;  // 14 used by gruvbox dark
+    --warning:  #ff9966;  // 13 used by gruvbox dark
+    --info:     #4b8f77;  // 16 used by gruvbox dark
+    --error:    #c4676c;  // matches base16 - 12 used by gruvbox dark
+}

@@ -1,0 +1,29 @@
+/*
+* Name: Ayu Light
+* Author: Tinted Theming (https://github.com/tinted-theming), Ayu Theme (https://github.com/ayu-theme)
+*/
+
+html[data-theme="ayu-light"][data-mode="light"] {
+	--bg:       #f8f9fa;
+	--bg-light: #edeff1;
+	--text:     #5c6166;
+	--brand:    #5c6166;   // FIXME  Base24 #;
+	--accent:   #5c6166;  // FIXME Base24 #
+	--primary:  #5c6166;  TODO!
+	--secondary: #5c6166;  // FIXME Base24 #
+	--comment:  #8a9199;
+	--meta:      #5c6166;  // TODO!
+	--operator: #5c6166;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #a37acc;  // this matches base16 - FIXME Base24 #;
+	--regex:    #4cbf99;  // this matches base16
+	--property: #5c6166;  // base24 #;
+	--string:   #6cbf49;  // this matches base16
+	--literal:  #fa8d3e;  // FIXME Base24 #;
+	--hint:     #f2ae49;  // FIXME Base24 #;
+
+
+    --success:  #6cbf49;  // 14 used by gruvbox dark
+    --warning:  #fa8d3e;  // 13 used by gruvbox dark
+    --info:     #4cbf99;  // 16 used by gruvbox dark
+    --error:    #f07171;  // matches base16 - 12 used by gruvbox dark
+}

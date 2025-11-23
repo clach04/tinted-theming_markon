@@ -1,0 +1,29 @@
+/*
+* Name: Fruit Soda
+* Author: jozip
+*/
+
+html[data-theme="fruit-soda"][data-mode="light"] {
+	--bg:       #f1ecf1;
+	--bg-light: #e0dee0;
+	--text:     #515151;
+	--brand:    #515151;   // FIXME  Base24 #;
+	--accent:   #515151;  // FIXME Base24 #
+	--primary:  #515151;  TODO!
+	--secondary: #515151;  // FIXME Base24 #
+	--comment:  #979598;
+	--meta:      #515151;  // TODO!
+	--operator: #515151;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #611fce;  // this matches base16 - FIXME Base24 #;
+	--regex:    #0f9cfd;  // this matches base16
+	--property: #515151;  // base24 #;
+	--string:   #47f74c;  // this matches base16
+	--literal:  #fe6d08;  // FIXME Base24 #;
+	--hint:     #f7e203;  // FIXME Base24 #;
+
+
+    --success:  #47f74c;  // 14 used by gruvbox dark
+    --warning:  #fe6d08;  // 13 used by gruvbox dark
+    --info:     #0f9cfd;  // 16 used by gruvbox dark
+    --error:    #fe3e31;  // matches base16 - 12 used by gruvbox dark
+}

@@ -1,0 +1,29 @@
+/*
+* Name: Da One Paper
+* Author: NNB (https://github.com/NNBnh)
+*/
+
+html[data-theme="da-one-paper"][data-mode="light"] {
+	--bg:       #faf0dc;
+	--bg-light: #c8c8c8;
+	--text:     #181818;
+	--brand:    #181818;   // FIXME  Base24 #;
+	--accent:   #181818;  // FIXME Base24 #
+	--primary:  #181818;  TODO!
+	--secondary: #181818;  // FIXME Base24 #
+	--comment:  #282828;
+	--meta:      #181818;  // TODO!
+	--operator: #181818;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #c173d1;  // this matches base16 - FIXME Base24 #;
+	--regex:    #64b5a7;  // this matches base16
+	--property: #181818;  // base24 #;
+	--string:   #76a85d;  // this matches base16
+	--literal:  #ff9470;  // FIXME Base24 #;
+	--hint:     #b3684f;  // FIXME Base24 #;
+
+
+    --success:  #76a85d;  // 14 used by gruvbox dark
+    --warning:  #ff9470;  // 13 used by gruvbox dark
+    --info:     #64b5a7;  // 16 used by gruvbox dark
+    --error:    #de5d6e;  // matches base16 - 12 used by gruvbox dark
+}

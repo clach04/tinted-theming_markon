@@ -1,0 +1,29 @@
+/*
+* Name: Classic Light
+* Author: Jason Heeris (http://heeris.id.au)
+*/
+
+html[data-theme="classic-light"][data-mode="light"] {
+	--bg:       #f5f5f5;
+	--bg-light: #e0e0e0;
+	--text:     #303030;
+	--brand:    #303030;   // FIXME  Base24 #;
+	--accent:   #303030;  // FIXME Base24 #
+	--primary:  #303030;  TODO!
+	--secondary: #303030;  // FIXME Base24 #
+	--comment:  #505050;
+	--meta:      #303030;  // TODO!
+	--operator: #303030;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #aa759f;  // this matches base16 - FIXME Base24 #;
+	--regex:    #75b5aa;  // this matches base16
+	--property: #303030;  // base24 #;
+	--string:   #90a959;  // this matches base16
+	--literal:  #d28445;  // FIXME Base24 #;
+	--hint:     #f4bf75;  // FIXME Base24 #;
+
+
+    --success:  #90a959;  // 14 used by gruvbox dark
+    --warning:  #d28445;  // 13 used by gruvbox dark
+    --info:     #75b5aa;  // 16 used by gruvbox dark
+    --error:    #ac4142;  // matches base16 - 12 used by gruvbox dark
+}

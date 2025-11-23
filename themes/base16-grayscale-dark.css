@@ -1,0 +1,29 @@
+/*
+* Name: Grayscale Dark
+* Author: Alexandre Gavioli (https://github.com/Alexx2/)
+*/
+
+html[data-theme="grayscale-dark"][data-mode="dark"] {
+	--bg:       #101010;
+	--bg-light: #252525;
+	--text:     #b9b9b9;
+	--brand:    #b9b9b9;   // FIXME  Base24 #;
+	--accent:   #b9b9b9;  // FIXME Base24 #
+	--primary:  #b9b9b9;  TODO!
+	--secondary: #b9b9b9;  // FIXME Base24 #
+	--comment:  #ababab;
+	--meta:      #b9b9b9;  // TODO!
+	--operator: #b9b9b9;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #747474;  // this matches base16 - FIXME Base24 #;
+	--regex:    #868686;  // this matches base16
+	--property: #b9b9b9;  // base24 #;
+	--string:   #8e8e8e;  // this matches base16
+	--literal:  #999999;  // FIXME Base24 #;
+	--hint:     #a0a0a0;  // FIXME Base24 #;
+
+
+    --success:  #8e8e8e;  // 14 used by gruvbox dark
+    --warning:  #999999;  // 13 used by gruvbox dark
+    --info:     #868686;  // 16 used by gruvbox dark
+    --error:    #7c7c7c;  // matches base16 - 12 used by gruvbox dark
+}

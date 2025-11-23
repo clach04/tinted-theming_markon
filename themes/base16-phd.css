@@ -1,0 +1,29 @@
+/*
+* Name: PhD
+* Author: Hennig Hasemann (http://leetless.de/vim.html)
+*/
+
+html[data-theme="phd"][data-mode="dark"] {
+	--bg:       #061229;
+	--bg-light: #2a3448;
+	--text:     #b8bbc2;
+	--brand:    #b8bbc2;   // FIXME  Base24 #;
+	--accent:   #b8bbc2;  // FIXME Base24 #
+	--primary:  #b8bbc2;  TODO!
+	--secondary: #b8bbc2;  // FIXME Base24 #
+	--comment:  #9a99a3;
+	--meta:      #b8bbc2;  // TODO!
+	--operator: #b8bbc2;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #9989cc;  // this matches base16 - FIXME Base24 #;
+	--regex:    #72b9bf;  // this matches base16
+	--property: #b8bbc2;  // base24 #;
+	--string:   #99bf52;  // this matches base16
+	--literal:  #f0a000;  // FIXME Base24 #;
+	--hint:     #fbd461;  // FIXME Base24 #;
+
+
+    --success:  #99bf52;  // 14 used by gruvbox dark
+    --warning:  #f0a000;  // 13 used by gruvbox dark
+    --info:     #72b9bf;  // 16 used by gruvbox dark
+    --error:    #d07346;  // matches base16 - 12 used by gruvbox dark
+}

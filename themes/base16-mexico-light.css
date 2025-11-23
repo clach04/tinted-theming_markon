@@ -1,0 +1,29 @@
+/*
+* Name: Mexico Light
+* Author: Sheldon Johnson
+*/
+
+html[data-theme="mexico-light"][data-mode="light"] {
+	--bg:       #f8f8f8;
+	--bg-light: #e8e8e8;
+	--text:     #383838;
+	--brand:    #383838;   // FIXME  Base24 #;
+	--accent:   #383838;  // FIXME Base24 #
+	--primary:  #383838;  TODO!
+	--secondary: #383838;  // FIXME Base24 #
+	--comment:  #585858;
+	--meta:      #383838;  // TODO!
+	--operator: #383838;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #96609e;  // this matches base16 - FIXME Base24 #;
+	--regex:    #4b8093;  // this matches base16
+	--property: #383838;  // base24 #;
+	--string:   #538947;  // this matches base16
+	--literal:  #dc9656;  // FIXME Base24 #;
+	--hint:     #f79a0e;  // FIXME Base24 #;
+
+
+    --success:  #538947;  // 14 used by gruvbox dark
+    --warning:  #dc9656;  // 13 used by gruvbox dark
+    --info:     #4b8093;  // 16 used by gruvbox dark
+    --error:    #ab4642;  // matches base16 - 12 used by gruvbox dark
+}

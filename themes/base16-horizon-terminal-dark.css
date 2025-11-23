@@ -1,0 +1,29 @@
+/*
+* Name: Horizon Terminal Dark
+* Author: Michaël Ball (http://github.com/michael-ball/)
+*/
+
+html[data-theme="horizon-terminal-dark"][data-mode="dark"] {
+	--bg:       #1c1e26;
+	--bg-light: #232530;
+	--text:     #cbced0;
+	--brand:    #cbced0;   // FIXME  Base24 #;
+	--accent:   #cbced0;  // FIXME Base24 #
+	--primary:  #cbced0;  TODO!
+	--secondary: #cbced0;  // FIXME Base24 #
+	--comment:  #9da0a2;
+	--meta:      #cbced0;  // TODO!
+	--operator: #cbced0;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #ee64ac;  // this matches base16 - FIXME Base24 #;
+	--regex:    #59e1e3;  // this matches base16
+	--property: #cbced0;  // base24 #;
+	--string:   #29d398;  // this matches base16
+	--literal:  #fab795;  // FIXME Base24 #;
+	--hint:     #fac29a;  // FIXME Base24 #;
+
+
+    --success:  #29d398;  // 14 used by gruvbox dark
+    --warning:  #fab795;  // 13 used by gruvbox dark
+    --info:     #59e1e3;  // 16 used by gruvbox dark
+    --error:    #e95678;  // matches base16 - 12 used by gruvbox dark
+}

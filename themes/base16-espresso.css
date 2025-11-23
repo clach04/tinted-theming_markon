@@ -1,0 +1,29 @@
+/*
+* Name: Espresso
+* Author: Unknown. Maintained by Alex Mirrington (https://github.com/alexmirrington)
+*/
+
+html[data-theme="espresso"][data-mode="dark"] {
+	--bg:       #2d2d2d;
+	--bg-light: #393939;
+	--text:     #cccccc;
+	--brand:    #cccccc;   // FIXME  Base24 #;
+	--accent:   #cccccc;  // FIXME Base24 #
+	--primary:  #cccccc;  TODO!
+	--secondary: #cccccc;  // FIXME Base24 #
+	--comment:  #b4b7b4;
+	--meta:      #cccccc;  // TODO!
+	--operator: #cccccc;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #d197d9;  // this matches base16 - FIXME Base24 #;
+	--regex:    #bed6ff;  // this matches base16
+	--property: #cccccc;  // base24 #;
+	--string:   #a5c261;  // this matches base16
+	--literal:  #f9a959;  // FIXME Base24 #;
+	--hint:     #ffc66d;  // FIXME Base24 #;
+
+
+    --success:  #a5c261;  // 14 used by gruvbox dark
+    --warning:  #f9a959;  // 13 used by gruvbox dark
+    --info:     #bed6ff;  // 16 used by gruvbox dark
+    --error:    #d25252;  // matches base16 - 12 used by gruvbox dark
+}

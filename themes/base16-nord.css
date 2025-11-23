@@ -1,0 +1,29 @@
+/*
+* Name: Nord
+* Author: arcticicestudio
+*/
+
+html[data-theme="nord"][data-mode="dark"] {
+	--bg:       #2e3440;
+	--bg-light: #3b4252;
+	--text:     #e5e9f0;
+	--brand:    #e5e9f0;   // FIXME  Base24 #;
+	--accent:   #e5e9f0;  // FIXME Base24 #
+	--primary:  #e5e9f0;  TODO!
+	--secondary: #e5e9f0;  // FIXME Base24 #
+	--comment:  #d8dee9;
+	--meta:      #e5e9f0;  // TODO!
+	--operator: #e5e9f0;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #b48ead;  // this matches base16 - FIXME Base24 #;
+	--regex:    #88c0d0;  // this matches base16
+	--property: #e5e9f0;  // base24 #;
+	--string:   #a3be8c;  // this matches base16
+	--literal:  #d08770;  // FIXME Base24 #;
+	--hint:     #ebcb8b;  // FIXME Base24 #;
+
+
+    --success:  #a3be8c;  // 14 used by gruvbox dark
+    --warning:  #d08770;  // 13 used by gruvbox dark
+    --info:     #88c0d0;  // 16 used by gruvbox dark
+    --error:    #bf616a;  // matches base16 - 12 used by gruvbox dark
+}

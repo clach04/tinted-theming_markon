@@ -1,0 +1,29 @@
+/*
+* Name: Pasque
+* Author: Gabriel Fontes (https://github.com/Misterio77)
+*/
+
+html[data-theme="pasque"][data-mode="dark"] {
+	--bg:       #271c3a;
+	--bg-light: #100323;
+	--text:     #dedcdf;
+	--brand:    #dedcdf;   // FIXME  Base24 #;
+	--accent:   #dedcdf;  // FIXME Base24 #
+	--primary:  #dedcdf;  TODO!
+	--secondary: #dedcdf;  // FIXME Base24 #
+	--comment:  #bebcbf;
+	--meta:      #dedcdf;  // TODO!
+	--operator: #dedcdf;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #953b9d;  // this matches base16 - FIXME Base24 #;
+	--regex:    #7263aa;  // this matches base16
+	--property: #dedcdf;  // base24 #;
+	--string:   #c6914b;  // this matches base16
+	--literal:  #918889;  // FIXME Base24 #;
+	--hint:     #804ead;  // FIXME Base24 #;
+
+
+    --success:  #c6914b;  // 14 used by gruvbox dark
+    --warning:  #918889;  // 13 used by gruvbox dark
+    --info:     #7263aa;  // 16 used by gruvbox dark
+    --error:    #a92258;  // matches base16 - 12 used by gruvbox dark
+}

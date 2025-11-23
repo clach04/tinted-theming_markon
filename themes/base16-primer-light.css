@@ -1,0 +1,29 @@
+/*
+* Name: Primer Light
+* Author: Jimmy Lin
+*/
+
+html[data-theme="primer-light"][data-mode="light"] {
+	--bg:       #fafbfc;
+	--bg-light: #e1e4e8;
+	--text:     #2f363d;
+	--brand:    #2f363d;   // FIXME  Base24 #;
+	--accent:   #2f363d;  // FIXME Base24 #
+	--primary:  #2f363d;  TODO!
+	--secondary: #2f363d;  // FIXME Base24 #
+	--comment:  #444d56;
+	--meta:      #2f363d;  // TODO!
+	--operator: #2f363d;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #ea4aaa;  // this matches base16 - FIXME Base24 #;
+	--regex:    #79b8ff;  // this matches base16
+	--property: #2f363d;  // base24 #;
+	--string:   #28a745;  // this matches base16
+	--literal:  #f66a0a;  // FIXME Base24 #;
+	--hint:     #ffd33d;  // FIXME Base24 #;
+
+
+    --success:  #28a745;  // 14 used by gruvbox dark
+    --warning:  #f66a0a;  // 13 used by gruvbox dark
+    --info:     #79b8ff;  // 16 used by gruvbox dark
+    --error:    #d73a49;  // matches base16 - 12 used by gruvbox dark
+}

@@ -1,0 +1,29 @@
+/*
+* Name: Horizon Dark
+* Author: Michaël Ball (http://github.com/michael-ball/)
+*/
+
+html[data-theme="horizon-dark"][data-mode="dark"] {
+	--bg:       #1c1e26;
+	--bg-light: #232530;
+	--text:     #cbced0;
+	--brand:    #cbced0;   // FIXME  Base24 #;
+	--accent:   #cbced0;  // FIXME Base24 #
+	--primary:  #cbced0;  TODO!
+	--secondary: #cbced0;  // FIXME Base24 #
+	--comment:  #9da0a2;
+	--meta:      #cbced0;  // TODO!
+	--operator: #cbced0;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #b072d1;  // this matches base16 - FIXME Base24 #;
+	--regex:    #24a8b4;  // this matches base16
+	--property: #cbced0;  // base24 #;
+	--string:   #efaf8e;  // this matches base16
+	--literal:  #e58d7d;  // FIXME Base24 #;
+	--hint:     #efb993;  // FIXME Base24 #;
+
+
+    --success:  #efaf8e;  // 14 used by gruvbox dark
+    --warning:  #e58d7d;  // 13 used by gruvbox dark
+    --info:     #24a8b4;  // 16 used by gruvbox dark
+    --error:    #e93c58;  // matches base16 - 12 used by gruvbox dark
+}

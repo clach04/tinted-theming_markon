@@ -1,0 +1,29 @@
+/*
+* Name: SAGA
+* Author: https://github.com/SAGAtheme/SAGA
+*/
+
+html[data-theme="saga"][data-mode="dark"] {
+	--bg:       #05080a;
+	--bg-light: #0a1014;
+	--text:     #dce2f7;
+	--brand:    #dce2f7;   // FIXME  Base24 #;
+	--accent:   #dce2f7;  // FIXME Base24 #
+	--primary:  #dce2f7;  TODO!
+	--secondary: #dce2f7;  // FIXME Base24 #
+	--comment:  #192630;
+	--meta:      #dce2f7;  // TODO!
+	--operator: #dce2f7;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #dcc3f9;  // this matches base16 - FIXME Base24 #;
+	--regex:    #c5edc1;  // this matches base16
+	--property: #dce2f7;  // base24 #;
+	--string:   #f7ddff;  // this matches base16
+	--literal:  #fbcbae;  // FIXME Base24 #;
+	--hint:     #fbebc8;  // FIXME Base24 #;
+
+
+    --success:  #f7ddff;  // 14 used by gruvbox dark
+    --warning:  #fbcbae;  // 13 used by gruvbox dark
+    --info:     #c5edc1;  // 16 used by gruvbox dark
+    --error:    #ffd4e9;  // matches base16 - 12 used by gruvbox dark
+}

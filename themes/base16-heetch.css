@@ -1,0 +1,29 @@
+/*
+* Name: Heetch Dark
+* Author: Geoffrey Teale (tealeg@gmail.com)
+*/
+
+html[data-theme="heetch"][data-mode="dark"] {
+	--bg:       #190134;
+	--bg-light: #392551;
+	--text:     #bdb6c5;
+	--brand:    #bdb6c5;   // FIXME  Base24 #;
+	--accent:   #bdb6c5;  // FIXME Base24 #
+	--primary:  #bdb6c5;  TODO!
+	--secondary: #bdb6c5;  // FIXME Base24 #
+	--comment:  #9c92a8;
+	--meta:      #bdb6c5;  // TODO!
+	--operator: #bdb6c5;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #82034c;  // this matches base16 - FIXME Base24 #;
+	--regex:    #f80059;  // this matches base16
+	--property: #bdb6c5;  // base24 #;
+	--string:   #c33678;  // this matches base16
+	--literal:  #5ba2b6;  // FIXME Base24 #;
+	--hint:     #8f6c97;  // FIXME Base24 #;
+
+
+    --success:  #c33678;  // 14 used by gruvbox dark
+    --warning:  #5ba2b6;  // 13 used by gruvbox dark
+    --info:     #f80059;  // 16 used by gruvbox dark
+    --error:    #27d9d5;  // matches base16 - 12 used by gruvbox dark
+}

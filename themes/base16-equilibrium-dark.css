@@ -1,0 +1,29 @@
+/*
+* Name: Equilibrium Dark
+* Author: Carlo Abelli
+*/
+
+html[data-theme="equilibrium-dark"][data-mode="dark"] {
+	--bg:       #0c1118;
+	--bg-light: #181c22;
+	--text:     #afaba2;
+	--brand:    #afaba2;   // FIXME  Base24 #;
+	--accent:   #afaba2;  // FIXME Base24 #
+	--primary:  #afaba2;  TODO!
+	--secondary: #afaba2;  // FIXME Base24 #
+	--comment:  #949088;
+	--meta:      #afaba2;  // TODO!
+	--operator: #afaba2;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #6a7fd2;  // this matches base16 - FIXME Base24 #;
+	--regex:    #00948b;  // this matches base16
+	--property: #afaba2;  // base24 #;
+	--string:   #7f8b00;  // this matches base16
+	--literal:  #df5923;  // FIXME Base24 #;
+	--hint:     #bb8801;  // FIXME Base24 #;
+
+
+    --success:  #7f8b00;  // 14 used by gruvbox dark
+    --warning:  #df5923;  // 13 used by gruvbox dark
+    --info:     #00948b;  // 16 used by gruvbox dark
+    --error:    #f04339;  // matches base16 - 12 used by gruvbox dark
+}

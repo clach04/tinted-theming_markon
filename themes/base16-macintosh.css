@@ -1,0 +1,29 @@
+/*
+* Name: Macintosh
+* Author: Rebecca Bettencourt (http://www.kreativekorp.com)
+*/
+
+html[data-theme="macintosh"][data-mode="dark"] {
+	--bg:       #000000;
+	--bg-light: #404040;
+	--text:     #c0c0c0;
+	--brand:    #c0c0c0;   // FIXME  Base24 #;
+	--accent:   #c0c0c0;  // FIXME Base24 #
+	--primary:  #c0c0c0;  TODO!
+	--secondary: #c0c0c0;  // FIXME Base24 #
+	--comment:  #808080;
+	--meta:      #c0c0c0;  // TODO!
+	--operator: #c0c0c0;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #4700a5;  // this matches base16 - FIXME Base24 #;
+	--regex:    #02abea;  // this matches base16
+	--property: #c0c0c0;  // base24 #;
+	--string:   #1fb714;  // this matches base16
+	--literal:  #ff6403;  // FIXME Base24 #;
+	--hint:     #fbf305;  // FIXME Base24 #;
+
+
+    --success:  #1fb714;  // 14 used by gruvbox dark
+    --warning:  #ff6403;  // 13 used by gruvbox dark
+    --info:     #02abea;  // 16 used by gruvbox dark
+    --error:    #dd0907;  // matches base16 - 12 used by gruvbox dark
+}

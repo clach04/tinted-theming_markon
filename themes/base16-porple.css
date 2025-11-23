@@ -1,0 +1,29 @@
+/*
+* Name: Porple
+* Author: Niek den Breeje (https://github.com/AuditeMarlow)
+*/
+
+html[data-theme="porple"][data-mode="dark"] {
+	--bg:       #292c36;
+	--bg-light: #333344;
+	--text:     #d8d8d8;
+	--brand:    #d8d8d8;   // FIXME  Base24 #;
+	--accent:   #d8d8d8;  // FIXME Base24 #
+	--primary:  #d8d8d8;  TODO!
+	--secondary: #d8d8d8;  // FIXME Base24 #
+	--comment:  #b8b8b8;
+	--meta:      #d8d8d8;  // TODO!
+	--operator: #d8d8d8;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #b74989;  // this matches base16 - FIXME Base24 #;
+	--regex:    #64878f;  // this matches base16
+	--property: #d8d8d8;  // base24 #;
+	--string:   #95c76f;  // this matches base16
+	--literal:  #d28e5d;  // FIXME Base24 #;
+	--hint:     #efa16b;  // FIXME Base24 #;
+
+
+    --success:  #95c76f;  // 14 used by gruvbox dark
+    --warning:  #d28e5d;  // 13 used by gruvbox dark
+    --info:     #64878f;  // 16 used by gruvbox dark
+    --error:    #f84547;  // matches base16 - 12 used by gruvbox dark
+}

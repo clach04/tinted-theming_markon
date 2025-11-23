@@ -1,0 +1,29 @@
+/*
+* Name: selenized-white
+* Author: Jan Warchol (https://github.com/jan-warchol/selenized) / adapted to base16 by ali
+*/
+
+html[data-theme="selenized-white"][data-mode="light"] {
+	--bg:       #ffffff;
+	--bg-light: #ebebeb;
+	--text:     #474747;
+	--brand:    #474747;   // FIXME  Base24 #;
+	--accent:   #474747;  // FIXME Base24 #
+	--primary:  #474747;  TODO!
+	--secondary: #474747;  // FIXME Base24 #
+	--comment:  #878787;
+	--meta:      #474747;  // TODO!
+	--operator: #474747;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #6b40c3;  // this matches base16 - FIXME Base24 #;
+	--regex:    #009a8a;  // this matches base16
+	--property: #474747;  // base24 #;
+	--string:   #008400;  // this matches base16
+	--literal:  #ba3700;  // FIXME Base24 #;
+	--hint:     #af8500;  // FIXME Base24 #;
+
+
+    --success:  #008400;  // 14 used by gruvbox dark
+    --warning:  #ba3700;  // 13 used by gruvbox dark
+    --info:     #009a8a;  // 16 used by gruvbox dark
+    --error:    #bf0000;  // matches base16 - 12 used by gruvbox dark
+}

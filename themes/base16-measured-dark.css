@@ -1,0 +1,29 @@
+/*
+* Name: Measured Dark
+* Author: Measured (https://measured.co)
+*/
+
+html[data-theme="measured-dark"][data-mode="dark"] {
+	--bg:       #00211f;
+	--bg-light: #003a38;
+	--text:     #dcdcdc;
+	--brand:    #dcdcdc;   // FIXME  Base24 #;
+	--accent:   #dcdcdc;  // FIXME Base24 #
+	--primary:  #dcdcdc;  TODO!
+	--secondary: #dcdcdc;  // FIXME Base24 #
+	--comment:  #c3c3c3;
+	--meta:      #dcdcdc;  // TODO!
+	--operator: #dcdcdc;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #b39be0;  // this matches base16 - FIXME Base24 #;
+	--regex:    #62c0be;  // this matches base16
+	--property: #dcdcdc;  // base24 #;
+	--string:   #56c16f;  // this matches base16
+	--literal:  #dca37c;  // FIXME Base24 #;
+	--hint:     #bfac4e;  // FIXME Base24 #;
+
+
+    --success:  #56c16f;  // 14 used by gruvbox dark
+    --warning:  #dca37c;  // 13 used by gruvbox dark
+    --info:     #62c0be;  // 16 used by gruvbox dark
+    --error:    #ce7e8e;  // matches base16 - 12 used by gruvbox dark
+}

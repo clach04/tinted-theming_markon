@@ -1,0 +1,29 @@
+/*
+* Name: pinky
+* Author: Benjamin (https://github.com/b3nj5m1n)
+*/
+
+html[data-theme="pinky"][data-mode="dark"] {
+	--bg:       #171517;
+	--bg-light: #1b181b;
+	--text:     #f5f5f5;
+	--brand:    #f5f5f5;   // FIXME  Base24 #;
+	--accent:   #f5f5f5;  // FIXME Base24 #
+	--primary:  #f5f5f5;  TODO!
+	--secondary: #f5f5f5;  // FIXME Base24 #
+	--comment:  #e7dbdb;
+	--meta:      #f5f5f5;  // TODO!
+	--operator: #f5f5f5;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #007fff;  // this matches base16 - FIXME Base24 #;
+	--regex:    #6600ff;  // this matches base16
+	--property: #f5f5f5;  // base24 #;
+	--string:   #ff0066;  // this matches base16
+	--literal:  #00ff66;  // FIXME Base24 #;
+	--hint:     #20df6c;  // FIXME Base24 #;
+
+
+    --success:  #ff0066;  // 14 used by gruvbox dark
+    --warning:  #00ff66;  // 13 used by gruvbox dark
+    --info:     #6600ff;  // 16 used by gruvbox dark
+    --error:    #ffa600;  // matches base16 - 12 used by gruvbox dark
+}

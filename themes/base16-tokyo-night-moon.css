@@ -1,0 +1,29 @@
+/*
+* Name: Tokyo Night Moon
+* Author: Ólafur Bjarki Bogason
+*/
+
+html[data-theme="tokyo-night-moon"][data-mode="dark"] {
+	--bg:       #222436;
+	--bg-light: #1e2030;
+	--text:     #828bb8;
+	--brand:    #828bb8;   // FIXME  Base24 #;
+	--accent:   #828bb8;  // FIXME Base24 #
+	--primary:  #828bb8;  TODO!
+	--secondary: #828bb8;  // FIXME Base24 #
+	--comment:  #636da6;
+	--meta:      #828bb8;  // TODO!
+	--operator: #828bb8;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #fca7ea;  // this matches base16 - FIXME Base24 #;
+	--regex:    #86e1fc;  // this matches base16
+	--property: #828bb8;  // base24 #;
+	--string:   #c3e88d;  // this matches base16
+	--literal:  #ffc777;  // FIXME Base24 #;
+	--hint:     #ffdf77;  // FIXME Base24 #;
+
+
+    --success:  #c3e88d;  // 14 used by gruvbox dark
+    --warning:  #ffc777;  // 13 used by gruvbox dark
+    --info:     #86e1fc;  // 16 used by gruvbox dark
+    --error:    #ff757f;  // matches base16 - 12 used by gruvbox dark
+}

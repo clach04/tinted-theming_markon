@@ -1,0 +1,29 @@
+/*
+* Name: Dark Violet
+* Author: ruler501 (https://github.com/ruler501/base16-darkviolet)
+*/
+
+html[data-theme="darkviolet"][data-mode="dark"] {
+	--bg:       #000000;
+	--bg-light: #231a40;
+	--text:     #b08ae6;
+	--brand:    #b08ae6;   // FIXME  Base24 #;
+	--accent:   #b08ae6;  // FIXME Base24 #
+	--primary:  #b08ae6;  TODO!
+	--secondary: #b08ae6;  // FIXME Base24 #
+	--comment:  #00ff00;
+	--meta:      #b08ae6;  // TODO!
+	--operator: #b08ae6;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #7e5ce6;  // this matches base16 - FIXME Base24 #;
+	--regex:    #40dfff;  // this matches base16
+	--property: #b08ae6;  // base24 #;
+	--string:   #4595e6;  // this matches base16
+	--literal:  #bb66cc;  // FIXME Base24 #;
+	--hint:     #f29df2;  // FIXME Base24 #;
+
+
+    --success:  #4595e6;  // 14 used by gruvbox dark
+    --warning:  #bb66cc;  // 13 used by gruvbox dark
+    --info:     #40dfff;  // 16 used by gruvbox dark
+    --error:    #a82ee6;  // matches base16 - 12 used by gruvbox dark
+}

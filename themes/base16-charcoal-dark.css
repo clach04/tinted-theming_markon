@@ -1,0 +1,29 @@
+/*
+* Name: Charcoal Dark
+* Author: Mubin Muhammad (https://github.com/mubin6th)
+*/
+
+html[data-theme="charcoal-dark"][data-mode="dark"] {
+	--bg:       #0f0b05;
+	--bg-light: #231b0e;
+	--text:     #c3a983;
+	--brand:    #c3a983;   // FIXME  Base24 #;
+	--accent:   #c3a983;  // FIXME Base24 #
+	--primary:  #c3a983;  TODO!
+	--secondary: #c3a983;  // FIXME Base24 #
+	--comment:  #a88c62;
+	--meta:      #c3a983;  // TODO!
+	--operator: #c3a983;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #a88c62;  // this matches base16 - FIXME Base24 #;
+	--regex:    #dec8a7;  // this matches base16
+	--property: #c3a983;  // base24 #;
+	--string:   #dec8a7;  // this matches base16
+	--literal:  #dec8a7;  // FIXME Base24 #;
+	--hint:     #dec8a7;  // FIXME Base24 #;
+
+
+    --success:  #dec8a7;  // 14 used by gruvbox dark
+    --warning:  #dec8a7;  // 13 used by gruvbox dark
+    --info:     #dec8a7;  // 16 used by gruvbox dark
+    --error:    #a88c62;  // matches base16 - 12 used by gruvbox dark
+}

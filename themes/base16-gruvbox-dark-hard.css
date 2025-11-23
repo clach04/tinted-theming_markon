@@ -1,0 +1,29 @@
+/*
+* Name: Gruvbox dark, hard
+* Author: Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
+*/
+
+html[data-theme="gruvbox-dark-hard"][data-mode="dark"] {
+	--bg:       #1d2021;
+	--bg-light: #3c3836;
+	--text:     #d5c4a1;
+	--brand:    #d5c4a1;   // FIXME  Base24 #;
+	--accent:   #d5c4a1;  // FIXME Base24 #
+	--primary:  #d5c4a1;  TODO!
+	--secondary: #d5c4a1;  // FIXME Base24 #
+	--comment:  #bdae93;
+	--meta:      #d5c4a1;  // TODO!
+	--operator: #d5c4a1;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #d3869b;  // this matches base16 - FIXME Base24 #;
+	--regex:    #8ec07c;  // this matches base16
+	--property: #d5c4a1;  // base24 #;
+	--string:   #b8bb26;  // this matches base16
+	--literal:  #fe8019;  // FIXME Base24 #;
+	--hint:     #fabd2f;  // FIXME Base24 #;
+
+
+    --success:  #b8bb26;  // 14 used by gruvbox dark
+    --warning:  #fe8019;  // 13 used by gruvbox dark
+    --info:     #8ec07c;  // 16 used by gruvbox dark
+    --error:    #fb4934;  // matches base16 - 12 used by gruvbox dark
+}

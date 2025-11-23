@@ -1,0 +1,29 @@
+/*
+* Name: Summerfruit Light
+* Author: Christopher Corley (http://christop.club/)
+*/
+
+html[data-theme="summerfruit-light"][data-mode="light"] {
+	--bg:       #ffffff;
+	--bg-light: #e0e0e0;
+	--text:     #101010;
+	--brand:    #101010;   // FIXME  Base24 #;
+	--accent:   #101010;  // FIXME Base24 #
+	--primary:  #101010;  TODO!
+	--secondary: #101010;  // FIXME Base24 #
+	--comment:  #000000;
+	--meta:      #101010;  // TODO!
+	--operator: #101010;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #ad00a1;  // this matches base16 - FIXME Base24 #;
+	--regex:    #1faaaa;  // this matches base16
+	--property: #101010;  // base24 #;
+	--string:   #00c918;  // this matches base16
+	--literal:  #fd8900;  // FIXME Base24 #;
+	--hint:     #aba800;  // FIXME Base24 #;
+
+
+    --success:  #00c918;  // 14 used by gruvbox dark
+    --warning:  #fd8900;  // 13 used by gruvbox dark
+    --info:     #1faaaa;  // 16 used by gruvbox dark
+    --error:    #ff0086;  // matches base16 - 12 used by gruvbox dark
+}

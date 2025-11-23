@@ -1,0 +1,29 @@
+/*
+* Name: Windows NT Light
+* Author: Fergus Collins (https://github.com/ferguscollins)
+*/
+
+html[data-theme="windows-nt-light"][data-mode="light"] {
+	--bg:       #ffffff;
+	--bg-light: #eaeaea;
+	--text:     #808080;
+	--brand:    #808080;   // FIXME  Base24 #;
+	--accent:   #808080;  // FIXME Base24 #
+	--primary:  #808080;  TODO!
+	--secondary: #808080;  // FIXME Base24 #
+	--comment:  #a0a0a0;
+	--meta:      #808080;  // TODO!
+	--operator: #808080;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #800080;  // this matches base16 - FIXME Base24 #;
+	--regex:    #008080;  // this matches base16
+	--property: #808080;  // base24 #;
+	--string:   #008000;  // this matches base16
+	--literal:  #ffff00;  // FIXME Base24 #;
+	--hint:     #808000;  // FIXME Base24 #;
+
+
+    --success:  #008000;  // 14 used by gruvbox dark
+    --warning:  #ffff00;  // 13 used by gruvbox dark
+    --info:     #008080;  // 16 used by gruvbox dark
+    --error:    #800000;  // matches base16 - 12 used by gruvbox dark
+}

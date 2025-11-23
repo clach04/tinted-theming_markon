@@ -1,0 +1,29 @@
+/*
+* Name: standardized-light
+* Author: ali (https://github.com/ali-githb/base16-standardized-scheme)
+*/
+
+html[data-theme="standardized-light"][data-mode="light"] {
+	--bg:       #ffffff;
+	--bg-light: #eeeeee;
+	--text:     #444444;
+	--brand:    #444444;   // FIXME  Base24 #;
+	--accent:   #444444;  // FIXME Base24 #
+	--primary:  #444444;  TODO!
+	--secondary: #444444;  // FIXME Base24 #
+	--comment:  #767676;
+	--meta:      #444444;  // TODO!
+	--operator: #444444;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #9e57c2;  // this matches base16 - FIXME Base24 #;
+	--regex:    #00998f;  // this matches base16
+	--property: #444444;  // base24 #;
+	--string:   #31861f;  // this matches base16
+	--literal:  #d7691d;  // FIXME Base24 #;
+	--hint:     #ad8200;  // FIXME Base24 #;
+
+
+    --success:  #31861f;  // 14 used by gruvbox dark
+    --warning:  #d7691d;  // 13 used by gruvbox dark
+    --info:     #00998f;  // 16 used by gruvbox dark
+    --error:    #d03e3e;  // matches base16 - 12 used by gruvbox dark
+}

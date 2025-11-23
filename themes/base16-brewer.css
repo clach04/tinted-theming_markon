@@ -1,0 +1,29 @@
+/*
+* Name: Brewer
+* Author: Timothée Poisot (http://github.com/tpoisot)
+*/
+
+html[data-theme="brewer"][data-mode="dark"] {
+	--bg:       #0c0d0e;
+	--bg-light: #2e2f30;
+	--text:     #b7b8b9;
+	--brand:    #b7b8b9;   // FIXME  Base24 #;
+	--accent:   #b7b8b9;  // FIXME Base24 #
+	--primary:  #b7b8b9;  TODO!
+	--secondary: #b7b8b9;  // FIXME Base24 #
+	--comment:  #959697;
+	--meta:      #b7b8b9;  // TODO!
+	--operator: #b7b8b9;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #756bb1;  // this matches base16 - FIXME Base24 #;
+	--regex:    #80b1d3;  // this matches base16
+	--property: #b7b8b9;  // base24 #;
+	--string:   #31a354;  // this matches base16
+	--literal:  #e6550d;  // FIXME Base24 #;
+	--hint:     #dca060;  // FIXME Base24 #;
+
+
+    --success:  #31a354;  // 14 used by gruvbox dark
+    --warning:  #e6550d;  // 13 used by gruvbox dark
+    --info:     #80b1d3;  // 16 used by gruvbox dark
+    --error:    #e31a1c;  // matches base16 - 12 used by gruvbox dark
+}

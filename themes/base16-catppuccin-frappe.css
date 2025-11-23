@@ -1,0 +1,29 @@
+/*
+* Name: Catppuccin Frappe
+* Author: https://github.com/catppuccin/catppuccin
+*/
+
+html[data-theme="catppuccin-frappe"][data-mode="dark"] {
+	--bg:       #303446;
+	--bg-light: #292c3c;
+	--text:     #c6d0f5;
+	--brand:    #c6d0f5;   // FIXME  Base24 #;
+	--accent:   #c6d0f5;  // FIXME Base24 #
+	--primary:  #c6d0f5;  TODO!
+	--secondary: #c6d0f5;  // FIXME Base24 #
+	--comment:  #626880;
+	--meta:      #c6d0f5;  // TODO!
+	--operator: #c6d0f5;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #ca9ee6;  // this matches base16 - FIXME Base24 #;
+	--regex:    #81c8be;  // this matches base16
+	--property: #c6d0f5;  // base24 #;
+	--string:   #a6d189;  // this matches base16
+	--literal:  #ef9f76;  // FIXME Base24 #;
+	--hint:     #e5c890;  // FIXME Base24 #;
+
+
+    --success:  #a6d189;  // 14 used by gruvbox dark
+    --warning:  #ef9f76;  // 13 used by gruvbox dark
+    --info:     #81c8be;  // 16 used by gruvbox dark
+    --error:    #e78284;  // matches base16 - 12 used by gruvbox dark
+}

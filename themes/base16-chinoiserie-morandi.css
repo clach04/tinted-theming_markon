@@ -1,0 +1,29 @@
+/*
+* Name: Chinoiserie Morandi
+* Author: Di Wang (https://cs.cmu.edu/~diw3)
+*/
+
+html[data-theme="chinoiserie-morandi"][data-mode="dark"] {
+	--bg:       #1d1d1d;
+	--bg-light: #282828;
+	--text:     #c4cbcf;
+	--brand:    #c4cbcf;   // FIXME  Base24 #;
+	--accent:   #c4cbcf;  // FIXME Base24 #
+	--primary:  #c4cbcf;  TODO!
+	--secondary: #c4cbcf;  // FIXME Base24 #
+	--comment:  #bdaead;
+	--meta:      #c4cbcf;  // TODO!
+	--operator: #c4cbcf;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #98a1d8;  // this matches base16 - FIXME Base24 #;
+	--regex:    #5e8c9b;  // this matches base16
+	--property: #c4cbcf;  // base24 #;
+	--string:   #8ca07b;  // this matches base16
+	--literal:  #ff937f;  // FIXME Base24 #;
+	--hint:     #e5bc84;  // FIXME Base24 #;
+
+
+    --success:  #8ca07b;  // 14 used by gruvbox dark
+    --warning:  #ff937f;  // 13 used by gruvbox dark
+    --info:     #5e8c9b;  // 16 used by gruvbox dark
+    --error:    #c06061;  // matches base16 - 12 used by gruvbox dark
+}

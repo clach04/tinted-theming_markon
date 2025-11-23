@@ -1,0 +1,29 @@
+/*
+* Name: Hardcore
+* Author: Chris Caller
+*/
+
+html[data-theme="hardcore"][data-mode="dark"] {
+	--bg:       #212121;
+	--bg-light: #303030;
+	--text:     #cdcdcd;
+	--brand:    #cdcdcd;   // FIXME  Base24 #;
+	--accent:   #cdcdcd;  // FIXME Base24 #
+	--primary:  #cdcdcd;  TODO!
+	--secondary: #cdcdcd;  // FIXME Base24 #
+	--comment:  #707070;
+	--meta:      #cdcdcd;  // TODO!
+	--operator: #cdcdcd;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #9e6ffe;  // this matches base16 - FIXME Base24 #;
+	--regex:    #708387;  // this matches base16
+	--property: #cdcdcd;  // base24 #;
+	--string:   #a6e22e;  // this matches base16
+	--literal:  #fd971f;  // FIXME Base24 #;
+	--hint:     #e6db74;  // FIXME Base24 #;
+
+
+    --success:  #a6e22e;  // 14 used by gruvbox dark
+    --warning:  #fd971f;  // 13 used by gruvbox dark
+    --info:     #708387;  // 16 used by gruvbox dark
+    --error:    #f92672;  // matches base16 - 12 used by gruvbox dark
+}

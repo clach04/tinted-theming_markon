@@ -1,0 +1,29 @@
+/*
+* Name: Rebecca
+* Author: Victor Borja (http://github.com/vic) based on Rebecca Theme (http://github.com/vic/rebecca-theme)
+*/
+
+html[data-theme="rebecca"][data-mode="dark"] {
+	--bg:       #292a44;
+	--bg-light: #663399;
+	--text:     #f1eff8;
+	--brand:    #f1eff8;   // FIXME  Base24 #;
+	--accent:   #f1eff8;  // FIXME Base24 #
+	--primary:  #f1eff8;  TODO!
+	--secondary: #f1eff8;  // FIXME Base24 #
+	--comment:  #a0a0c5;
+	--meta:      #f1eff8;  // TODO!
+	--operator: #f1eff8;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #7aa5ff;  // this matches base16 - FIXME Base24 #;
+	--regex:    #8eaee0;  // this matches base16
+	--property: #f1eff8;  // base24 #;
+	--string:   #6dfedf;  // this matches base16
+	--literal:  #efe4a1;  // FIXME Base24 #;
+	--hint:     #ae81ff;  // FIXME Base24 #;
+
+
+    --success:  #6dfedf;  // 14 used by gruvbox dark
+    --warning:  #efe4a1;  // 13 used by gruvbox dark
+    --info:     #8eaee0;  // 16 used by gruvbox dark
+    --error:    #a0a0c5;  // matches base16 - 12 used by gruvbox dark
+}

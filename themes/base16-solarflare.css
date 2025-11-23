@@ -1,0 +1,29 @@
+/*
+* Name: Solar Flare
+* Author: Chuck Harmston (https://chuck.harmston.ch)
+*/
+
+html[data-theme="solarflare"][data-mode="dark"] {
+	--bg:       #18262f;
+	--bg-light: #222e38;
+	--text:     #a6afb8;
+	--brand:    #a6afb8;   // FIXME  Base24 #;
+	--accent:   #a6afb8;  // FIXME Base24 #
+	--primary:  #a6afb8;  TODO!
+	--secondary: #a6afb8;  // FIXME Base24 #
+	--comment:  #85939e;
+	--meta:      #a6afb8;  // TODO!
+	--operator: #a6afb8;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #a363d5;  // this matches base16 - FIXME Base24 #;
+	--regex:    #52cbb0;  // this matches base16
+	--property: #a6afb8;  // base24 #;
+	--string:   #7cc844;  // this matches base16
+	--literal:  #e66b2b;  // FIXME Base24 #;
+	--hint:     #e4b51c;  // FIXME Base24 #;
+
+
+    --success:  #7cc844;  // 14 used by gruvbox dark
+    --warning:  #e66b2b;  // 13 used by gruvbox dark
+    --info:     #52cbb0;  // 16 used by gruvbox dark
+    --error:    #ef5253;  // matches base16 - 12 used by gruvbox dark
+}

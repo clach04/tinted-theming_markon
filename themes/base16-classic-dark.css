@@ -1,0 +1,29 @@
+/*
+* Name: Classic Dark
+* Author: Jason Heeris (http://heeris.id.au)
+*/
+
+html[data-theme="classic-dark"][data-mode="dark"] {
+	--bg:       #151515;
+	--bg-light: #202020;
+	--text:     #d0d0d0;
+	--brand:    #d0d0d0;   // FIXME  Base24 #;
+	--accent:   #d0d0d0;  // FIXME Base24 #
+	--primary:  #d0d0d0;  TODO!
+	--secondary: #d0d0d0;  // FIXME Base24 #
+	--comment:  #b0b0b0;
+	--meta:      #d0d0d0;  // TODO!
+	--operator: #d0d0d0;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #aa759f;  // this matches base16 - FIXME Base24 #;
+	--regex:    #75b5aa;  // this matches base16
+	--property: #d0d0d0;  // base24 #;
+	--string:   #90a959;  // this matches base16
+	--literal:  #d28445;  // FIXME Base24 #;
+	--hint:     #f4bf75;  // FIXME Base24 #;
+
+
+    --success:  #90a959;  // 14 used by gruvbox dark
+    --warning:  #d28445;  // 13 used by gruvbox dark
+    --info:     #75b5aa;  // 16 used by gruvbox dark
+    --error:    #ac4142;  // matches base16 - 12 used by gruvbox dark
+}

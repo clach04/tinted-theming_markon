@@ -1,0 +1,29 @@
+/*
+* Name: dirtysea
+* Author: Kahlil (Kal) Hodgson
+*/
+
+html[data-theme="dirtysea"][data-mode="light"] {
+	--bg:       #e0e0e0;
+	--bg-light: #d0dad0;
+	--text:     #000000;
+	--brand:    #000000;   // FIXME  Base24 #;
+	--accent:   #000000;  // FIXME Base24 #
+	--primary:  #000000;  TODO!
+	--secondary: #000000;  // FIXME Base24 #
+	--comment:  #202020;
+	--meta:      #000000;  // TODO!
+	--operator: #000000;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #000090;  // this matches base16 - FIXME Base24 #;
+	--regex:    #755b00;  // this matches base16
+	--property: #000000;  // base24 #;
+	--string:   #730073;  // this matches base16
+	--literal:  #006565;  // FIXME Base24 #;
+	--hint:     #755b00;  // FIXME Base24 #;
+
+
+    --success:  #730073;  // 14 used by gruvbox dark
+    --warning:  #006565;  // 13 used by gruvbox dark
+    --info:     #755b00;  // 16 used by gruvbox dark
+    --error:    #840000;  // matches base16 - 12 used by gruvbox dark
+}

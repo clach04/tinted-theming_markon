@@ -1,0 +1,29 @@
+/*
+* Name: Github
+* Author: Tinted Theming (https://github.com/tinted-theming)
+*/
+
+html[data-theme="github"][data-mode="light"] {
+	--bg:       #eaeef2;
+	--bg-light: #d0d7de;
+	--text:     #424a53;
+	--brand:    #424a53;   // FIXME  Base24 #;
+	--accent:   #424a53;  // FIXME Base24 #
+	--primary:  #424a53;  TODO!
+	--secondary: #424a53;  // FIXME Base24 #
+	--comment:  #6e7781;
+	--meta:      #424a53;  // TODO!
+	--operator: #424a53;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #a475f9;  // this matches base16 - FIXME Base24 #;
+	--regex:    #339d9b;  // this matches base16
+	--property: #424a53;  // base24 #;
+	--string:   #2da44e;  // this matches base16
+	--literal:  #e16f24;  // FIXME Base24 #;
+	--hint:     #bf8700;  // FIXME Base24 #;
+
+
+    --success:  #2da44e;  // 14 used by gruvbox dark
+    --warning:  #e16f24;  // 13 used by gruvbox dark
+    --info:     #339d9b;  // 16 used by gruvbox dark
+    --error:    #fa4549;  // matches base16 - 12 used by gruvbox dark
+}

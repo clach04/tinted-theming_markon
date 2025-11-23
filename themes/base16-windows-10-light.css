@@ -1,0 +1,29 @@
+/*
+* Name: Windows 10 Light
+* Author: Fergus Collins (https://github.com/ferguscollins)
+*/
+
+html[data-theme="windows-10-light"][data-mode="light"] {
+	--bg:       #f2f2f2;
+	--bg-light: #e5e5e5;
+	--text:     #767676;
+	--brand:    #767676;   // FIXME  Base24 #;
+	--accent:   #767676;  // FIXME Base24 #
+	--primary:  #767676;  TODO!
+	--secondary: #767676;  // FIXME Base24 #
+	--comment:  #ababab;
+	--meta:      #767676;  // TODO!
+	--operator: #767676;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #881798;  // this matches base16 - FIXME Base24 #;
+	--regex:    #3a96dd;  // this matches base16
+	--property: #767676;  // base24 #;
+	--string:   #13a10e;  // this matches base16
+	--literal:  #f9f1a5;  // FIXME Base24 #;
+	--hint:     #c19c00;  // FIXME Base24 #;
+
+
+    --success:  #13a10e;  // 14 used by gruvbox dark
+    --warning:  #f9f1a5;  // 13 used by gruvbox dark
+    --info:     #3a96dd;  // 16 used by gruvbox dark
+    --error:    #c50f1f;  // matches base16 - 12 used by gruvbox dark
+}

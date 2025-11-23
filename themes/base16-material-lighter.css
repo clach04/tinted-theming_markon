@@ -1,0 +1,29 @@
+/*
+* Name: Material Lighter
+* Author: Nate Peterson
+*/
+
+html[data-theme="material-lighter"][data-mode="light"] {
+	--bg:       #fafafa;
+	--bg-light: #e7eaec;
+	--text:     #80cbc4;
+	--brand:    #80cbc4;   // FIXME  Base24 #;
+	--accent:   #80cbc4;  // FIXME Base24 #
+	--primary:  #80cbc4;  TODO!
+	--secondary: #80cbc4;  // FIXME Base24 #
+	--comment:  #8796b0;
+	--meta:      #80cbc4;  // TODO!
+	--operator: #80cbc4;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #7c4dff;  // this matches base16 - FIXME Base24 #;
+	--regex:    #39adb5;  // this matches base16
+	--property: #80cbc4;  // base24 #;
+	--string:   #91b859;  // this matches base16
+	--literal:  #f76d47;  // FIXME Base24 #;
+	--hint:     #ffb62c;  // FIXME Base24 #;
+
+
+    --success:  #91b859;  // 14 used by gruvbox dark
+    --warning:  #f76d47;  // 13 used by gruvbox dark
+    --info:     #39adb5;  // 16 used by gruvbox dark
+    --error:    #ff5370;  // matches base16 - 12 used by gruvbox dark
+}

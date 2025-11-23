@@ -1,0 +1,29 @@
+/*
+* Name: Catppuccin Mocha
+* Author: https://github.com/catppuccin/catppuccin
+*/
+
+html[data-theme="catppuccin-mocha"][data-mode="dark"] {
+	--bg:       #1e1e2e;
+	--bg-light: #181825;
+	--text:     #cdd6f4;
+	--brand:    #cdd6f4;   // FIXME  Base24 #;
+	--accent:   #cdd6f4;  // FIXME Base24 #
+	--primary:  #cdd6f4;  TODO!
+	--secondary: #cdd6f4;  // FIXME Base24 #
+	--comment:  #585b70;
+	--meta:      #cdd6f4;  // TODO!
+	--operator: #cdd6f4;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #cba6f7;  // this matches base16 - FIXME Base24 #;
+	--regex:    #94e2d5;  // this matches base16
+	--property: #cdd6f4;  // base24 #;
+	--string:   #a6e3a1;  // this matches base16
+	--literal:  #fab387;  // FIXME Base24 #;
+	--hint:     #f9e2af;  // FIXME Base24 #;
+
+
+    --success:  #a6e3a1;  // 14 used by gruvbox dark
+    --warning:  #fab387;  // 13 used by gruvbox dark
+    --info:     #94e2d5;  // 16 used by gruvbox dark
+    --error:    #f38ba8;  // matches base16 - 12 used by gruvbox dark
+}

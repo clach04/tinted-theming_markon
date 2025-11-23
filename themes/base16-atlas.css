@@ -1,0 +1,29 @@
+/*
+* Name: Atlas
+* Author: Alex Lende (https://ajlende.com)
+*/
+
+html[data-theme="atlas"][data-mode="dark"] {
+	--bg:       #002635;
+	--bg-light: #00384d;
+	--text:     #a1a19a;
+	--brand:    #a1a19a;   // FIXME  Base24 #;
+	--accent:   #a1a19a;  // FIXME Base24 #
+	--primary:  #a1a19a;  TODO!
+	--secondary: #a1a19a;  // FIXME Base24 #
+	--comment:  #869696;
+	--meta:      #a1a19a;  // TODO!
+	--operator: #a1a19a;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #9a70a4;  // this matches base16 - FIXME Base24 #;
+	--regex:    #5dd7b9;  // this matches base16
+	--property: #a1a19a;  // base24 #;
+	--string:   #7fc06e;  // this matches base16
+	--literal:  #f08e48;  // FIXME Base24 #;
+	--hint:     #ffcc1b;  // FIXME Base24 #;
+
+
+    --success:  #7fc06e;  // 14 used by gruvbox dark
+    --warning:  #f08e48;  // 13 used by gruvbox dark
+    --info:     #5dd7b9;  // 16 used by gruvbox dark
+    --error:    #ff5a67;  // matches base16 - 12 used by gruvbox dark
+}

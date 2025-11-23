@@ -1,0 +1,29 @@
+/*
+* Name: Hopscotch
+* Author: Jan T. Sott
+*/
+
+html[data-theme="hopscotch"][data-mode="dark"] {
+	--bg:       #322931;
+	--bg-light: #433b42;
+	--text:     #b9b5b8;
+	--brand:    #b9b5b8;   // FIXME  Base24 #;
+	--accent:   #b9b5b8;  // FIXME Base24 #
+	--primary:  #b9b5b8;  TODO!
+	--secondary: #b9b5b8;  // FIXME Base24 #
+	--comment:  #989498;
+	--meta:      #b9b5b8;  // TODO!
+	--operator: #b9b5b8;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #c85e7c;  // this matches base16 - FIXME Base24 #;
+	--regex:    #149b93;  // this matches base16
+	--property: #b9b5b8;  // base24 #;
+	--string:   #8fc13e;  // this matches base16
+	--literal:  #fd8b19;  // FIXME Base24 #;
+	--hint:     #fdcc59;  // FIXME Base24 #;
+
+
+    --success:  #8fc13e;  // 14 used by gruvbox dark
+    --warning:  #fd8b19;  // 13 used by gruvbox dark
+    --info:     #149b93;  // 16 used by gruvbox dark
+    --error:    #dd464c;  // matches base16 - 12 used by gruvbox dark
+}

@@ -1,0 +1,29 @@
+/*
+* Name: Gruber
+* Author: Patel, Nimai &lt;nimai.m.patel@gmail.com&gt;, colors from www.github.com/rexim/gruber-darker-theme
+*/
+
+html[data-theme="gruber"][data-mode="dark"] {
+	--bg:       #181818;
+	--bg-light: #453d41;
+	--text:     #f4f4ff;
+	--brand:    #f4f4ff;   // FIXME  Base24 #;
+	--accent:   #f4f4ff;  // FIXME Base24 #
+	--primary:  #f4f4ff;  TODO!
+	--secondary: #f4f4ff;  // FIXME Base24 #
+	--comment:  #e4e4ef;
+	--meta:      #f4f4ff;  // TODO!
+	--operator: #f4f4ff;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #9e95c7;  // this matches base16 - FIXME Base24 #;
+	--regex:    #95a99f;  // this matches base16
+	--property: #f4f4ff;  // base24 #;
+	--string:   #73c936;  // this matches base16
+	--literal:  #c73c3f;  // FIXME Base24 #;
+	--hint:     #ffdd33;  // FIXME Base24 #;
+
+
+    --success:  #73c936;  // 14 used by gruvbox dark
+    --warning:  #c73c3f;  // 13 used by gruvbox dark
+    --info:     #95a99f;  // 16 used by gruvbox dark
+    --error:    #f43841;  // matches base16 - 12 used by gruvbox dark
+}

@@ -1,0 +1,29 @@
+/*
+* Name: Kanagawa Dragon
+* Author: Tommaso Laurenzi (https://github.com/rebelot)
+*/
+
+html[data-theme="kanagawa-dragon"][data-mode="dark"] {
+	--bg:       #0d0c0c;
+	--bg-light: #1d1c19;
+	--text:     #c5c9c5;
+	--brand:    #c5c9c5;   // FIXME  Base24 #;
+	--accent:   #c5c9c5;  // FIXME Base24 #
+	--primary:  #c5c9c5;  TODO!
+	--secondary: #c5c9c5;  // FIXME Base24 #
+	--comment:  #a6a69c;
+	--meta:      #c5c9c5;  // TODO!
+	--operator: #c5c9c5;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #8992a7;  // this matches base16 - FIXME Base24 #;
+	--regex:    #8ea4a2;  // this matches base16
+	--property: #c5c9c5;  // base24 #;
+	--string:   #87a987;  // this matches base16
+	--literal:  #b98d7b;  // FIXME Base24 #;
+	--hint:     #c4b28a;  // FIXME Base24 #;
+
+
+    --success:  #87a987;  // 14 used by gruvbox dark
+    --warning:  #b98d7b;  // 13 used by gruvbox dark
+    --info:     #8ea4a2;  // 16 used by gruvbox dark
+    --error:    #c4746e;  // matches base16 - 12 used by gruvbox dark
+}

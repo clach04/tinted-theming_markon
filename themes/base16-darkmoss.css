@@ -1,0 +1,29 @@
+/*
+* Name: darkmoss
+* Author: Gabriel Avanzi (https://github.com/avanzzzi)
+*/
+
+html[data-theme="darkmoss"][data-mode="dark"] {
+	--bg:       #171e1f;
+	--bg-light: #252c2d;
+	--text:     #c7c7a5;
+	--brand:    #c7c7a5;   // FIXME  Base24 #;
+	--accent:   #c7c7a5;  // FIXME Base24 #
+	--primary:  #c7c7a5;  TODO!
+	--secondary: #c7c7a5;  // FIXME Base24 #
+	--comment:  #818f80;
+	--meta:      #c7c7a5;  // TODO!
+	--operator: #c7c7a5;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #9bc0c8;  // this matches base16 - FIXME Base24 #;
+	--regex:    #66d9ef;  // this matches base16
+	--property: #c7c7a5;  // base24 #;
+	--string:   #499180;  // this matches base16
+	--literal:  #e6db74;  // FIXME Base24 #;
+	--hint:     #fdb11f;  // FIXME Base24 #;
+
+
+    --success:  #499180;  // 14 used by gruvbox dark
+    --warning:  #e6db74;  // 13 used by gruvbox dark
+    --info:     #66d9ef;  // 16 used by gruvbox dark
+    --error:    #ff4658;  // matches base16 - 12 used by gruvbox dark
+}

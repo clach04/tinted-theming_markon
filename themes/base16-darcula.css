@@ -1,0 +1,29 @@
+/*
+* Name: Darcula
+* Author: jetbrains
+*/
+
+html[data-theme="darcula"][data-mode="dark"] {
+	--bg:       #2b2b2b;
+	--bg-light: #323232;
+	--text:     #a9b7c6;
+	--brand:    #a9b7c6;   // FIXME  Base24 #;
+	--accent:   #a9b7c6;  // FIXME Base24 #
+	--primary:  #a9b7c6;  TODO!
+	--secondary: #a9b7c6;  // FIXME Base24 #
+	--comment:  #a4a3a3;
+	--meta:      #a9b7c6;  // TODO!
+	--operator: #a9b7c6;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #cc7832;  // this matches base16 - FIXME Base24 #;
+	--regex:    #629755;  // this matches base16
+	--property: #a9b7c6;  // base24 #;
+	--string:   #6a8759;  // this matches base16
+	--literal:  #689757;  // FIXME Base24 #;
+	--hint:     #bbb529;  // FIXME Base24 #;
+
+
+    --success:  #6a8759;  // 14 used by gruvbox dark
+    --warning:  #689757;  // 13 used by gruvbox dark
+    --info:     #629755;  // 16 used by gruvbox dark
+    --error:    #4eade5;  // matches base16 - 12 used by gruvbox dark
+}

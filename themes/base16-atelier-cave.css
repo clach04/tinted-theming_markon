@@ -1,0 +1,29 @@
+/*
+* Name: Atelier Cave
+* Author: Bram de Haan (http://atelierbramdehaan.nl)
+*/
+
+html[data-theme="atelier-cave"][data-mode="dark"] {
+	--bg:       #19171c;
+	--bg-light: #26232a;
+	--text:     #8b8792;
+	--brand:    #8b8792;   // FIXME  Base24 #;
+	--accent:   #8b8792;  // FIXME Base24 #
+	--primary:  #8b8792;  TODO!
+	--secondary: #8b8792;  // FIXME Base24 #
+	--comment:  #7e7887;
+	--meta:      #8b8792;  // TODO!
+	--operator: #8b8792;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #955ae7;  // this matches base16 - FIXME Base24 #;
+	--regex:    #398bc6;  // this matches base16
+	--property: #8b8792;  // base24 #;
+	--string:   #2a9292;  // this matches base16
+	--literal:  #aa573c;  // FIXME Base24 #;
+	--hint:     #a06e3b;  // FIXME Base24 #;
+
+
+    --success:  #2a9292;  // 14 used by gruvbox dark
+    --warning:  #aa573c;  // 13 used by gruvbox dark
+    --info:     #398bc6;  // 16 used by gruvbox dark
+    --error:    #be4678;  // matches base16 - 12 used by gruvbox dark
+}

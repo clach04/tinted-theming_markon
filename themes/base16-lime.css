@@ -1,0 +1,29 @@
+/*
+* Name: lime
+* Author: limelier
+*/
+
+html[data-theme="lime"][data-mode="dark"] {
+	--bg:       #1a1a2f;
+	--bg-light: #202030;
+	--text:     #818175;
+	--brand:    #818175;   // FIXME  Base24 #;
+	--accent:   #818175;  // FIXME Base24 #
+	--primary:  #818175;  TODO!
+	--secondary: #818175;  // FIXME Base24 #
+	--comment:  #515155;
+	--meta:      #818175;  // TODO!
+	--operator: #818175;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #1b825f;  // this matches base16 - FIXME Base24 #;
+	--regex:    #4cad83;  // this matches base16
+	--property: #818175;  // base24 #;
+	--string:   #8cd97c;  // this matches base16
+	--literal:  #ff773a;  // FIXME Base24 #;
+	--hint:     #ffd15e;  // FIXME Base24 #;
+
+
+    --success:  #8cd97c;  // 14 used by gruvbox dark
+    --warning:  #ff773a;  // 13 used by gruvbox dark
+    --info:     #4cad83;  // 16 used by gruvbox dark
+    --error:    #ff662a;  // matches base16 - 12 used by gruvbox dark
+}

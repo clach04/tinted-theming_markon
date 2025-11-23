@@ -1,0 +1,29 @@
+/*
+* Name: Edge Light
+* Author: cjayross (https://github.com/cjayross), Tinted Theming (https://github.com/tinted-theming)
+*/
+
+html[data-theme="edge-light"][data-mode="light"] {
+	--bg:       #fafafa;
+	--bg-light: #e3e5e8;
+	--text:     #474752;
+	--brand:    #474752;   // FIXME  Base24 #;
+	--accent:   #474752;  // FIXME Base24 #
+	--primary:  #474752;  TODO!
+	--secondary: #474752;  // FIXME Base24 #
+	--comment:  #5e646f;
+	--meta:      #474752;  // TODO!
+	--operator: #474752;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #b870ce;  // this matches base16 - FIXME Base24 #;
+	--regex:    #509c93;  // this matches base16
+	--property: #474752;  // base24 #;
+	--string:   #7c9f4b;  // this matches base16
+	--literal:  #eba31a;  // FIXME Base24 #;
+	--hint:     #ebcc1a;  // FIXME Base24 #;
+
+
+    --success:  #7c9f4b;  // 14 used by gruvbox dark
+    --warning:  #eba31a;  // 13 used by gruvbox dark
+    --info:     #509c93;  // 16 used by gruvbox dark
+    --error:    #db7070;  // matches base16 - 12 used by gruvbox dark
+}

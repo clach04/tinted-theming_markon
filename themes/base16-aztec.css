@@ -1,0 +1,29 @@
+/*
+* Name: Aztec
+* Author: TheNeverMan (github.com/TheNeverMan)
+*/
+
+html[data-theme="aztec"][data-mode="dark"] {
+	--bg:       #101600;
+	--bg-light: #1a1e01;
+	--text:     #ffda51;
+	--brand:    #ffda51;   // FIXME  Base24 #;
+	--accent:   #ffda51;  // FIXME Base24 #
+	--primary:  #ffda51;  TODO!
+	--secondary: #ffda51;  // FIXME Base24 #
+	--comment:  #ffd129;
+	--meta:      #ffda51;  // TODO!
+	--operator: #ffda51;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #883e9f;  // this matches base16 - FIXME Base24 #;
+	--regex:    #3d94a5;  // this matches base16
+	--property: #ffda51;  // base24 #;
+	--string:   #63d932;  // this matches base16
+	--literal:  #ee8800;  // FIXME Base24 #;
+	--hint:     #eebb00;  // FIXME Base24 #;
+
+
+    --success:  #63d932;  // 14 used by gruvbox dark
+    --warning:  #ee8800;  // 13 used by gruvbox dark
+    --info:     #3d94a5;  // 16 used by gruvbox dark
+    --error:    #ee2e00;  // matches base16 - 12 used by gruvbox dark
+}

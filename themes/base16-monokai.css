@@ -1,0 +1,29 @@
+/*
+* Name: Monokai
+* Author: Wimer Hazenberg (http://www.monokai.nl)
+*/
+
+html[data-theme="monokai"][data-mode="dark"] {
+	--bg:       #272822;
+	--bg-light: #383830;
+	--text:     #f8f8f2;
+	--brand:    #f8f8f2;   // FIXME  Base24 #;
+	--accent:   #f8f8f2;  // FIXME Base24 #
+	--primary:  #f8f8f2;  TODO!
+	--secondary: #f8f8f2;  // FIXME Base24 #
+	--comment:  #a59f85;
+	--meta:      #f8f8f2;  // TODO!
+	--operator: #f8f8f2;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #ae81ff;  // this matches base16 - FIXME Base24 #;
+	--regex:    #a1efe4;  // this matches base16
+	--property: #f8f8f2;  // base24 #;
+	--string:   #a6e22e;  // this matches base16
+	--literal:  #fd971f;  // FIXME Base24 #;
+	--hint:     #f4bf75;  // FIXME Base24 #;
+
+
+    --success:  #a6e22e;  // 14 used by gruvbox dark
+    --warning:  #fd971f;  // 13 used by gruvbox dark
+    --info:     #a1efe4;  // 16 used by gruvbox dark
+    --error:    #f92672;  // matches base16 - 12 used by gruvbox dark
+}

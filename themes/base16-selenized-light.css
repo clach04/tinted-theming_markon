@@ -1,0 +1,29 @@
+/*
+* Name: selenized-light
+* Author: Jan Warchol (https://github.com/jan-warchol/selenized) / adapted to base16 by ali
+*/
+
+html[data-theme="selenized-light"][data-mode="light"] {
+	--bg:       #fbf3db;
+	--bg-light: #ece3cc;
+	--text:     #53676d;
+	--brand:    #53676d;   // FIXME  Base24 #;
+	--accent:   #53676d;  // FIXME Base24 #
+	--primary:  #53676d;  TODO!
+	--secondary: #53676d;  // FIXME Base24 #
+	--comment:  #909995;
+	--meta:      #53676d;  // TODO!
+	--operator: #53676d;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #825dc0;  // this matches base16 - FIXME Base24 #;
+	--regex:    #00978a;  // this matches base16
+	--property: #53676d;  // base24 #;
+	--string:   #428b00;  // this matches base16
+	--literal:  #bc5819;  // FIXME Base24 #;
+	--hint:     #a78300;  // FIXME Base24 #;
+
+
+    --success:  #428b00;  // 14 used by gruvbox dark
+    --warning:  #bc5819;  // 13 used by gruvbox dark
+    --info:     #00978a;  // 16 used by gruvbox dark
+    --error:    #cc1729;  // matches base16 - 12 used by gruvbox dark
+}

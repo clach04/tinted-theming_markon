@@ -1,0 +1,29 @@
+/*
+* Name: Sagelight
+* Author: Carter Veldhuizen
+*/
+
+html[data-theme="sagelight"][data-mode="light"] {
+	--bg:       #f8f8f8;
+	--bg-light: #e8e8e8;
+	--text:     #383838;
+	--brand:    #383838;   // FIXME  Base24 #;
+	--accent:   #383838;  // FIXME Base24 #
+	--primary:  #383838;  TODO!
+	--secondary: #383838;  // FIXME Base24 #
+	--comment:  #585858;
+	--meta:      #383838;  // TODO!
+	--operator: #383838;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #c8a0d2;  // this matches base16 - FIXME Base24 #;
+	--regex:    #a2d6f5;  // this matches base16
+	--property: #383838;  // base24 #;
+	--string:   #a0d2c8;  // this matches base16
+	--literal:  #ffaa61;  // FIXME Base24 #;
+	--hint:     #ffdc61;  // FIXME Base24 #;
+
+
+    --success:  #a0d2c8;  // 14 used by gruvbox dark
+    --warning:  #ffaa61;  // 13 used by gruvbox dark
+    --info:     #a2d6f5;  // 16 used by gruvbox dark
+    --error:    #fa8480;  // matches base16 - 12 used by gruvbox dark
+}

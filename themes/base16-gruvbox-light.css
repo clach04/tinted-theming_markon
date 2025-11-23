@@ -1,0 +1,29 @@
+/*
+* Name: Gruvbox Light
+* Author: Tinted Theming (https://github.com/tinted-theming), morhetz (https://github.com/morhetz/gruvbox)
+*/
+
+html[data-theme="gruvbox-light"][data-mode="light"] {
+	--bg:       #fbf1c7;
+	--bg-light: #ebdbb2;
+	--text:     #3c3836;
+	--brand:    #3c3836;   // FIXME  Base24 #;
+	--accent:   #3c3836;  // FIXME Base24 #
+	--primary:  #3c3836;  TODO!
+	--secondary: #3c3836;  // FIXME Base24 #
+	--comment:  #7c6f64;
+	--meta:      #3c3836;  // TODO!
+	--operator: #3c3836;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #b16286;  // this matches base16 - FIXME Base24 #;
+	--regex:    #689d6a;  // this matches base16
+	--property: #3c3836;  // base24 #;
+	--string:   #98971a;  // this matches base16
+	--literal:  #d65d0e;  // FIXME Base24 #;
+	--hint:     #d79921;  // FIXME Base24 #;
+
+
+    --success:  #98971a;  // 14 used by gruvbox dark
+    --warning:  #d65d0e;  // 13 used by gruvbox dark
+    --info:     #689d6a;  // 16 used by gruvbox dark
+    --error:    #cc241d;  // matches base16 - 12 used by gruvbox dark
+}

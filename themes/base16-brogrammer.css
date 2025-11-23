@@ -1,0 +1,29 @@
+/*
+* Name: Brogrammer
+* Author: Vik Ramanujam (http://github.com/piggyslasher)
+*/
+
+html[data-theme="brogrammer"][data-mode="dark"] {
+	--bg:       #1f1f1f;
+	--bg-light: #f81118;
+	--text:     #4e5ab7;
+	--brand:    #4e5ab7;   // FIXME  Base24 #;
+	--accent:   #4e5ab7;  // FIXME Base24 #
+	--primary:  #4e5ab7;  TODO!
+	--secondary: #4e5ab7;  // FIXME Base24 #
+	--comment:  #2a84d2;
+	--meta:      #4e5ab7;  // TODO!
+	--operator: #4e5ab7;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #0f7ddb;  // this matches base16 - FIXME Base24 #;
+	--regex:    #1081d6;  // this matches base16
+	--property: #4e5ab7;  // base24 #;
+	--string:   #f3bd09;  // this matches base16
+	--literal:  #de352e;  // FIXME Base24 #;
+	--hint:     #1dd361;  // FIXME Base24 #;
+
+
+    --success:  #f3bd09;  // 14 used by gruvbox dark
+    --warning:  #de352e;  // 13 used by gruvbox dark
+    --info:     #1081d6;  // 16 used by gruvbox dark
+    --error:    #d6dbe5;  // matches base16 - 12 used by gruvbox dark
+}

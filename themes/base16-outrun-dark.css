@@ -1,0 +1,29 @@
+/*
+* Name: Outrun Dark
+* Author: Hugo Delahousse (http://github.com/hugodelahousse/)
+*/
+
+html[data-theme="outrun-dark"][data-mode="dark"] {
+	--bg:       #00002a;
+	--bg-light: #20204a;
+	--text:     #d0d0fa;
+	--brand:    #d0d0fa;   // FIXME  Base24 #;
+	--accent:   #d0d0fa;  // FIXME Base24 #
+	--primary:  #d0d0fa;  TODO!
+	--secondary: #d0d0fa;  // FIXME Base24 #
+	--comment:  #b0b0da;
+	--meta:      #d0d0fa;  // TODO!
+	--operator: #d0d0fa;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #f10596;  // this matches base16 - FIXME Base24 #;
+	--regex:    #0ef0f0;  // this matches base16
+	--property: #d0d0fa;  // base24 #;
+	--string:   #59f176;  // this matches base16
+	--literal:  #fc8d28;  // FIXME Base24 #;
+	--hint:     #f3e877;  // FIXME Base24 #;
+
+
+    --success:  #59f176;  // 14 used by gruvbox dark
+    --warning:  #fc8d28;  // 13 used by gruvbox dark
+    --info:     #0ef0f0;  // 16 used by gruvbox dark
+    --error:    #ff4242;  // matches base16 - 12 used by gruvbox dark
+}

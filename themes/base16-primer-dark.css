@@ -1,0 +1,29 @@
+/*
+* Name: Primer Dark
+* Author: Jimmy Lin
+*/
+
+html[data-theme="primer-dark"][data-mode="dark"] {
+	--bg:       #010409;
+	--bg-light: #21262d;
+	--text:     #b1bac4;
+	--brand:    #b1bac4;   // FIXME  Base24 #;
+	--accent:   #b1bac4;  // FIXME Base24 #
+	--primary:  #b1bac4;  TODO!
+	--secondary: #b1bac4;  // FIXME Base24 #
+	--comment:  #8b949e;
+	--meta:      #b1bac4;  // TODO!
+	--operator: #b1bac4;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #f778ba;  // this matches base16 - FIXME Base24 #;
+	--regex:    #a5d6ff;  // this matches base16
+	--property: #b1bac4;  // base24 #;
+	--string:   #3fb950;  // this matches base16
+	--literal:  #f0883e;  // FIXME Base24 #;
+	--hint:     #d29922;  // FIXME Base24 #;
+
+
+    --success:  #3fb950;  // 14 used by gruvbox dark
+    --warning:  #f0883e;  // 13 used by gruvbox dark
+    --info:     #a5d6ff;  // 16 used by gruvbox dark
+    --error:    #ff7b72;  // matches base16 - 12 used by gruvbox dark
+}

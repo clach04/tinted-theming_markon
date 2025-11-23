@@ -1,0 +1,29 @@
+/*
+* Name: Synth Midnight Terminal Light
+* Author: Michaël Ball (http://github.com/michael-ball/)
+*/
+
+html[data-theme="synth-midnight-light"][data-mode="light"] {
+	--bg:       #dddfe0;
+	--bg-light: #cfd1d2;
+	--text:     #28292a;
+	--brand:    #28292a;   // FIXME  Base24 #;
+	--accent:   #28292a;  // FIXME Base24 #
+	--primary:  #28292a;  TODO!
+	--secondary: #28292a;  // FIXME Base24 #
+	--comment:  #474849;
+	--meta:      #28292a;  // TODO!
+	--operator: #28292a;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #ea5ce2;  // this matches base16 - FIXME Base24 #;
+	--regex:    #42fff9;  // this matches base16
+	--property: #28292a;  // base24 #;
+	--string:   #06ea61;  // this matches base16
+	--literal:  #ea770d;  // FIXME Base24 #;
+	--hint:     #c9d364;  // FIXME Base24 #;
+
+
+    --success:  #06ea61;  // 14 used by gruvbox dark
+    --warning:  #ea770d;  // 13 used by gruvbox dark
+    --info:     #42fff9;  // 16 used by gruvbox dark
+    --error:    #b53b50;  // matches base16 - 12 used by gruvbox dark
+}

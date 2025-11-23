@@ -1,0 +1,29 @@
+/*
+* Name: Equilibrium Gray Light
+* Author: Carlo Abelli
+*/
+
+html[data-theme="equilibrium-gray-light"][data-mode="light"] {
+	--bg:       #f1f1f1;
+	--bg-light: #e2e2e2;
+	--text:     #474747;
+	--brand:    #474747;   // FIXME  Base24 #;
+	--accent:   #474747;  // FIXME Base24 #
+	--primary:  #474747;  TODO!
+	--secondary: #474747;  // FIXME Base24 #
+	--comment:  #5e5e5e;
+	--meta:      #474747;  // TODO!
+	--operator: #474747;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #4e66b6;  // this matches base16 - FIXME Base24 #;
+	--regex:    #007a72;  // this matches base16
+	--property: #474747;  // base24 #;
+	--string:   #637200;  // this matches base16
+	--literal:  #bf3e05;  // FIXME Base24 #;
+	--hint:     #9d6f00;  // FIXME Base24 #;
+
+
+    --success:  #637200;  // 14 used by gruvbox dark
+    --warning:  #bf3e05;  // 13 used by gruvbox dark
+    --info:     #007a72;  // 16 used by gruvbox dark
+    --error:    #d02023;  // matches base16 - 12 used by gruvbox dark
+}

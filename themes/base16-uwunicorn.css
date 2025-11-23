@@ -1,0 +1,29 @@
+/*
+* Name: UwUnicorn
+* Author: Fernando Marques (https://github.com/RakkiUwU) and Gabriel Fontes (https://github.com/Misterio77)
+*/
+
+html[data-theme="uwunicorn"][data-mode="dark"] {
+	--bg:       #241b26;
+	--bg-light: #2f2a3f;
+	--text:     #eed5d9;
+	--brand:    #eed5d9;   // FIXME  Base24 #;
+	--accent:   #eed5d9;  // FIXME Base24 #
+	--primary:  #eed5d9;  TODO!
+	--secondary: #eed5d9;  // FIXME Base24 #
+	--comment:  #7e5f83;
+	--meta:      #eed5d9;  // TODO!
+	--operator: #eed5d9;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #78a38f;  // this matches base16 - FIXME Base24 #;
+	--regex:    #9c5fce;  // this matches base16
+	--property: #eed5d9;  // base24 #;
+	--string:   #c965bf;  // this matches base16
+	--literal:  #de5b44;  // FIXME Base24 #;
+	--hint:     #a84a73;  // FIXME Base24 #;
+
+
+    --success:  #c965bf;  // 14 used by gruvbox dark
+    --warning:  #de5b44;  // 13 used by gruvbox dark
+    --info:     #9c5fce;  // 16 used by gruvbox dark
+    --error:    #877bb6;  // matches base16 - 12 used by gruvbox dark
+}

@@ -1,0 +1,29 @@
+/*
+* Name: Sparky
+* Author: Leila Sother (https://github.com/mixcoac)
+*/
+
+html[data-theme="sparky"][data-mode="dark"] {
+	--bg:       #072b31;
+	--bg-light: #00313c;
+	--text:     #f4f5f0;
+	--brand:    #f4f5f0;   // FIXME  Base24 #;
+	--accent:   #f4f5f0;  // FIXME Base24 #
+	--primary:  #f4f5f0;  TODO!
+	--secondary: #f4f5f0;  // FIXME Base24 #
+	--comment:  #00778b;
+	--meta:      #f4f5f0;  // TODO!
+	--operator: #f4f5f0;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #d59ed7;  // this matches base16 - FIXME Base24 #;
+	--regex:    #2dccd3;  // this matches base16
+	--property: #f4f5f0;  // base24 #;
+	--string:   #78d64b;  // this matches base16
+	--literal:  #ff8f1c;  // FIXME Base24 #;
+	--hint:     #fbdd40;  // FIXME Base24 #;
+
+
+    --success:  #78d64b;  // 14 used by gruvbox dark
+    --warning:  #ff8f1c;  // 13 used by gruvbox dark
+    --info:     #2dccd3;  // 16 used by gruvbox dark
+    --error:    #ff585d;  // matches base16 - 12 used by gruvbox dark
+}

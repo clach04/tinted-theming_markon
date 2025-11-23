@@ -1,0 +1,29 @@
+/*
+* Name: Deep Oceanic Next
+* Author: spearkkk (https://github.com/spearkkk)
+*/
+
+html[data-theme="deep-oceanic-next"][data-mode="dark"] {
+	--bg:       #001c1f;
+	--bg-light: #002931;
+	--text:     #d4e1e8;
+	--brand:    #d4e1e8;   // FIXME  Base24 #;
+	--accent:   #d4e1e8;  // FIXME Base24 #
+	--primary:  #d4e1e8;  TODO!
+	--secondary: #d4e1e8;  // FIXME Base24 #
+	--comment:  #0093a3;
+	--meta:      #d4e1e8;  // TODO!
+	--operator: #d4e1e8;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #8b66d6;  // this matches base16 - FIXME Base24 #;
+	--regex:    #4fb7ae;  // this matches base16
+	--property: #d4e1e8;  // base24 #;
+	--string:   #63b784;  // this matches base16
+	--literal:  #e37552;  // FIXME Base24 #;
+	--hint:     #f3b863;  // FIXME Base24 #;
+
+
+    --success:  #63b784;  // 14 used by gruvbox dark
+    --warning:  #e37552;  // 13 used by gruvbox dark
+    --info:     #4fb7ae;  // 16 used by gruvbox dark
+    --error:    #d3464d;  // matches base16 - 12 used by gruvbox dark
+}

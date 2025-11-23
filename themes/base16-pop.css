@@ -1,0 +1,29 @@
+/*
+* Name: Pop
+* Author: Chris Kempson (http://chriskempson.com)
+*/
+
+html[data-theme="pop"][data-mode="dark"] {
+	--bg:       #000000;
+	--bg-light: #202020;
+	--text:     #d0d0d0;
+	--brand:    #d0d0d0;   // FIXME  Base24 #;
+	--accent:   #d0d0d0;  // FIXME Base24 #
+	--primary:  #d0d0d0;  TODO!
+	--secondary: #d0d0d0;  // FIXME Base24 #
+	--comment:  #b0b0b0;
+	--meta:      #d0d0d0;  // TODO!
+	--operator: #d0d0d0;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #b31e8d;  // this matches base16 - FIXME Base24 #;
+	--regex:    #00aabb;  // this matches base16
+	--property: #d0d0d0;  // base24 #;
+	--string:   #37b349;  // this matches base16
+	--literal:  #f29333;  // FIXME Base24 #;
+	--hint:     #f8ca12;  // FIXME Base24 #;
+
+
+    --success:  #37b349;  // 14 used by gruvbox dark
+    --warning:  #f29333;  // 13 used by gruvbox dark
+    --info:     #00aabb;  // 16 used by gruvbox dark
+    --error:    #eb008a;  // matches base16 - 12 used by gruvbox dark
+}

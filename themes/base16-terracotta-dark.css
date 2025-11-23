@@ -1,0 +1,29 @@
+/*
+* Name: Terracotta Dark
+* Author: Alexander Rossell Hayes (https://github.com/rossellhayes)
+*/
+
+html[data-theme="terracotta-dark"][data-mode="dark"] {
+	--bg:       #241d1a;
+	--bg-light: #362b27;
+	--text:     #b8a59d;
+	--brand:    #b8a59d;   // FIXME  Base24 #;
+	--accent:   #b8a59d;  // FIXME Base24 #
+	--primary:  #b8a59d;  TODO!
+	--secondary: #b8a59d;  // FIXME Base24 #
+	--comment:  #a78e84;
+	--meta:      #b8a59d;  // TODO!
+	--operator: #b8a59d;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #d8a2b0;  // this matches base16 - FIXME Base24 #;
+	--regex:    #c0bcdb;  // this matches base16
+	--property: #b8a59d;  // base24 #;
+	--string:   #b6c68a;  // this matches base16
+	--literal:  #ffa888;  // FIXME Base24 #;
+	--hint:     #ffc37a;  // FIXME Base24 #;
+
+
+    --success:  #b6c68a;  // 14 used by gruvbox dark
+    --warning:  #ffa888;  // 13 used by gruvbox dark
+    --info:     #c0bcdb;  // 16 used by gruvbox dark
+    --error:    #f6998f;  // matches base16 - 12 used by gruvbox dark
+}

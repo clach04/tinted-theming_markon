@@ -1,0 +1,29 @@
+/*
+* Name: Atelier Dune
+* Author: Bram de Haan (http://atelierbramdehaan.nl)
+*/
+
+html[data-theme="atelier-dune"][data-mode="dark"] {
+	--bg:       #20201d;
+	--bg-light: #292824;
+	--text:     #a6a28c;
+	--brand:    #a6a28c;   // FIXME  Base24 #;
+	--accent:   #a6a28c;  // FIXME Base24 #
+	--primary:  #a6a28c;  TODO!
+	--secondary: #a6a28c;  // FIXME Base24 #
+	--comment:  #999580;
+	--meta:      #a6a28c;  // TODO!
+	--operator: #a6a28c;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #b854d4;  // this matches base16 - FIXME Base24 #;
+	--regex:    #1fad83;  // this matches base16
+	--property: #a6a28c;  // base24 #;
+	--string:   #60ac39;  // this matches base16
+	--literal:  #b65611;  // FIXME Base24 #;
+	--hint:     #ae9513;  // FIXME Base24 #;
+
+
+    --success:  #60ac39;  // 14 used by gruvbox dark
+    --warning:  #b65611;  // 13 used by gruvbox dark
+    --info:     #1fad83;  // 16 used by gruvbox dark
+    --error:    #d73737;  // matches base16 - 12 used by gruvbox dark
+}

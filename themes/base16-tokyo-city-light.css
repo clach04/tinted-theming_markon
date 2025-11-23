@@ -1,0 +1,29 @@
+/*
+* Name: Tokyo City Light
+* Author: Michaël Ball
+*/
+
+html[data-theme="tokyo-city-light"][data-mode="light"] {
+	--bg:       #fbfbfd;
+	--bg-light: #f6f6f8;
+	--text:     #343b59;
+	--brand:    #343b59;   // FIXME  Base24 #;
+	--accent:   #343b59;  // FIXME Base24 #
+	--primary:  #343b59;  TODO!
+	--secondary: #343b59;  // FIXME Base24 #
+	--comment:  #4c505e;
+	--meta:      #343b59;  // TODO!
+	--operator: #343b59;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #5a4a78;  // this matches base16 - FIXME Base24 #;
+	--regex:    #4c505e;  // this matches base16
+	--property: #343b59;  // base24 #;
+	--string:   #485e30;  // this matches base16
+	--literal:  #965027;  // FIXME Base24 #;
+	--hint:     #4c505e;  // FIXME Base24 #;
+
+
+    --success:  #485e30;  // 14 used by gruvbox dark
+    --warning:  #965027;  // 13 used by gruvbox dark
+    --info:     #4c505e;  // 16 used by gruvbox dark
+    --error:    #8c4351;  // matches base16 - 12 used by gruvbox dark
+}

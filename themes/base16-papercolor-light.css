@@ -1,0 +1,29 @@
+/*
+* Name: PaperColor Light
+* Author: Jon Leopard (http://github.com/jonleopard), Tinted Theming (https://github.com/tinted-theming), based on PaperColor Theme (https://github.com/NLKNguyen/papercolor-theme)
+*/
+
+html[data-theme="papercolor-light"][data-mode="light"] {
+	--bg:       #eeeeee;
+	--bg-light: #c4c4c4;
+	--text:     #5e5e5e;
+	--brand:    #5e5e5e;   // FIXME  Base24 #;
+	--accent:   #5e5e5e;  // FIXME Base24 #
+	--primary:  #5e5e5e;  TODO!
+	--secondary: #5e5e5e;  // FIXME Base24 #
+	--comment:  #6b6b6b;
+	--meta:      #5e5e5e;  // TODO!
+	--operator: #5e5e5e;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #8700af;  // this matches base16 - FIXME Base24 #;
+	--regex:    #0087af;  // this matches base16
+	--property: #5e5e5e;  // base24 #;
+	--string:   #008700;  // this matches base16
+	--literal:  #d75f00;  // FIXME Base24 #;
+	--hint:     #d75f00;  // FIXME Base24 #;
+
+
+    --success:  #008700;  // 14 used by gruvbox dark
+    --warning:  #d75f00;  // 13 used by gruvbox dark
+    --info:     #0087af;  // 16 used by gruvbox dark
+    --error:    #d70000;  // matches base16 - 12 used by gruvbox dark
+}

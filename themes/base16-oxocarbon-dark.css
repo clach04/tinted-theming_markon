@@ -1,0 +1,29 @@
+/*
+* Name: Oxocarbon Dark
+* Author: shaunsingh/IBM, Tinted Theming (https://github.com/tinted-theming)
+*/
+
+html[data-theme="oxocarbon-dark"][data-mode="dark"] {
+	--bg:       #161616;
+	--bg-light: #262626;
+	--text:     #f2f4f8;
+	--brand:    #f2f4f8;   // FIXME  Base24 #;
+	--accent:   #f2f4f8;  // FIXME Base24 #
+	--primary:  #f2f4f8;  TODO!
+	--secondary: #f2f4f8;  // FIXME Base24 #
+	--comment:  #dde1e6;
+	--meta:      #f2f4f8;  // TODO!
+	--operator: #f2f4f8;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #be95ff;  // this matches base16 - FIXME Base24 #;
+	--regex:    #3ddbd9;  // this matches base16
+	--property: #f2f4f8;  // base24 #;
+	--string:   #42be65;  // this matches base16
+	--literal:  #ff7eb6;  // FIXME Base24 #;
+	--hint:     #ff6f00;  // FIXME Base24 #;
+
+
+    --success:  #42be65;  // 14 used by gruvbox dark
+    --warning:  #ff7eb6;  // 13 used by gruvbox dark
+    --info:     #3ddbd9;  // 16 used by gruvbox dark
+    --error:    #ee5396;  // matches base16 - 12 used by gruvbox dark
+}

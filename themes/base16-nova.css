@@ -1,0 +1,29 @@
+/*
+* Name: Nova
+* Author: George Essig (https://github.com/gessig), Trevor D. Miller (https://trevordmiller.com)
+*/
+
+html[data-theme="nova"][data-mode="dark"] {
+	--bg:       #3c4c55;
+	--bg-light: #556873;
+	--text:     #c5d4dd;
+	--brand:    #c5d4dd;   // FIXME  Base24 #;
+	--accent:   #c5d4dd;  // FIXME Base24 #
+	--primary:  #c5d4dd;  TODO!
+	--secondary: #c5d4dd;  // FIXME Base24 #
+	--comment:  #899ba6;
+	--meta:      #c5d4dd;  // TODO!
+	--operator: #c5d4dd;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #9a93e1;  // this matches base16 - FIXME Base24 #;
+	--regex:    #f2c38f;  // this matches base16
+	--property: #c5d4dd;  // base24 #;
+	--string:   #7fc1ca;  // this matches base16
+	--literal:  #7fc1ca;  // FIXME Base24 #;
+	--hint:     #a8ce93;  // FIXME Base24 #;
+
+
+    --success:  #7fc1ca;  // 14 used by gruvbox dark
+    --warning:  #7fc1ca;  // 13 used by gruvbox dark
+    --info:     #f2c38f;  // 16 used by gruvbox dark
+    --error:    #83afe5;  // matches base16 - 12 used by gruvbox dark
+}

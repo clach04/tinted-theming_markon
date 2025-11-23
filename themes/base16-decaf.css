@@ -1,0 +1,29 @@
+/*
+* Name: Decaf
+* Author: Alex Mirrington (https://github.com/alexmirrington)
+*/
+
+html[data-theme="decaf"][data-mode="dark"] {
+	--bg:       #2d2d2d;
+	--bg-light: #393939;
+	--text:     #cccccc;
+	--brand:    #cccccc;   // FIXME  Base24 #;
+	--accent:   #cccccc;  // FIXME Base24 #
+	--primary:  #cccccc;  TODO!
+	--secondary: #cccccc;  // FIXME Base24 #
+	--comment:  #b4b7b4;
+	--meta:      #cccccc;  // TODO!
+	--operator: #cccccc;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #efb3f7;  // this matches base16 - FIXME Base24 #;
+	--regex:    #bed6ff;  // this matches base16
+	--property: #cccccc;  // base24 #;
+	--string:   #beda78;  // this matches base16
+	--literal:  #ffbf70;  // FIXME Base24 #;
+	--hint:     #ffd67c;  // FIXME Base24 #;
+
+
+    --success:  #beda78;  // 14 used by gruvbox dark
+    --warning:  #ffbf70;  // 13 used by gruvbox dark
+    --info:     #bed6ff;  // 16 used by gruvbox dark
+    --error:    #ff7f7b;  // matches base16 - 12 used by gruvbox dark
+}

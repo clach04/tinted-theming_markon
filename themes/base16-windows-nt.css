@@ -1,0 +1,29 @@
+/*
+* Name: Windows NT
+* Author: Fergus Collins (https://github.com/ferguscollins)
+*/
+
+html[data-theme="windows-nt"][data-mode="dark"] {
+	--bg:       #000000;
+	--bg-light: #2a2a2a;
+	--text:     #c0c0c0;
+	--brand:    #c0c0c0;   // FIXME  Base24 #;
+	--accent:   #c0c0c0;  // FIXME Base24 #
+	--primary:  #c0c0c0;  TODO!
+	--secondary: #c0c0c0;  // FIXME Base24 #
+	--comment:  #a1a1a1;
+	--meta:      #c0c0c0;  // TODO!
+	--operator: #c0c0c0;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #ff00ff;  // this matches base16 - FIXME Base24 #;
+	--regex:    #00ffff;  // this matches base16
+	--property: #c0c0c0;  // base24 #;
+	--string:   #00ff00;  // this matches base16
+	--literal:  #808000;  // FIXME Base24 #;
+	--hint:     #ffff00;  // FIXME Base24 #;
+
+
+    --success:  #00ff00;  // 14 used by gruvbox dark
+    --warning:  #808000;  // 13 used by gruvbox dark
+    --info:     #00ffff;  // 16 used by gruvbox dark
+    --error:    #ff0000;  // matches base16 - 12 used by gruvbox dark
+}

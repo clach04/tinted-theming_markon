@@ -1,0 +1,29 @@
+/*
+* Name: Harmonic16 Light
+* Author: Jannik Siebert (https://github.com/janniks)
+*/
+
+html[data-theme="harmonic16-light"][data-mode="light"] {
+	--bg:       #f7f9fb;
+	--bg-light: #e5ebf1;
+	--text:     #405c79;
+	--brand:    #405c79;   // FIXME  Base24 #;
+	--accent:   #405c79;  // FIXME Base24 #
+	--primary:  #405c79;  TODO!
+	--secondary: #405c79;  // FIXME Base24 #
+	--comment:  #627e99;
+	--meta:      #405c79;  // TODO!
+	--operator: #405c79;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #bf568b;  // this matches base16 - FIXME Base24 #;
+	--regex:    #568bbf;  // this matches base16
+	--property: #405c79;  // base24 #;
+	--string:   #56bf8b;  // this matches base16
+	--literal:  #bfbf56;  // FIXME Base24 #;
+	--hint:     #8bbf56;  // FIXME Base24 #;
+
+
+    --success:  #56bf8b;  // 14 used by gruvbox dark
+    --warning:  #bfbf56;  // 13 used by gruvbox dark
+    --info:     #568bbf;  // 16 used by gruvbox dark
+    --error:    #bf8b56;  // matches base16 - 12 used by gruvbox dark
+}

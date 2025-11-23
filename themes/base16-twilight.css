@@ -1,0 +1,29 @@
+/*
+* Name: Twilight
+* Author: David Hart (https://github.com/hartbit)
+*/
+
+html[data-theme="twilight"][data-mode="dark"] {
+	--bg:       #1e1e1e;
+	--bg-light: #323537;
+	--text:     #a7a7a7;
+	--brand:    #a7a7a7;   // FIXME  Base24 #;
+	--accent:   #a7a7a7;  // FIXME Base24 #
+	--primary:  #a7a7a7;  TODO!
+	--secondary: #a7a7a7;  // FIXME Base24 #
+	--comment:  #838184;
+	--meta:      #a7a7a7;  // TODO!
+	--operator: #a7a7a7;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #9b859d;  // this matches base16 - FIXME Base24 #;
+	--regex:    #afc4db;  // this matches base16
+	--property: #a7a7a7;  // base24 #;
+	--string:   #8f9d6a;  // this matches base16
+	--literal:  #cda869;  // FIXME Base24 #;
+	--hint:     #f9ee98;  // FIXME Base24 #;
+
+
+    --success:  #8f9d6a;  // 14 used by gruvbox dark
+    --warning:  #cda869;  // 13 used by gruvbox dark
+    --info:     #afc4db;  // 16 used by gruvbox dark
+    --error:    #cf6a4c;  // matches base16 - 12 used by gruvbox dark
+}

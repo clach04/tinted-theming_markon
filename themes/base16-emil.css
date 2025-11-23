@@ -1,0 +1,29 @@
+/*
+* Name: emil
+* Author: limelier
+*/
+
+html[data-theme="emil"][data-mode="light"] {
+	--bg:       #efefef;
+	--bg-light: #bebed2;
+	--text:     #313145;
+	--brand:    #313145;   // FIXME  Base24 #;
+	--accent:   #313145;  // FIXME Base24 #
+	--primary:  #313145;  TODO!
+	--secondary: #313145;  // FIXME Base24 #
+	--comment:  #505063;
+	--meta:      #313145;  // TODO!
+	--operator: #313145;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #6916b6;  // this matches base16 - FIXME Base24 #;
+	--regex:    #2155d6;  // this matches base16
+	--property: #313145;  // base24 #;
+	--string:   #0073a8;  // this matches base16
+	--literal:  #d22a8b;  // FIXME Base24 #;
+	--hint:     #ff669b;  // FIXME Base24 #;
+
+
+    --success:  #0073a8;  // 14 used by gruvbox dark
+    --warning:  #d22a8b;  // 13 used by gruvbox dark
+    --info:     #2155d6;  // 16 used by gruvbox dark
+    --error:    #f43979;  // matches base16 - 12 used by gruvbox dark
+}

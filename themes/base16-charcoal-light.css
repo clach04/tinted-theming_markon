@@ -1,0 +1,29 @@
+/*
+* Name: Charcoal Light
+* Author: Mubin Muhammad (https://github.com/mubin6th)
+*/
+
+html[data-theme="charcoal-light"][data-mode="light"] {
+	--bg:       #cabda0;
+	--bg-light: #bcad8c;
+	--text:     #382e1b;
+	--brand:    #382e1b;   // FIXME  Base24 #;
+	--accent:   #382e1b;  // FIXME Base24 #
+	--primary:  #382e1b;  TODO!
+	--secondary: #382e1b;  // FIXME Base24 #
+	--comment:  #110e06;
+	--meta:      #382e1b;  // TODO!
+	--operator: #382e1b;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #382e1b;  // this matches base16 - FIXME Base24 #;
+	--regex:    #110e06;  // this matches base16
+	--property: #382e1b;  // base24 #;
+	--string:   #110e06;  // this matches base16
+	--literal:  #110e06;  // FIXME Base24 #;
+	--hint:     #110e06;  // FIXME Base24 #;
+
+
+    --success:  #110e06;  // 14 used by gruvbox dark
+    --warning:  #110e06;  // 13 used by gruvbox dark
+    --info:     #110e06;  // 16 used by gruvbox dark
+    --error:    #382e1b;  // matches base16 - 12 used by gruvbox dark
+}

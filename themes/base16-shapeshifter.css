@@ -1,0 +1,29 @@
+/*
+* Name: Shapeshifter
+* Author: Tyler Benziger (http://tybenz.com)
+*/
+
+html[data-theme="shapeshifter"][data-mode="light"] {
+	--bg:       #f9f9f9;
+	--bg-light: #e0e0e0;
+	--text:     #102015;
+	--brand:    #102015;   // FIXME  Base24 #;
+	--accent:   #102015;  // FIXME Base24 #
+	--primary:  #102015;  TODO!
+	--secondary: #102015;  // FIXME Base24 #
+	--comment:  #343434;
+	--meta:      #102015;  // TODO!
+	--operator: #102015;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #f996e2;  // this matches base16 - FIXME Base24 #;
+	--regex:    #23edda;  // this matches base16
+	--property: #102015;  // base24 #;
+	--string:   #0ed839;  // this matches base16
+	--literal:  #e09448;  // FIXME Base24 #;
+	--hint:     #dddd13;  // FIXME Base24 #;
+
+
+    --success:  #0ed839;  // 14 used by gruvbox dark
+    --warning:  #e09448;  // 13 used by gruvbox dark
+    --info:     #23edda;  // 16 used by gruvbox dark
+    --error:    #e92f2f;  // matches base16 - 12 used by gruvbox dark
+}

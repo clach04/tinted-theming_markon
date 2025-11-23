@@ -1,0 +1,29 @@
+/*
+* Name: Still Alive
+* Author: Derrick McKee (derrick.mckee@gmail.com), Tinted Theming (https://github.com/tinted-theming)
+*/
+
+html[data-theme="still-alive"][data-mode="light"] {
+	--bg:       #f0f0f0;
+	--bg-light: #d6d6d6;
+	--text:     #4c383b;
+	--brand:    #4c383b;   // FIXME  Base24 #;
+	--accent:   #4c383b;  // FIXME Base24 #
+	--primary:  #4c383b;  TODO!
+	--secondary: #4c383b;  // FIXME Base24 #
+	--comment:  #605758;
+	--meta:      #4c383b;  // TODO!
+	--operator: #4c383b;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #9036ff;  // this matches base16 - FIXME Base24 #;
+	--regex:    #36d3ff;  // this matches base16
+	--property: #4c383b;  // base24 #;
+	--string:   #30a860;  // this matches base16
+	--literal:  #f0d848;  // FIXME Base24 #;
+	--hint:     #fff018;  // FIXME Base24 #;
+
+
+    --success:  #30a860;  // 14 used by gruvbox dark
+    --warning:  #f0d848;  // 13 used by gruvbox dark
+    --info:     #36d3ff;  // 16 used by gruvbox dark
+    --error:    #d80000;  // matches base16 - 12 used by gruvbox dark
+}

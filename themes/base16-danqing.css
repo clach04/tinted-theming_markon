@@ -1,0 +1,29 @@
+/*
+* Name: DanQing
+* Author: Wenhan Zhu (Cosmos) (zhuwenhan950913@gmail.com)
+*/
+
+html[data-theme="danqing"][data-mode="dark"] {
+	--bg:       #2d302f;
+	--bg-light: #434846;
+	--text:     #e0f0ef;
+	--brand:    #e0f0ef;   // FIXME  Base24 #;
+	--accent:   #e0f0ef;  // FIXME Base24 #
+	--primary:  #e0f0ef;  TODO!
+	--secondary: #e0f0ef;  // FIXME Base24 #
+	--comment:  #cad8d2;
+	--meta:      #e0f0ef;  // TODO!
+	--operator: #e0f0ef;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #cca4e3;  // this matches base16 - FIXME Base24 #;
+	--regex:    #30dff3;  // this matches base16
+	--property: #e0f0ef;  // base24 #;
+	--string:   #8ab361;  // this matches base16
+	--literal:  #b38a61;  // FIXME Base24 #;
+	--hint:     #f0c239;  // FIXME Base24 #;
+
+
+    --success:  #8ab361;  // 14 used by gruvbox dark
+    --warning:  #b38a61;  // 13 used by gruvbox dark
+    --info:     #30dff3;  // 16 used by gruvbox dark
+    --error:    #f9906f;  // matches base16 - 12 used by gruvbox dark
+}

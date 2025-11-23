@@ -1,0 +1,29 @@
+/*
+* Name: Edge Dark
+* Author: cjayross (https://github.com/cjayross), Tinted Theming (https://github.com/tinted-theming)
+*/
+
+html[data-theme="edge-dark"][data-mode="dark"] {
+	--bg:       #262729;
+	--bg-light: #313235;
+	--text:     #afb2b5;
+	--brand:    #afb2b5;   // FIXME  Base24 #;
+	--accent:   #afb2b5;  // FIXME Base24 #
+	--primary:  #afb2b5;  TODO!
+	--secondary: #afb2b5;  // FIXME Base24 #
+	--comment:  #95989d;
+	--meta:      #afb2b5;  // TODO!
+	--operator: #afb2b5;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #d390e7;  // this matches base16 - FIXME Base24 #;
+	--regex:    #5ebaa5;  // this matches base16
+	--property: #afb2b5;  // base24 #;
+	--string:   #a1bf78;  // this matches base16
+	--literal:  #eba31a;  // FIXME Base24 #;
+	--hint:     #dbb774;  // FIXME Base24 #;
+
+
+    --success:  #a1bf78;  // 14 used by gruvbox dark
+    --warning:  #eba31a;  // 13 used by gruvbox dark
+    --info:     #5ebaa5;  // 16 used by gruvbox dark
+    --error:    #e77171;  // matches base16 - 12 used by gruvbox dark
+}

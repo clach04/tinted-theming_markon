@@ -1,0 +1,29 @@
+/*
+* Name: Silk Dark
+* Author: Gabriel Fontes (https://github.com/Misterio77)
+*/
+
+html[data-theme="silk-dark"][data-mode="dark"] {
+	--bg:       #0e3c46;
+	--bg-light: #1d494e;
+	--text:     #c7dbdd;
+	--brand:    #c7dbdd;   // FIXME  Base24 #;
+	--accent:   #c7dbdd;  // FIXME Base24 #
+	--primary:  #c7dbdd;  TODO!
+	--secondary: #c7dbdd;  // FIXME Base24 #
+	--comment:  #9dc8cd;
+	--meta:      #c7dbdd;  // TODO!
+	--operator: #c7dbdd;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #756b8a;  // this matches base16 - FIXME Base24 #;
+	--regex:    #3fb2b9;  // this matches base16
+	--property: #c7dbdd;  // base24 #;
+	--string:   #73d8ad;  // this matches base16
+	--literal:  #fcab74;  // FIXME Base24 #;
+	--hint:     #fce380;  // FIXME Base24 #;
+
+
+    --success:  #73d8ad;  // 14 used by gruvbox dark
+    --warning:  #fcab74;  // 13 used by gruvbox dark
+    --info:     #3fb2b9;  // 16 used by gruvbox dark
+    --error:    #fb6953;  // matches base16 - 12 used by gruvbox dark
+}

@@ -1,0 +1,29 @@
+/*
+* Name: Atelier Seaside
+* Author: Bram de Haan (http://atelierbramdehaan.nl)
+*/
+
+html[data-theme="atelier-seaside"][data-mode="dark"] {
+	--bg:       #131513;
+	--bg-light: #242924;
+	--text:     #8ca68c;
+	--brand:    #8ca68c;   // FIXME  Base24 #;
+	--accent:   #8ca68c;  // FIXME Base24 #
+	--primary:  #8ca68c;  TODO!
+	--secondary: #8ca68c;  // FIXME Base24 #
+	--comment:  #809980;
+	--meta:      #8ca68c;  // TODO!
+	--operator: #8ca68c;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #ad2bee;  // this matches base16 - FIXME Base24 #;
+	--regex:    #1999b3;  // this matches base16
+	--property: #8ca68c;  // base24 #;
+	--string:   #29a329;  // this matches base16
+	--literal:  #87711d;  // FIXME Base24 #;
+	--hint:     #98981b;  // FIXME Base24 #;
+
+
+    --success:  #29a329;  // 14 used by gruvbox dark
+    --warning:  #87711d;  // 13 used by gruvbox dark
+    --info:     #1999b3;  // 16 used by gruvbox dark
+    --error:    #e6193c;  // matches base16 - 12 used by gruvbox dark
+}

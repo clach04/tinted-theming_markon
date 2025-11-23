@@ -1,0 +1,29 @@
+/*
+* Name: Atelier Seaside Light
+* Author: Bram de Haan (http://atelierbramdehaan.nl)
+*/
+
+html[data-theme="atelier-seaside-light"][data-mode="light"] {
+	--bg:       #f4fbf4;
+	--bg-light: #cfe8cf;
+	--text:     #5e6e5e;
+	--brand:    #5e6e5e;   // FIXME  Base24 #;
+	--accent:   #5e6e5e;  // FIXME Base24 #
+	--primary:  #5e6e5e;  TODO!
+	--secondary: #5e6e5e;  // FIXME Base24 #
+	--comment:  #687d68;
+	--meta:      #5e6e5e;  // TODO!
+	--operator: #5e6e5e;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #ad2bee;  // this matches base16 - FIXME Base24 #;
+	--regex:    #1999b3;  // this matches base16
+	--property: #5e6e5e;  // base24 #;
+	--string:   #29a329;  // this matches base16
+	--literal:  #87711d;  // FIXME Base24 #;
+	--hint:     #98981b;  // FIXME Base24 #;
+
+
+    --success:  #29a329;  // 14 used by gruvbox dark
+    --warning:  #87711d;  // 13 used by gruvbox dark
+    --info:     #1999b3;  // 16 used by gruvbox dark
+    --error:    #e6193c;  // matches base16 - 12 used by gruvbox dark
+}

@@ -1,0 +1,29 @@
+/*
+* Name: Kimber
+* Author: Mishka Nguyen (https://github.com/akhsiM)
+*/
+
+html[data-theme="kimber"][data-mode="dark"] {
+	--bg:       #222222;
+	--bg-light: #313131;
+	--text:     #dedee7;
+	--brand:    #dedee7;   // FIXME  Base24 #;
+	--accent:   #dedee7;  // FIXME Base24 #
+	--primary:  #dedee7;  TODO!
+	--secondary: #dedee7;  // FIXME Base24 #
+	--comment:  #5a5a5a;
+	--meta:      #dedee7;  // TODO!
+	--operator: #dedee7;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #86cacd;  // this matches base16 - FIXME Base24 #;
+	--regex:    #78b4b4;  // this matches base16
+	--property: #dedee7;  // base24 #;
+	--string:   #99c899;  // this matches base16
+	--literal:  #476c88;  // FIXME Base24 #;
+	--hint:     #d8b56d;  // FIXME Base24 #;
+
+
+    --success:  #99c899;  // 14 used by gruvbox dark
+    --warning:  #476c88;  // 13 used by gruvbox dark
+    --info:     #78b4b4;  // 16 used by gruvbox dark
+    --error:    #c88c8c;  // matches base16 - 12 used by gruvbox dark
+}

@@ -1,0 +1,29 @@
+/*
+* Name: Brush Trees Dark
+* Author: Abraham White &lt;abelincoln.white@gmail.com&gt;
+*/
+
+html[data-theme="brushtrees-dark"][data-mode="dark"] {
+	--bg:       #485867;
+	--bg-light: #5a6d7a;
+	--text:     #b0c5c8;
+	--brand:    #b0c5c8;   // FIXME  Base24 #;
+	--accent:   #b0c5c8;  // FIXME Base24 #
+	--primary:  #b0c5c8;  TODO!
+	--secondary: #b0c5c8;  // FIXME Base24 #
+	--comment:  #98afb5;
+	--meta:      #b0c5c8;  // TODO!
+	--operator: #b0c5c8;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #b386b2;  // this matches base16 - FIXME Base24 #;
+	--regex:    #86b3b3;  // this matches base16
+	--property: #b0c5c8;  // base24 #;
+	--string:   #87b386;  // this matches base16
+	--literal:  #d8bba2;  // FIXME Base24 #;
+	--hint:     #aab386;  // FIXME Base24 #;
+
+
+    --success:  #87b386;  // 14 used by gruvbox dark
+    --warning:  #d8bba2;  // 13 used by gruvbox dark
+    --info:     #86b3b3;  // 16 used by gruvbox dark
+    --error:    #b38686;  // matches base16 - 12 used by gruvbox dark
+}

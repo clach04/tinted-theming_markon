@@ -1,0 +1,29 @@
+/*
+* Name: Atelier Forest Light
+* Author: Bram de Haan (http://atelierbramdehaan.nl)
+*/
+
+html[data-theme="atelier-forest-light"][data-mode="light"] {
+	--bg:       #f1efee;
+	--bg-light: #e6e2e0;
+	--text:     #68615e;
+	--brand:    #68615e;   // FIXME  Base24 #;
+	--accent:   #68615e;  // FIXME Base24 #
+	--primary:  #68615e;  TODO!
+	--secondary: #68615e;  // FIXME Base24 #
+	--comment:  #766e6b;
+	--meta:      #68615e;  // TODO!
+	--operator: #68615e;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #6666ea;  // this matches base16 - FIXME Base24 #;
+	--regex:    #3d97b8;  // this matches base16
+	--property: #68615e;  // base24 #;
+	--string:   #7b9726;  // this matches base16
+	--literal:  #df5320;  // FIXME Base24 #;
+	--hint:     #c38418;  // FIXME Base24 #;
+
+
+    --success:  #7b9726;  // 14 used by gruvbox dark
+    --warning:  #df5320;  // 13 used by gruvbox dark
+    --info:     #3d97b8;  // 16 used by gruvbox dark
+    --error:    #f22c40;  // matches base16 - 12 used by gruvbox dark
+}

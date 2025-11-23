@@ -1,0 +1,29 @@
+/*
+* Name: Atelier Estuary Light
+* Author: Bram de Haan (http://atelierbramdehaan.nl)
+*/
+
+html[data-theme="atelier-estuary-light"][data-mode="light"] {
+	--bg:       #f4f3ec;
+	--bg-light: #e7e6df;
+	--text:     #5f5e4e;
+	--brand:    #5f5e4e;   // FIXME  Base24 #;
+	--accent:   #5f5e4e;  // FIXME Base24 #
+	--primary:  #5f5e4e;  TODO!
+	--secondary: #5f5e4e;  // FIXME Base24 #
+	--comment:  #6c6b5a;
+	--meta:      #5f5e4e;  // TODO!
+	--operator: #5f5e4e;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #5f9182;  // this matches base16 - FIXME Base24 #;
+	--regex:    #5b9d48;  // this matches base16
+	--property: #5f5e4e;  // base24 #;
+	--string:   #7d9726;  // this matches base16
+	--literal:  #ae7313;  // FIXME Base24 #;
+	--hint:     #a5980d;  // FIXME Base24 #;
+
+
+    --success:  #7d9726;  // 14 used by gruvbox dark
+    --warning:  #ae7313;  // 13 used by gruvbox dark
+    --info:     #5b9d48;  // 16 used by gruvbox dark
+    --error:    #ba6236;  // matches base16 - 12 used by gruvbox dark
+}

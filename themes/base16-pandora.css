@@ -1,0 +1,29 @@
+/*
+* Name: pandora
+* Author: Cassandra Fox
+*/
+
+html[data-theme="pandora"][data-mode="dark"] {
+	--bg:       #131213;
+	--bg-light: #2f1823;
+	--text:     #f15c99;
+	--brand:    #f15c99;   // FIXME  Base24 #;
+	--accent:   #f15c99;  // FIXME Base24 #
+	--primary:  #f15c99;  TODO!
+	--secondary: #f15c99;  // FIXME Base24 #
+	--comment:  #9b2a46;
+	--meta:      #f15c99;  // TODO!
+	--operator: #f15c99;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #a24030;  // this matches base16 - FIXME Base24 #;
+	--regex:    #714ca6;  // this matches base16
+	--property: #f15c99;  // base24 #;
+	--string:   #9ddf69;  // this matches base16
+	--literal:  #ff9153;  // FIXME Base24 #;
+	--hint:     #ffcc00;  // FIXME Base24 #;
+
+
+    --success:  #9ddf69;  // 14 used by gruvbox dark
+    --warning:  #ff9153;  // 13 used by gruvbox dark
+    --info:     #714ca6;  // 16 used by gruvbox dark
+    --error:    #b00b69;  // matches base16 - 12 used by gruvbox dark
+}

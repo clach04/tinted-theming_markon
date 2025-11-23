@@ -1,0 +1,29 @@
+/*
+* Name: vice
+* Author: Thomas Leon Highbaugh thighbaugh@zoho.com
+*/
+
+html[data-theme="vice"][data-mode="dark"] {
+	--bg:       #17191e;
+	--bg-light: #22262d;
+	--text:     #8b9cbe;
+	--brand:    #8b9cbe;   // FIXME  Base24 #;
+	--accent:   #8b9cbe;  // FIXME Base24 #
+	--primary:  #8b9cbe;  TODO!
+	--secondary: #8b9cbe;  // FIXME Base24 #
+	--comment:  #555e70;
+	--meta:      #8b9cbe;  // TODO!
+	--operator: #8b9cbe;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #00f6d9;  // this matches base16 - FIXME Base24 #;
+	--regex:    #8265ff;  // this matches base16
+	--property: #8b9cbe;  // base24 #;
+	--string:   #0badff;  // this matches base16
+	--literal:  #85ffe0;  // FIXME Base24 #;
+	--hint:     #f0ffaa;  // FIXME Base24 #;
+
+
+    --success:  #0badff;  // 14 used by gruvbox dark
+    --warning:  #85ffe0;  // 13 used by gruvbox dark
+    --info:     #8265ff;  // 16 used by gruvbox dark
+    --error:    #ff29a8;  // matches base16 - 12 used by gruvbox dark
+}

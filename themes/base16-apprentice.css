@@ -1,0 +1,29 @@
+/*
+* Name: Apprentice
+* Author: romainl
+*/
+
+html[data-theme="apprentice"][data-mode="dark"] {
+	--bg:       #262626;
+	--bg-light: #af5f5f;
+	--text:     #5f5f87;
+	--brand:    #5f5f87;   // FIXME  Base24 #;
+	--accent:   #5f5f87;  // FIXME Base24 #
+	--primary:  #5f5f87;  TODO!
+	--secondary: #5f5f87;  // FIXME Base24 #
+	--comment:  #5f87af;
+	--meta:      #5f5f87;  // TODO!
+	--operator: #5f5f87;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #5fafaf;  // this matches base16 - FIXME Base24 #;
+	--regex:    #87afd7;  // this matches base16
+	--property: #5f5f87;  // base24 #;
+	--string:   #ffffaf;  // this matches base16
+	--literal:  #ff8700;  // FIXME Base24 #;
+	--hint:     #87af87;  // FIXME Base24 #;
+
+
+    --success:  #ffffaf;  // 14 used by gruvbox dark
+    --warning:  #ff8700;  // 13 used by gruvbox dark
+    --info:     #87afd7;  // 16 used by gruvbox dark
+    --error:    #444444;  // matches base16 - 12 used by gruvbox dark
+}

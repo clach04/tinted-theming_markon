@@ -1,0 +1,29 @@
+/*
+* Name: Zenburn
+* Author: elnawe
+*/
+
+html[data-theme="zenburn"][data-mode="dark"] {
+	--bg:       #383838;
+	--bg-light: #404040;
+	--text:     #dcdccc;
+	--brand:    #dcdccc;   // FIXME  Base24 #;
+	--accent:   #dcdccc;  // FIXME Base24 #
+	--primary:  #dcdccc;  TODO!
+	--secondary: #dcdccc;  // FIXME Base24 #
+	--comment:  #808080;
+	--meta:      #dcdccc;  // TODO!
+	--operator: #dcdccc;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #dc8cc3;  // this matches base16 - FIXME Base24 #;
+	--regex:    #93e0e3;  // this matches base16
+	--property: #dcdccc;  // base24 #;
+	--string:   #5f7f5f;  // this matches base16
+	--literal:  #dfaf8f;  // FIXME Base24 #;
+	--hint:     #e0cf9f;  // FIXME Base24 #;
+
+
+    --success:  #5f7f5f;  // 14 used by gruvbox dark
+    --warning:  #dfaf8f;  // 13 used by gruvbox dark
+    --info:     #93e0e3;  // 16 used by gruvbox dark
+    --error:    #dca3a3;  // matches base16 - 12 used by gruvbox dark
+}

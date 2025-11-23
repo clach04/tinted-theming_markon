@@ -1,0 +1,29 @@
+/*
+* Name: Valua
+* Author: Nonetrix (https://github.com/nonetrix)
+*/
+
+html[data-theme="valua"][data-mode="dark"] {
+	--bg:       #131f1f;
+	--bg-light: #213132;
+	--text:     #98c1a3;
+	--brand:    #98c1a3;   // FIXME  Base24 #;
+	--accent:   #98c1a3;  // FIXME Base24 #
+	--primary:  #98c1a3;  TODO!
+	--secondary: #98c1a3;  // FIXME Base24 #
+	--comment:  #6d9877;
+	--meta:      #98c1a3;  // TODO!
+	--operator: #98c1a3;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #a874e0;  // this matches base16 - FIXME Base24 #;
+	--regex:    #76dbd2;  // this matches base16
+	--property: #98c1a3;  // base24 #;
+	--string:   #59d678;  // this matches base16
+	--literal:  #e6b466;  // FIXME Base24 #;
+	--hint:     #dfe754;  // FIXME Base24 #;
+
+
+    --success:  #59d678;  // 14 used by gruvbox dark
+    --warning:  #e6b466;  // 13 used by gruvbox dark
+    --info:     #76dbd2;  // 16 used by gruvbox dark
+    --error:    #d7586e;  // matches base16 - 12 used by gruvbox dark
+}

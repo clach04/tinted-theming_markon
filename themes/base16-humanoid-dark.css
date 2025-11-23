@@ -1,0 +1,29 @@
+/*
+* Name: Humanoid dark
+* Author: Thomas (tasmo) Friese
+*/
+
+html[data-theme="humanoid-dark"][data-mode="dark"] {
+	--bg:       #232629;
+	--bg-light: #333b3d;
+	--text:     #f8f8f2;
+	--brand:    #f8f8f2;   // FIXME  Base24 #;
+	--accent:   #f8f8f2;  // FIXME Base24 #
+	--primary:  #f8f8f2;  TODO!
+	--secondary: #f8f8f2;  // FIXME Base24 #
+	--comment:  #c0c0bd;
+	--meta:      #f8f8f2;  // TODO!
+	--operator: #f8f8f2;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #f15ee3;  // this matches base16 - FIXME Base24 #;
+	--regex:    #0dd9d6;  // this matches base16
+	--property: #f8f8f2;  // base24 #;
+	--string:   #02d849;  // this matches base16
+	--literal:  #ff9505;  // FIXME Base24 #;
+	--hint:     #ffb627;  // FIXME Base24 #;
+
+
+    --success:  #02d849;  // 14 used by gruvbox dark
+    --warning:  #ff9505;  // 13 used by gruvbox dark
+    --info:     #0dd9d6;  // 16 used by gruvbox dark
+    --error:    #f11235;  // matches base16 - 12 used by gruvbox dark
+}

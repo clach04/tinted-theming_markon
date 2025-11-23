@@ -1,0 +1,29 @@
+/*
+* Name: Google Light
+* Author: Seth Wright (http://sethawright.com)
+*/
+
+html[data-theme="google-light"][data-mode="light"] {
+	--bg:       #ffffff;
+	--bg-light: #e0e0e0;
+	--text:     #373b41;
+	--brand:    #373b41;   // FIXME  Base24 #;
+	--accent:   #373b41;  // FIXME Base24 #
+	--primary:  #373b41;  TODO!
+	--secondary: #373b41;  // FIXME Base24 #
+	--comment:  #969896;
+	--meta:      #373b41;  // TODO!
+	--operator: #373b41;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #a36ac7;  // this matches base16 - FIXME Base24 #;
+	--regex:    #3971ed;  // this matches base16
+	--property: #373b41;  // base24 #;
+	--string:   #198844;  // this matches base16
+	--literal:  #f96a38;  // FIXME Base24 #;
+	--hint:     #fba922;  // FIXME Base24 #;
+
+
+    --success:  #198844;  // 14 used by gruvbox dark
+    --warning:  #f96a38;  // 13 used by gruvbox dark
+    --info:     #3971ed;  // 16 used by gruvbox dark
+    --error:    #cc342b;  // matches base16 - 12 used by gruvbox dark
+}

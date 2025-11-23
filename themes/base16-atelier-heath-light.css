@@ -1,0 +1,29 @@
+/*
+* Name: Atelier Heath Light
+* Author: Bram de Haan (http://atelierbramdehaan.nl)
+*/
+
+html[data-theme="atelier-heath-light"][data-mode="light"] {
+	--bg:       #f7f3f7;
+	--bg-light: #d8cad8;
+	--text:     #695d69;
+	--brand:    #695d69;   // FIXME  Base24 #;
+	--accent:   #695d69;  // FIXME Base24 #
+	--primary:  #695d69;  TODO!
+	--secondary: #695d69;  // FIXME Base24 #
+	--comment:  #776977;
+	--meta:      #695d69;  // TODO!
+	--operator: #695d69;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #7b59c0;  // this matches base16 - FIXME Base24 #;
+	--regex:    #159393;  // this matches base16
+	--property: #695d69;  // base24 #;
+	--string:   #918b3b;  // this matches base16
+	--literal:  #a65926;  // FIXME Base24 #;
+	--hint:     #bb8a35;  // FIXME Base24 #;
+
+
+    --success:  #918b3b;  // 14 used by gruvbox dark
+    --warning:  #a65926;  // 13 used by gruvbox dark
+    --info:     #159393;  // 16 used by gruvbox dark
+    --error:    #ca402b;  // matches base16 - 12 used by gruvbox dark
+}

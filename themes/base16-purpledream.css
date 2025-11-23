@@ -1,0 +1,29 @@
+/*
+* Name: Purpledream
+* Author: malet
+*/
+
+html[data-theme="purpledream"][data-mode="dark"] {
+	--bg:       #100510;
+	--bg-light: #302030;
+	--text:     #ddd0dd;
+	--brand:    #ddd0dd;   // FIXME  Base24 #;
+	--accent:   #ddd0dd;  // FIXME Base24 #
+	--primary:  #ddd0dd;  TODO!
+	--secondary: #ddd0dd;  // FIXME Base24 #
+	--comment:  #bbb0bb;
+	--meta:      #ddd0dd;  // TODO!
+	--operator: #ddd0dd;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #b000d0;  // this matches base16 - FIXME Base24 #;
+	--regex:    #0075b0;  // this matches base16
+	--property: #ddd0dd;  // base24 #;
+	--string:   #14cc64;  // this matches base16
+	--literal:  #ccae14;  // FIXME Base24 #;
+	--hint:     #f000a0;  // FIXME Base24 #;
+
+
+    --success:  #14cc64;  // 14 used by gruvbox dark
+    --warning:  #ccae14;  // 13 used by gruvbox dark
+    --info:     #0075b0;  // 16 used by gruvbox dark
+    --error:    #ff1d0d;  // matches base16 - 12 used by gruvbox dark
+}

@@ -1,0 +1,29 @@
+/*
+* Name: Vesper
+* Author: FormalSnake (https://github.com/formalsnake)
+*/
+
+html[data-theme="vesper"][data-mode="dark"] {
+	--bg:       #101010;
+	--bg-light: #232323;
+	--text:     #b7b7b7;
+	--brand:    #b7b7b7;   // FIXME  Base24 #;
+	--accent:   #b7b7b7;  // FIXME Base24 #
+	--primary:  #b7b7b7;  TODO!
+	--secondary: #b7b7b7;  // FIXME Base24 #
+	--comment:  #999999;
+	--meta:      #b7b7b7;  // TODO!
+	--operator: #b7b7b7;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #d69094;  // this matches base16 - FIXME Base24 #;
+	--regex:    #60a592;  // this matches base16
+	--property: #b7b7b7;  // base24 #;
+	--string:   #5f8787;  // this matches base16
+	--literal:  #dab083;  // FIXME Base24 #;
+	--hint:     #ffc799;  // FIXME Base24 #;
+
+
+    --success:  #5f8787;  // 14 used by gruvbox dark
+    --warning:  #dab083;  // 13 used by gruvbox dark
+    --info:     #60a592;  // 16 used by gruvbox dark
+    --error:    #de6e6e;  // matches base16 - 12 used by gruvbox dark
+}

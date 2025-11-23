@@ -1,0 +1,29 @@
+/*
+* Name: Bespin
+* Author: Jan T. Sott
+*/
+
+html[data-theme="bespin"][data-mode="dark"] {
+	--bg:       #28211c;
+	--bg-light: #36312e;
+	--text:     #8a8986;
+	--brand:    #8a8986;   // FIXME  Base24 #;
+	--accent:   #8a8986;  // FIXME Base24 #
+	--primary:  #8a8986;  TODO!
+	--secondary: #8a8986;  // FIXME Base24 #
+	--comment:  #797977;
+	--meta:      #8a8986;  // TODO!
+	--operator: #8a8986;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #9b859d;  // this matches base16 - FIXME Base24 #;
+	--regex:    #afc4db;  // this matches base16
+	--property: #8a8986;  // base24 #;
+	--string:   #54be0d;  // this matches base16
+	--literal:  #cf7d34;  // FIXME Base24 #;
+	--hint:     #f9ee98;  // FIXME Base24 #;
+
+
+    --success:  #54be0d;  // 14 used by gruvbox dark
+    --warning:  #cf7d34;  // 13 used by gruvbox dark
+    --info:     #afc4db;  // 16 used by gruvbox dark
+    --error:    #cf6a4c;  // matches base16 - 12 used by gruvbox dark
+}

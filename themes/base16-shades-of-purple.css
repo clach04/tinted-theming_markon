@@ -1,0 +1,29 @@
+/*
+* Name: Shades of Purple
+* Author: Iolar Demartini Junior (http://github.com/demartini), based on Shades of Purple Theme (https://github.com/ahmadawais/shades-of-purple-vscode)
+*/
+
+html[data-theme="shades-of-purple"][data-mode="dark"] {
+	--bg:       #1e1e3f;
+	--bg-light: #43d426;
+	--text:     #c7c7c7;
+	--brand:    #c7c7c7;   // FIXME  Base24 #;
+	--accent:   #c7c7c7;  // FIXME Base24 #
+	--primary:  #c7c7c7;  TODO!
+	--secondary: #c7c7c7;  // FIXME Base24 #
+	--comment:  #6871ff;
+	--meta:      #c7c7c7;  // TODO!
+	--operator: #c7c7c7;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #ff2c70;  // this matches base16 - FIXME Base24 #;
+	--regex:    #00c5c7;  // this matches base16
+	--property: #c7c7c7;  // base24 #;
+	--string:   #3ad900;  // this matches base16
+	--literal:  #f92a1c;  // FIXME Base24 #;
+	--hint:     #ffe700;  // FIXME Base24 #;
+
+
+    --success:  #3ad900;  // 14 used by gruvbox dark
+    --warning:  #f92a1c;  // 13 used by gruvbox dark
+    --info:     #00c5c7;  // 16 used by gruvbox dark
+    --error:    #d90429;  // matches base16 - 12 used by gruvbox dark
+}

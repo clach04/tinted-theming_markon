@@ -1,0 +1,29 @@
+/*
+* Name: Mocha
+* Author: Chris Kempson (http://chriskempson.com)
+*/
+
+html[data-theme="mocha"][data-mode="dark"] {
+	--bg:       #3b3228;
+	--bg-light: #534636;
+	--text:     #d0c8c6;
+	--brand:    #d0c8c6;   // FIXME  Base24 #;
+	--accent:   #d0c8c6;  // FIXME Base24 #
+	--primary:  #d0c8c6;  TODO!
+	--secondary: #d0c8c6;  // FIXME Base24 #
+	--comment:  #b8afad;
+	--meta:      #d0c8c6;  // TODO!
+	--operator: #d0c8c6;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #a89bb9;  // this matches base16 - FIXME Base24 #;
+	--regex:    #7bbda4;  // this matches base16
+	--property: #d0c8c6;  // base24 #;
+	--string:   #beb55b;  // this matches base16
+	--literal:  #d28b71;  // FIXME Base24 #;
+	--hint:     #f4bc87;  // FIXME Base24 #;
+
+
+    --success:  #beb55b;  // 14 used by gruvbox dark
+    --warning:  #d28b71;  // 13 used by gruvbox dark
+    --info:     #7bbda4;  // 16 used by gruvbox dark
+    --error:    #cb6077;  // matches base16 - 12 used by gruvbox dark
+}

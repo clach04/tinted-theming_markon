@@ -1,0 +1,29 @@
+/*
+* Name: 0x96f
+* Author: Filip Janevski (https://0x96f.dev/theme)
+*/
+
+html[data-theme="0x96f"][data-mode="dark"] {
+	--bg:       #262427;
+	--bg-light: #3b393c;
+	--text:     #fcfcfc;
+	--brand:    #fcfcfc;   // FIXME  Base24 #;
+	--accent:   #fcfcfc;  // FIXME Base24 #
+	--primary:  #fcfcfc;  TODO!
+	--secondary: #fcfcfc;  // FIXME Base24 #
+	--comment:  #7c7b7d;
+	--meta:      #fcfcfc;  // TODO!
+	--operator: #fcfcfc;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #a093e2;  // this matches base16 - FIXME Base24 #;
+	--regex:    #aee8f4;  // this matches base16
+	--property: #fcfcfc;  // base24 #;
+	--string:   #bcdf59;  // this matches base16
+	--literal:  #fc9d6f;  // FIXME Base24 #;
+	--hint:     #ffca58;  // FIXME Base24 #;
+
+
+    --success:  #bcdf59;  // 14 used by gruvbox dark
+    --warning:  #fc9d6f;  // 13 used by gruvbox dark
+    --info:     #aee8f4;  // 16 used by gruvbox dark
+    --error:    #ff7272;  // matches base16 - 12 used by gruvbox dark
+}

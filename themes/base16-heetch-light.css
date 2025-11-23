@@ -1,0 +1,29 @@
+/*
+* Name: Heetch Light
+* Author: Geoffrey Teale (tealeg@gmail.com), Tinted Theming (https://github.com/tinted-theming)
+*/
+
+html[data-theme="heetch-light"][data-mode="light"] {
+	--bg:       #feffff;
+	--bg-light: #dedae2;
+	--text:     #5a496e;
+	--brand:    #5a496e;   // FIXME  Base24 #;
+	--accent:   #5a496e;  // FIXME Base24 #
+	--primary:  #5a496e;  TODO!
+	--secondary: #5a496e;  // FIXME Base24 #
+	--comment:  #7b6d8b;
+	--meta:      #5a496e;  // TODO!
+	--operator: #5a496e;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #8f6c97;  // this matches base16 - FIXME Base24 #;
+	--regex:    #47f9f5;  // this matches base16
+	--property: #5a496e;  // base24 #;
+	--string:   #5bb66a;  // this matches base16
+	--literal:  #bd0152;  // FIXME Base24 #;
+	--hint:     #bd9701;  // FIXME Base24 #;
+
+
+    --success:  #5bb66a;  // 14 used by gruvbox dark
+    --warning:  #bd0152;  // 13 used by gruvbox dark
+    --info:     #47f9f5;  // 16 used by gruvbox dark
+    --error:    #f80059;  // matches base16 - 12 used by gruvbox dark
+}

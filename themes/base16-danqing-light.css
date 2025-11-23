@@ -1,0 +1,29 @@
+/*
+* Name: DanQing Light
+* Author: Wenhan Zhu (Cosmos) (zhuwenhan950913@gmail.com)
+*/
+
+html[data-theme="danqing-light"][data-mode="light"] {
+	--bg:       #fcfefd;
+	--bg-light: #ecf6f2;
+	--text:     #5a605d;
+	--brand:    #5a605d;   // FIXME  Base24 #;
+	--accent:   #5a605d;  // FIXME Base24 #
+	--primary:  #5a605d;  TODO!
+	--secondary: #5a605d;  // FIXME Base24 #
+	--comment:  #9da8a3;
+	--meta:      #5a605d;  // TODO!
+	--operator: #5a605d;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #cca4e3;  // this matches base16 - FIXME Base24 #;
+	--regex:    #30dff3;  // this matches base16
+	--property: #5a605d;  // base24 #;
+	--string:   #8ab361;  // this matches base16
+	--literal:  #b38a61;  // FIXME Base24 #;
+	--hint:     #f0c239;  // FIXME Base24 #;
+
+
+    --success:  #8ab361;  // 14 used by gruvbox dark
+    --warning:  #b38a61;  // 13 used by gruvbox dark
+    --info:     #30dff3;  // 16 used by gruvbox dark
+    --error:    #f9906f;  // matches base16 - 12 used by gruvbox dark
+}

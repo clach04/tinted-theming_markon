@@ -1,0 +1,29 @@
+/*
+* Name: Soft Server
+* Author: FredHappyface (https://github.com/fredHappyface)
+*/
+
+html[data-theme="soft-server"][data-mode="dark"] {
+	--bg:       #211e2a;
+	--bg-light: #2c2737;
+	--text:     #e4dee9;
+	--brand:    #e4dee9;   // FIXME  Base24 #;
+	--accent:   #e4dee9;  // FIXME Base24 #
+	--primary:  #e4dee9;  TODO!
+	--secondary: #e4dee9;  // FIXME Base24 #
+	--comment:  #8a829e;
+	--meta:      #e4dee9;  // TODO!
+	--operator: #e4dee9;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #ff79c6;  // this matches base16 - FIXME Base24 #;
+	--regex:    #b3f4f3;  // this matches base16
+	--property: #e4dee9;  // base24 #;
+	--string:   #b1f2a7;  // this matches base16
+	--literal:  #f4b870;  // FIXME Base24 #;
+	--hint:     #ebde76;  // FIXME Base24 #;
+
+
+    --success:  #b1f2a7;  // 14 used by gruvbox dark
+    --warning:  #f4b870;  // 13 used by gruvbox dark
+    --info:     #b3f4f3;  // 16 used by gruvbox dark
+    --error:    #e965a5;  // matches base16 - 12 used by gruvbox dark
+}

@@ -1,0 +1,29 @@
+/*
+* Name: Flat
+* Author: Chris Kempson (http://chriskempson.com)
+*/
+
+html[data-theme="flat"][data-mode="dark"] {
+	--bg:       #2c3e50;
+	--bg-light: #34495e;
+	--text:     #e0e0e0;
+	--brand:    #e0e0e0;   // FIXME  Base24 #;
+	--accent:   #e0e0e0;  // FIXME Base24 #
+	--primary:  #e0e0e0;  TODO!
+	--secondary: #e0e0e0;  // FIXME Base24 #
+	--comment:  #bdc3c7;
+	--meta:      #e0e0e0;  // TODO!
+	--operator: #e0e0e0;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #9b59b6;  // this matches base16 - FIXME Base24 #;
+	--regex:    #1abc9c;  // this matches base16
+	--property: #e0e0e0;  // base24 #;
+	--string:   #2ecc71;  // this matches base16
+	--literal:  #e67e22;  // FIXME Base24 #;
+	--hint:     #f1c40f;  // FIXME Base24 #;
+
+
+    --success:  #2ecc71;  // 14 used by gruvbox dark
+    --warning:  #e67e22;  // 13 used by gruvbox dark
+    --info:     #1abc9c;  // 16 used by gruvbox dark
+    --error:    #e74c3c;  // matches base16 - 12 used by gruvbox dark
+}

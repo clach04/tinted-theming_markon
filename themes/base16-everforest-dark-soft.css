@@ -1,0 +1,29 @@
+/*
+* Name: Everforest Dark Soft
+* Author: Sainnhe Park (https://github.com/sainnhe)
+*/
+
+html[data-theme="everforest-dark-soft"][data-mode="dark"] {
+	--bg:       #333c43;
+	--bg-light: #3a464c;
+	--text:     #d3c6aa;
+	--brand:    #d3c6aa;   // FIXME  Base24 #;
+	--accent:   #d3c6aa;  // FIXME Base24 #
+	--primary:  #d3c6aa;  TODO!
+	--secondary: #d3c6aa;  // FIXME Base24 #
+	--comment:  #9da9a0;
+	--meta:      #d3c6aa;  // TODO!
+	--operator: #d3c6aa;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #d699b6;  // this matches base16 - FIXME Base24 #;
+	--regex:    #83c092;  // this matches base16
+	--property: #d3c6aa;  // base24 #;
+	--string:   #a7c080;  // this matches base16
+	--literal:  #e69875;  // FIXME Base24 #;
+	--hint:     #dbbc7f;  // FIXME Base24 #;
+
+
+    --success:  #a7c080;  // 14 used by gruvbox dark
+    --warning:  #e69875;  // 13 used by gruvbox dark
+    --info:     #83c092;  // 16 used by gruvbox dark
+    --error:    #e67e80;  // matches base16 - 12 used by gruvbox dark
+}

@@ -1,0 +1,29 @@
+/*
+* Name: Windows High Contrast
+* Author: Fergus Collins (https://github.com/ferguscollins)
+*/
+
+html[data-theme="windows-highcontrast"][data-mode="dark"] {
+	--bg:       #000000;
+	--bg-light: #1c1c1c;
+	--text:     #c0c0c0;
+	--brand:    #c0c0c0;   // FIXME  Base24 #;
+	--accent:   #c0c0c0;  // FIXME Base24 #
+	--primary:  #c0c0c0;  TODO!
+	--secondary: #c0c0c0;  // FIXME Base24 #
+	--comment:  #a2a2a2;
+	--meta:      #c0c0c0;  // TODO!
+	--operator: #c0c0c0;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #fc54fc;  // this matches base16 - FIXME Base24 #;
+	--regex:    #54fcfc;  // this matches base16
+	--property: #c0c0c0;  // base24 #;
+	--string:   #54fc54;  // this matches base16
+	--literal:  #808000;  // FIXME Base24 #;
+	--hint:     #fcfc54;  // FIXME Base24 #;
+
+
+    --success:  #54fc54;  // 14 used by gruvbox dark
+    --warning:  #808000;  // 13 used by gruvbox dark
+    --info:     #54fcfc;  // 16 used by gruvbox dark
+    --error:    #fc5454;  // matches base16 - 12 used by gruvbox dark
+}

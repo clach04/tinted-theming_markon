@@ -1,0 +1,29 @@
+/*
+* Name: tarot
+* Author: ed (https://codeberg.org/ed)
+*/
+
+html[data-theme="tarot"][data-mode="dark"] {
+	--bg:       #0e091d;
+	--bg-light: #2a153c;
+	--text:     #aa556f;
+	--brand:    #aa556f;   // FIXME  Base24 #;
+	--accent:   #aa556f;  // FIXME Base24 #
+	--primary:  #aa556f;  TODO!
+	--secondary: #aa556f;  // FIXME Base24 #
+	--comment:  #8c406f;
+	--meta:      #aa556f;  // TODO!
+	--operator: #aa556f;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #a45782;  // this matches base16 - FIXME Base24 #;
+	--regex:    #8c9785;  // this matches base16
+	--property: #aa556f;  // base24 #;
+	--string:   #a68e5a;  // this matches base16
+	--literal:  #ea4d60;  // FIXME Base24 #;
+	--hint:     #ff6565;  // FIXME Base24 #;
+
+
+    --success:  #a68e5a;  // 14 used by gruvbox dark
+    --warning:  #ea4d60;  // 13 used by gruvbox dark
+    --info:     #8c9785;  // 16 used by gruvbox dark
+    --error:    #c53253;  // matches base16 - 12 used by gruvbox dark
+}

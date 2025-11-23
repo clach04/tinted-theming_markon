@@ -1,0 +1,29 @@
+/*
+* Name: Ayu Mirage
+* Author: Tinted Theming (https://github.com/tinted-theming), Ayu Theme (https://github.com/ayu-theme)
+*/
+
+html[data-theme="ayu-mirage"][data-mode="dark"] {
+	--bg:       #1f2430;
+	--bg-light: #242936;
+	--text:     #cccac2;
+	--brand:    #cccac2;   // FIXME  Base24 #;
+	--accent:   #cccac2;  // FIXME Base24 #
+	--primary:  #cccac2;  TODO!
+	--secondary: #cccac2;  // FIXME Base24 #
+	--comment:  #707a8c;
+	--meta:      #cccac2;  // TODO!
+	--operator: #cccac2;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #d4bfff;  // this matches base16 - FIXME Base24 #;
+	--regex:    #95e6cb;  // this matches base16
+	--property: #cccac2;  // base24 #;
+	--string:   #d5ff80;  // this matches base16
+	--literal:  #ffad66;  // FIXME Base24 #;
+	--hint:     #ffd173;  // FIXME Base24 #;
+
+
+    --success:  #d5ff80;  // 14 used by gruvbox dark
+    --warning:  #ffad66;  // 13 used by gruvbox dark
+    --info:     #95e6cb;  // 16 used by gruvbox dark
+    --error:    #f28779;  // matches base16 - 12 used by gruvbox dark
+}

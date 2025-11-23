@@ -1,0 +1,29 @@
+/*
+* Name: Solarized Dark
+* Author: Ethan Schoonover (modified by aramisgithub)
+*/
+
+html[data-theme="solarized-dark"][data-mode="dark"] {
+	--bg:       #002b36;
+	--bg-light: #073642;
+	--text:     #93a1a1;
+	--brand:    #93a1a1;   // FIXME  Base24 #;
+	--accent:   #93a1a1;  // FIXME Base24 #
+	--primary:  #93a1a1;  TODO!
+	--secondary: #93a1a1;  // FIXME Base24 #
+	--comment:  #839496;
+	--meta:      #93a1a1;  // TODO!
+	--operator: #93a1a1;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #6c71c4;  // this matches base16 - FIXME Base24 #;
+	--regex:    #2aa198;  // this matches base16
+	--property: #93a1a1;  // base24 #;
+	--string:   #859900;  // this matches base16
+	--literal:  #cb4b16;  // FIXME Base24 #;
+	--hint:     #b58900;  // FIXME Base24 #;
+
+
+    --success:  #859900;  // 14 used by gruvbox dark
+    --warning:  #cb4b16;  // 13 used by gruvbox dark
+    --info:     #2aa198;  // 16 used by gruvbox dark
+    --error:    #dc322f;  // matches base16 - 12 used by gruvbox dark
+}

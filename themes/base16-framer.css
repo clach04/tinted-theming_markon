@@ -1,0 +1,29 @@
+/*
+* Name: Framer
+* Author: Framer (Maintained by Jesse Hoyos)
+*/
+
+html[data-theme="framer"][data-mode="dark"] {
+	--bg:       #181818;
+	--bg-light: #151515;
+	--text:     #d0d0d0;
+	--brand:    #d0d0d0;   // FIXME  Base24 #;
+	--accent:   #d0d0d0;  // FIXME Base24 #
+	--primary:  #d0d0d0;  TODO!
+	--secondary: #d0d0d0;  // FIXME Base24 #
+	--comment:  #b9b9b9;
+	--meta:      #d0d0d0;  // TODO!
+	--operator: #d0d0d0;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #ba8cfc;  // this matches base16 - FIXME Base24 #;
+	--regex:    #acddfd;  // this matches base16
+	--property: #d0d0d0;  // base24 #;
+	--string:   #32ccdc;  // this matches base16
+	--literal:  #fc4769;  // FIXME Base24 #;
+	--hint:     #fecb6e;  // FIXME Base24 #;
+
+
+    --success:  #32ccdc;  // 14 used by gruvbox dark
+    --warning:  #fc4769;  // 13 used by gruvbox dark
+    --info:     #acddfd;  // 16 used by gruvbox dark
+    --error:    #fd886b;  // matches base16 - 12 used by gruvbox dark
+}

@@ -1,0 +1,29 @@
+/*
+* Name: OneDark
+* Author: Lalit Magant (http://github.com/tilal6991)
+*/
+
+html[data-theme="onedark"][data-mode="dark"] {
+	--bg:       #282c34;
+	--bg-light: #353b45;
+	--text:     #abb2bf;
+	--brand:    #abb2bf;   // FIXME  Base24 #;
+	--accent:   #abb2bf;  // FIXME Base24 #
+	--primary:  #abb2bf;  TODO!
+	--secondary: #abb2bf;  // FIXME Base24 #
+	--comment:  #565c64;
+	--meta:      #abb2bf;  // TODO!
+	--operator: #abb2bf;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #c678dd;  // this matches base16 - FIXME Base24 #;
+	--regex:    #56b6c2;  // this matches base16
+	--property: #abb2bf;  // base24 #;
+	--string:   #98c379;  // this matches base16
+	--literal:  #d19a66;  // FIXME Base24 #;
+	--hint:     #e5c07b;  // FIXME Base24 #;
+
+
+    --success:  #98c379;  // 14 used by gruvbox dark
+    --warning:  #d19a66;  // 13 used by gruvbox dark
+    --info:     #56b6c2;  // 16 used by gruvbox dark
+    --error:    #e06c75;  // matches base16 - 12 used by gruvbox dark
+}

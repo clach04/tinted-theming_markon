@@ -1,0 +1,29 @@
+/*
+* Name: Eighties
+* Author: Chris Kempson (http://chriskempson.com)
+*/
+
+html[data-theme="eighties"][data-mode="dark"] {
+	--bg:       #2d2d2d;
+	--bg-light: #393939;
+	--text:     #d3d0c8;
+	--brand:    #d3d0c8;   // FIXME  Base24 #;
+	--accent:   #d3d0c8;  // FIXME Base24 #
+	--primary:  #d3d0c8;  TODO!
+	--secondary: #d3d0c8;  // FIXME Base24 #
+	--comment:  #a09f93;
+	--meta:      #d3d0c8;  // TODO!
+	--operator: #d3d0c8;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #cc99cc;  // this matches base16 - FIXME Base24 #;
+	--regex:    #66cccc;  // this matches base16
+	--property: #d3d0c8;  // base24 #;
+	--string:   #99cc99;  // this matches base16
+	--literal:  #f99157;  // FIXME Base24 #;
+	--hint:     #ffcc66;  // FIXME Base24 #;
+
+
+    --success:  #99cc99;  // 14 used by gruvbox dark
+    --warning:  #f99157;  // 13 used by gruvbox dark
+    --info:     #66cccc;  // 16 used by gruvbox dark
+    --error:    #f2777a;  // matches base16 - 12 used by gruvbox dark
+}

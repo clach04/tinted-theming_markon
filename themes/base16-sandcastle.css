@@ -1,0 +1,29 @@
+/*
+* Name: Sandcastle
+* Author: George Essig (https://github.com/gessig)
+*/
+
+html[data-theme="sandcastle"][data-mode="dark"] {
+	--bg:       #282c34;
+	--bg-light: #2c323b;
+	--text:     #a89984;
+	--brand:    #a89984;   // FIXME  Base24 #;
+	--accent:   #a89984;  // FIXME Base24 #
+	--primary:  #a89984;  TODO!
+	--secondary: #a89984;  // FIXME Base24 #
+	--comment:  #928374;
+	--meta:      #a89984;  // TODO!
+	--operator: #a89984;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #d75f5f;  // this matches base16 - FIXME Base24 #;
+	--regex:    #83a598;  // this matches base16
+	--property: #a89984;  // base24 #;
+	--string:   #528b8b;  // this matches base16
+	--literal:  #a07e3b;  // FIXME Base24 #;
+	--hint:     #a07e3b;  // FIXME Base24 #;
+
+
+    --success:  #528b8b;  // 14 used by gruvbox dark
+    --warning:  #a07e3b;  // 13 used by gruvbox dark
+    --info:     #83a598;  // 16 used by gruvbox dark
+    --error:    #83a598;  // matches base16 - 12 used by gruvbox dark
+}

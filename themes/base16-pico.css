@@ -1,0 +1,29 @@
+/*
+* Name: Pico
+* Author: PICO-8 (http://www.lexaloffle.com/pico-8.php)
+*/
+
+html[data-theme="pico"][data-mode="dark"] {
+	--bg:       #000000;
+	--bg-light: #1d2b53;
+	--text:     #5f574f;
+	--brand:    #5f574f;   // FIXME  Base24 #;
+	--accent:   #5f574f;  // FIXME Base24 #
+	--primary:  #5f574f;  TODO!
+	--secondary: #5f574f;  // FIXME Base24 #
+	--comment:  #ab5236;
+	--meta:      #5f574f;  // TODO!
+	--operator: #5f574f;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #ff77a8;  // this matches base16 - FIXME Base24 #;
+	--regex:    #29adff;  // this matches base16
+	--property: #5f574f;  // base24 #;
+	--string:   #00e756;  // this matches base16
+	--literal:  #ffa300;  // FIXME Base24 #;
+	--hint:     #fff024;  // FIXME Base24 #;
+
+
+    --success:  #00e756;  // 14 used by gruvbox dark
+    --warning:  #ffa300;  // 13 used by gruvbox dark
+    --info:     #29adff;  // 16 used by gruvbox dark
+    --error:    #ff004d;  // matches base16 - 12 used by gruvbox dark
+}

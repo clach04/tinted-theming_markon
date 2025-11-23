@@ -1,0 +1,29 @@
+/*
+* Name: Silk Light
+* Author: Gabriel Fontes (https://github.com/Misterio77)
+*/
+
+html[data-theme="silk-light"][data-mode="light"] {
+	--bg:       #e9f1ef;
+	--bg-light: #ccd4d3;
+	--text:     #385156;
+	--brand:    #385156;   // FIXME  Base24 #;
+	--accent:   #385156;  // FIXME Base24 #
+	--primary:  #385156;  TODO!
+	--secondary: #385156;  // FIXME Base24 #
+	--comment:  #4b5b5f;
+	--meta:      #385156;  // TODO!
+	--operator: #385156;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #6e6582;  // this matches base16 - FIXME Base24 #;
+	--regex:    #329ca2;  // this matches base16
+	--property: #385156;  // base24 #;
+	--string:   #6ca38c;  // this matches base16
+	--literal:  #d27f46;  // FIXME Base24 #;
+	--hint:     #cfad25;  // FIXME Base24 #;
+
+
+    --success:  #6ca38c;  // 14 used by gruvbox dark
+    --warning:  #d27f46;  // 13 used by gruvbox dark
+    --info:     #329ca2;  // 16 used by gruvbox dark
+    --error:    #cf432e;  // matches base16 - 12 used by gruvbox dark
+}

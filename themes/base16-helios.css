@@ -1,0 +1,29 @@
+/*
+* Name: Helios
+* Author: Alex Meyer (https://github.com/reyemxela)
+*/
+
+html[data-theme="helios"][data-mode="dark"] {
+	--bg:       #1d2021;
+	--bg-light: #383c3e;
+	--text:     #d5d5d5;
+	--brand:    #d5d5d5;   // FIXME  Base24 #;
+	--accent:   #d5d5d5;  // FIXME Base24 #
+	--primary:  #d5d5d5;  TODO!
+	--secondary: #d5d5d5;  // FIXME Base24 #
+	--comment:  #cdcdcd;
+	--meta:      #d5d5d5;  // TODO!
+	--operator: #d5d5d5;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #be4264;  // this matches base16 - FIXME Base24 #;
+	--regex:    #1ba595;  // this matches base16
+	--property: #d5d5d5;  // base24 #;
+	--string:   #88b92d;  // this matches base16
+	--literal:  #eb8413;  // FIXME Base24 #;
+	--hint:     #f19d1a;  // FIXME Base24 #;
+
+
+    --success:  #88b92d;  // 14 used by gruvbox dark
+    --warning:  #eb8413;  // 13 used by gruvbox dark
+    --info:     #1ba595;  // 16 used by gruvbox dark
+    --error:    #d72638;  // matches base16 - 12 used by gruvbox dark
+}

@@ -1,0 +1,29 @@
+/*
+* Name: Ocean
+* Author: Chris Kempson (http://chriskempson.com)
+*/
+
+html[data-theme="ocean"][data-mode="dark"] {
+	--bg:       #2b303b;
+	--bg-light: #343d46;
+	--text:     #c0c5ce;
+	--brand:    #c0c5ce;   // FIXME  Base24 #;
+	--accent:   #c0c5ce;  // FIXME Base24 #
+	--primary:  #c0c5ce;  TODO!
+	--secondary: #c0c5ce;  // FIXME Base24 #
+	--comment:  #a7adba;
+	--meta:      #c0c5ce;  // TODO!
+	--operator: #c0c5ce;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #b48ead;  // this matches base16 - FIXME Base24 #;
+	--regex:    #96b5b4;  // this matches base16
+	--property: #c0c5ce;  // base24 #;
+	--string:   #a3be8c;  // this matches base16
+	--literal:  #d08770;  // FIXME Base24 #;
+	--hint:     #ebcb8b;  // FIXME Base24 #;
+
+
+    --success:  #a3be8c;  // 14 used by gruvbox dark
+    --warning:  #d08770;  // 13 used by gruvbox dark
+    --info:     #96b5b4;  // 16 used by gruvbox dark
+    --error:    #bf616a;  // matches base16 - 12 used by gruvbox dark
+}

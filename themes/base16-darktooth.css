@@ -1,0 +1,29 @@
+/*
+* Name: Darktooth
+* Author: Jason Milkins (https://github.com/jasonm23)
+*/
+
+html[data-theme="darktooth"][data-mode="dark"] {
+	--bg:       #1d2021;
+	--bg-light: #32302f;
+	--text:     #a89984;
+	--brand:    #a89984;   // FIXME  Base24 #;
+	--accent:   #a89984;  // FIXME Base24 #
+	--primary:  #a89984;  TODO!
+	--secondary: #a89984;  // FIXME Base24 #
+	--comment:  #928374;
+	--meta:      #a89984;  // TODO!
+	--operator: #a89984;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #8f4673;  // this matches base16 - FIXME Base24 #;
+	--regex:    #8ba59b;  // this matches base16
+	--property: #a89984;  // base24 #;
+	--string:   #95c085;  // this matches base16
+	--literal:  #fe8625;  // FIXME Base24 #;
+	--hint:     #fac03b;  // FIXME Base24 #;
+
+
+    --success:  #95c085;  // 14 used by gruvbox dark
+    --warning:  #fe8625;  // 13 used by gruvbox dark
+    --info:     #8ba59b;  // 16 used by gruvbox dark
+    --error:    #fb543f;  // matches base16 - 12 used by gruvbox dark
+}

@@ -1,0 +1,29 @@
+/*
+* Name: IR Black
+* Author: Timothée Poisot (http://timotheepoisot.fr)
+*/
+
+html[data-theme="irblack"][data-mode="dark"] {
+	--bg:       #000000;
+	--bg-light: #242422;
+	--text:     #b5b3aa;
+	--brand:    #b5b3aa;   // FIXME  Base24 #;
+	--accent:   #b5b3aa;  // FIXME Base24 #
+	--primary:  #b5b3aa;  TODO!
+	--secondary: #b5b3aa;  // FIXME Base24 #
+	--comment:  #918f88;
+	--meta:      #b5b3aa;  // TODO!
+	--operator: #b5b3aa;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #ff73fd;  // this matches base16 - FIXME Base24 #;
+	--regex:    #c6c5fe;  // this matches base16
+	--property: #b5b3aa;  // base24 #;
+	--string:   #a8ff60;  // this matches base16
+	--literal:  #e9c062;  // FIXME Base24 #;
+	--hint:     #ffffb6;  // FIXME Base24 #;
+
+
+    --success:  #a8ff60;  // 14 used by gruvbox dark
+    --warning:  #e9c062;  // 13 used by gruvbox dark
+    --info:     #c6c5fe;  // 16 used by gruvbox dark
+    --error:    #ff6c60;  // matches base16 - 12 used by gruvbox dark
+}

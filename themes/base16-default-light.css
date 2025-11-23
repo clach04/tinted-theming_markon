@@ -1,0 +1,29 @@
+/*
+* Name: Default Light
+* Author: Chris Kempson (http://chriskempson.com)
+*/
+
+html[data-theme="default-light"][data-mode="light"] {
+	--bg:       #f8f8f8;
+	--bg-light: #e8e8e8;
+	--text:     #383838;
+	--brand:    #383838;   // FIXME  Base24 #;
+	--accent:   #383838;  // FIXME Base24 #
+	--primary:  #383838;  TODO!
+	--secondary: #383838;  // FIXME Base24 #
+	--comment:  #585858;
+	--meta:      #383838;  // TODO!
+	--operator: #383838;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #ba8baf;  // this matches base16 - FIXME Base24 #;
+	--regex:    #86c1b9;  // this matches base16
+	--property: #383838;  // base24 #;
+	--string:   #a1b56c;  // this matches base16
+	--literal:  #dc9656;  // FIXME Base24 #;
+	--hint:     #f7ca88;  // FIXME Base24 #;
+
+
+    --success:  #a1b56c;  // 14 used by gruvbox dark
+    --warning:  #dc9656;  // 13 used by gruvbox dark
+    --info:     #86c1b9;  // 16 used by gruvbox dark
+    --error:    #ab4642;  // matches base16 - 12 used by gruvbox dark
+}

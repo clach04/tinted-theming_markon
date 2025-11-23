@@ -1,0 +1,29 @@
+/*
+* Name: Synth Midnight Terminal Dark
+* Author: Michaël Ball (http://github.com/michael-ball/)
+*/
+
+html[data-theme="synth-midnight-dark"][data-mode="dark"] {
+	--bg:       #050608;
+	--bg-light: #1a1b1c;
+	--text:     #c1c3c4;
+	--brand:    #c1c3c4;   // FIXME  Base24 #;
+	--accent:   #c1c3c4;  // FIXME Base24 #
+	--primary:  #c1c3c4;  TODO!
+	--secondary: #c1c3c4;  // FIXME Base24 #
+	--comment:  #a3a5a6;
+	--meta:      #c1c3c4;  // TODO!
+	--operator: #c1c3c4;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #ea5ce2;  // this matches base16 - FIXME Base24 #;
+	--regex:    #42fff9;  // this matches base16
+	--property: #c1c3c4;  // base24 #;
+	--string:   #06ea61;  // this matches base16
+	--literal:  #ea770d;  // FIXME Base24 #;
+	--hint:     #c9d364;  // FIXME Base24 #;
+
+
+    --success:  #06ea61;  // 14 used by gruvbox dark
+    --warning:  #ea770d;  // 13 used by gruvbox dark
+    --info:     #42fff9;  // 16 used by gruvbox dark
+    --error:    #b53b50;  // matches base16 - 12 used by gruvbox dark
+}

@@ -1,0 +1,29 @@
+/*
+* Name: Windows 95 Light
+* Author: Fergus Collins (https://github.com/ferguscollins)
+*/
+
+html[data-theme="windows-95-light"][data-mode="light"] {
+	--bg:       #fcfcfc;
+	--bg-light: #e0e0e0;
+	--text:     #545454;
+	--brand:    #545454;   // FIXME  Base24 #;
+	--accent:   #545454;  // FIXME Base24 #
+	--primary:  #545454;  TODO!
+	--secondary: #545454;  // FIXME Base24 #
+	--comment:  #7e7e7e;
+	--meta:      #545454;  // TODO!
+	--operator: #545454;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #a800a8;  // this matches base16 - FIXME Base24 #;
+	--regex:    #00a8a8;  // this matches base16
+	--property: #545454;  // base24 #;
+	--string:   #00a800;  // this matches base16
+	--literal:  #fcfc54;  // FIXME Base24 #;
+	--hint:     #a85400;  // FIXME Base24 #;
+
+
+    --success:  #00a800;  // 14 used by gruvbox dark
+    --warning:  #fcfc54;  // 13 used by gruvbox dark
+    --info:     #00a8a8;  // 16 used by gruvbox dark
+    --error:    #a80000;  // matches base16 - 12 used by gruvbox dark
+}

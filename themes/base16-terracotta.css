@@ -1,0 +1,29 @@
+/*
+* Name: Terracotta
+* Author: Alexander Rossell Hayes (https://github.com/rossellhayes)
+*/
+
+html[data-theme="terracotta"][data-mode="light"] {
+	--bg:       #efeae8;
+	--bg-light: #dfd6d1;
+	--text:     #473731;
+	--brand:    #473731;   // FIXME  Base24 #;
+	--accent:   #473731;  // FIXME Base24 #
+	--primary:  #473731;  TODO!
+	--secondary: #473731;  // FIXME Base24 #
+	--comment:  #59453d;
+	--meta:      #473731;  // TODO!
+	--operator: #473731;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #8d5968;  // this matches base16 - FIXME Base24 #;
+	--regex:    #847f9e;  // this matches base16
+	--property: #473731;  // base24 #;
+	--string:   #7a894a;  // this matches base16
+	--literal:  #bd6942;  // FIXME Base24 #;
+	--hint:     #ce943e;  // FIXME Base24 #;
+
+
+    --success:  #7a894a;  // 14 used by gruvbox dark
+    --warning:  #bd6942;  // 13 used by gruvbox dark
+    --info:     #847f9e;  // 16 used by gruvbox dark
+    --error:    #a75045;  // matches base16 - 12 used by gruvbox dark
+}

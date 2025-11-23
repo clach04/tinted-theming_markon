@@ -1,0 +1,29 @@
+/*
+* Name: Penumbra Dark Contrast Plus
+* Author: Zachary Weiss (https://github.com/zacharyweiss)
+*/
+
+html[data-theme="penumbra-dark-contrast-plus"][data-mode="dark"] {
+	--bg:       #181b1f;
+	--bg-light: #24272b;
+	--text:     #cecece;
+	--brand:    #cecece;   // FIXME  Base24 #;
+	--accent:   #cecece;  // FIXME Base24 #
+	--primary:  #cecece;  TODO!
+	--secondary: #cecece;  // FIXME Base24 #
+	--comment:  #9e9e9e;
+	--meta:      #cecece;  // TODO!
+	--operator: #cecece;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #a48fe1;  // this matches base16 - FIXME Base24 #;
+	--regex:    #00b3c2;  // this matches base16
+	--property: #cecece;  // base24 #;
+	--string:   #50b584;  // this matches base16
+	--literal:  #ce9042;  // FIXME Base24 #;
+	--hint:     #9ca748;  // FIXME Base24 #;
+
+
+    --success:  #50b584;  // 14 used by gruvbox dark
+    --warning:  #ce9042;  // 13 used by gruvbox dark
+    --info:     #00b3c2;  // 16 used by gruvbox dark
+    --error:    #df7f78;  // matches base16 - 12 used by gruvbox dark
+}

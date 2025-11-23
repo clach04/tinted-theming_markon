@@ -1,0 +1,29 @@
+/*
+* Name: Chinoiserie
+* Author: Di Wang (https://cs.cmu.edu/~diw3)
+*/
+
+html[data-theme="chinoiserie"][data-mode="light"] {
+	--bg:       #ffffff;
+	--bg-light: #e0e0e0;
+	--text:     #4a4035;
+	--brand:    #4a4035;   // FIXME  Base24 #;
+	--accent:   #4a4035;  // FIXME Base24 #
+	--primary:  #4a4035;  TODO!
+	--secondary: #4a4035;  // FIXME Base24 #
+	--comment:  #918072;
+	--meta:      #4a4035;  // TODO!
+	--operator: #4a4035;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #c08eaf;  // this matches base16 - FIXME Base24 #;
+	--regex:    #2b73af;  // this matches base16
+	--property: #4a4035;  // base24 #;
+	--string:   #428675;  // this matches base16
+	--literal:  #fb8b05;  // FIXME Base24 #;
+	--hint:     #d6a01d;  // FIXME Base24 #;
+
+
+    --success:  #428675;  // 14 used by gruvbox dark
+    --warning:  #fb8b05;  // 13 used by gruvbox dark
+    --info:     #2b73af;  // 16 used by gruvbox dark
+    --error:    #c04851;  // matches base16 - 12 used by gruvbox dark
+}

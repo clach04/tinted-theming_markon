@@ -1,0 +1,29 @@
+/*
+* Name: Chicago Night
+* Author: Wendell, Ryan &lt;ryanjwendell@gmail.com&gt;
+*/
+
+html[data-theme="chicago-night"][data-mode="dark"] {
+	--bg:       #1e2a24;
+	--bg-light: #2a3b32;
+	--text:     #a7b8af;
+	--brand:    #a7b8af;   // FIXME  Base24 #;
+	--accent:   #a7b8af;  // FIXME Base24 #
+	--primary:  #a7b8af;  TODO!
+	--secondary: #a7b8af;  // FIXME Base24 #
+	--comment:  #8a9a91;
+	--meta:      #a7b8af;  // TODO!
+	--operator: #a7b8af;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #e27ea6;  // this matches base16 - FIXME Base24 #;
+	--regex:    #00a1de;  // this matches base16
+	--property: #a7b8af;  // base24 #;
+	--string:   #009b3a;  // this matches base16
+	--literal:  #f9461c;  // FIXME Base24 #;
+	--hint:     #f9e300;  // FIXME Base24 #;
+
+
+    --success:  #009b3a;  // 14 used by gruvbox dark
+    --warning:  #f9461c;  // 13 used by gruvbox dark
+    --info:     #00a1de;  // 16 used by gruvbox dark
+    --error:    #c60c30;  // matches base16 - 12 used by gruvbox dark
+}

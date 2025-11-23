@@ -1,0 +1,29 @@
+/*
+* Name: Circus
+* Author: Stephan Boyer (https://github.com/stepchowfun) and Esther Wang (https://github.com/ewang12)
+*/
+
+html[data-theme="circus"][data-mode="dark"] {
+	--bg:       #191919;
+	--bg-light: #202020;
+	--text:     #a7a7a7;
+	--brand:    #a7a7a7;   // FIXME  Base24 #;
+	--accent:   #a7a7a7;  // FIXME Base24 #
+	--primary:  #a7a7a7;  TODO!
+	--secondary: #a7a7a7;  // FIXME Base24 #
+	--comment:  #505050;
+	--meta:      #a7a7a7;  // TODO!
+	--operator: #a7a7a7;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #b888e2;  // this matches base16 - FIXME Base24 #;
+	--regex:    #4bb1a7;  // this matches base16
+	--property: #a7a7a7;  // base24 #;
+	--string:   #84b97c;  // this matches base16
+	--literal:  #4bb1a7;  // FIXME Base24 #;
+	--hint:     #c3ba63;  // FIXME Base24 #;
+
+
+    --success:  #84b97c;  // 14 used by gruvbox dark
+    --warning:  #4bb1a7;  // 13 used by gruvbox dark
+    --info:     #4bb1a7;  // 16 used by gruvbox dark
+    --error:    #dc657d;  // matches base16 - 12 used by gruvbox dark
+}

@@ -1,0 +1,29 @@
+/*
+* Name: Zenbones
+* Author: mcchrish
+*/
+
+html[data-theme="zenbones"][data-mode="dark"] {
+	--bg:       #191919;
+	--bg-light: #de6e7c;
+	--text:     #b279a7;
+	--brand:    #b279a7;   // FIXME  Base24 #;
+	--accent:   #b279a7;  // FIXME Base24 #
+	--primary:  #b279a7;  TODO!
+	--secondary: #b279a7;  // FIXME Base24 #
+	--comment:  #6099c0;
+	--meta:      #b279a7;  // TODO!
+	--operator: #b279a7;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #65b8c1;  // this matches base16 - FIXME Base24 #;
+	--regex:    #61abda;  // this matches base16
+	--property: #b279a7;  // base24 #;
+	--string:   #d68c67;  // this matches base16
+	--literal:  #e8838f;  // FIXME Base24 #;
+	--hint:     #8bae68;  // FIXME Base24 #;
+
+
+    --success:  #d68c67;  // 14 used by gruvbox dark
+    --warning:  #e8838f;  // 13 used by gruvbox dark
+    --info:     #61abda;  // 16 used by gruvbox dark
+    --error:    #3d3839;  // matches base16 - 12 used by gruvbox dark
+}

@@ -1,0 +1,29 @@
+/*
+* Name: Marrakesh
+* Author: Alexandre Gavioli (http://github.com/Alexx2/)
+*/
+
+html[data-theme="marrakesh"][data-mode="dark"] {
+	--bg:       #201602;
+	--bg-light: #302e00;
+	--text:     #948e48;
+	--brand:    #948e48;   // FIXME  Base24 #;
+	--accent:   #948e48;  // FIXME Base24 #
+	--primary:  #948e48;  TODO!
+	--secondary: #948e48;  // FIXME Base24 #
+	--comment:  #86813b;
+	--meta:      #948e48;  // TODO!
+	--operator: #948e48;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #8868b3;  // this matches base16 - FIXME Base24 #;
+	--regex:    #75a738;  // this matches base16
+	--property: #948e48;  // base24 #;
+	--string:   #18974e;  // this matches base16
+	--literal:  #b36144;  // FIXME Base24 #;
+	--hint:     #a88339;  // FIXME Base24 #;
+
+
+    --success:  #18974e;  // 14 used by gruvbox dark
+    --warning:  #b36144;  // 13 used by gruvbox dark
+    --info:     #75a738;  // 16 used by gruvbox dark
+    --error:    #c35359;  // matches base16 - 12 used by gruvbox dark
+}

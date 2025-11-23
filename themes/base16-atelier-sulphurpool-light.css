@@ -1,0 +1,29 @@
+/*
+* Name: Atelier Sulphurpool Light
+* Author: Bram de Haan (http://atelierbramdehaan.nl)
+*/
+
+html[data-theme="atelier-sulphurpool-light"][data-mode="light"] {
+	--bg:       #f5f7ff;
+	--bg-light: #dfe2f1;
+	--text:     #5e6687;
+	--brand:    #5e6687;   // FIXME  Base24 #;
+	--accent:   #5e6687;  // FIXME Base24 #
+	--primary:  #5e6687;  TODO!
+	--secondary: #5e6687;  // FIXME Base24 #
+	--comment:  #6b7394;
+	--meta:      #5e6687;  // TODO!
+	--operator: #5e6687;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #6679cc;  // this matches base16 - FIXME Base24 #;
+	--regex:    #22a2c9;  // this matches base16
+	--property: #5e6687;  // base24 #;
+	--string:   #ac9739;  // this matches base16
+	--literal:  #c76b29;  // FIXME Base24 #;
+	--hint:     #c08b30;  // FIXME Base24 #;
+
+
+    --success:  #ac9739;  // 14 used by gruvbox dark
+    --warning:  #c76b29;  // 13 used by gruvbox dark
+    --info:     #22a2c9;  // 16 used by gruvbox dark
+    --error:    #c94922;  // matches base16 - 12 used by gruvbox dark
+}

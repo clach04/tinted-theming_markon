@@ -1,0 +1,29 @@
+/*
+* Name: Katy
+* Author: George Essig (https://github.com/gessig)
+*/
+
+html[data-theme="katy"][data-mode="dark"] {
+	--bg:       #292d3e;
+	--bg-light: #444267;
+	--text:     #959dcb;
+	--brand:    #959dcb;   // FIXME  Base24 #;
+	--accent:   #959dcb;  // FIXME Base24 #
+	--primary:  #959dcb;  TODO!
+	--secondary: #959dcb;  // FIXME Base24 #
+	--comment:  #8796b0;
+	--meta:      #959dcb;  // TODO!
+	--operator: #959dcb;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #c792ea;  // this matches base16 - FIXME Base24 #;
+	--regex:    #83b7e5;  // this matches base16
+	--property: #959dcb;  // base24 #;
+	--string:   #78c06e;  // this matches base16
+	--literal:  #f78c6c;  // FIXME Base24 #;
+	--hint:     #e0a557;  // FIXME Base24 #;
+
+
+    --success:  #78c06e;  // 14 used by gruvbox dark
+    --warning:  #f78c6c;  // 13 used by gruvbox dark
+    --info:     #83b7e5;  // 16 used by gruvbox dark
+    --error:    #6e98e1;  // matches base16 - 12 used by gruvbox dark
+}

@@ -1,0 +1,29 @@
+/*
+* Name: Qualia
+* Author: isaacwhanson
+*/
+
+html[data-theme="qualia"][data-mode="dark"] {
+	--bg:       #101010;
+	--bg-light: #454545;
+	--text:     #c0c0c0;
+	--brand:    #c0c0c0;   // FIXME  Base24 #;
+	--accent:   #c0c0c0;  // FIXME Base24 #
+	--primary:  #c0c0c0;  TODO!
+	--secondary: #c0c0c0;  // FIXME Base24 #
+	--comment:  #808080;
+	--meta:      #c0c0c0;  // TODO!
+	--operator: #c0c0c0;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #e0af85;  // this matches base16 - FIXME Base24 #;
+	--regex:    #c8c874;  // this matches base16
+	--property: #c0c0c0;  // base24 #;
+	--string:   #80c990;  // this matches base16
+	--literal:  #a3b8ef;  // FIXME Base24 #;
+	--hint:     #e6a3dc;  // FIXME Base24 #;
+
+
+    --success:  #80c990;  // 14 used by gruvbox dark
+    --warning:  #a3b8ef;  // 13 used by gruvbox dark
+    --info:     #c8c874;  // 16 used by gruvbox dark
+    --error:    #efa6a2;  // matches base16 - 12 used by gruvbox dark
+}

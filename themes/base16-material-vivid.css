@@ -1,0 +1,29 @@
+/*
+* Name: Material Vivid
+* Author: joshyrobot
+*/
+
+html[data-theme="material-vivid"][data-mode="dark"] {
+	--bg:       #202124;
+	--bg-light: #27292c;
+	--text:     #80868b;
+	--brand:    #80868b;   // FIXME  Base24 #;
+	--accent:   #80868b;  // FIXME Base24 #
+	--primary:  #80868b;  TODO!
+	--secondary: #80868b;  // FIXME Base24 #
+	--comment:  #676c71;
+	--meta:      #80868b;  // TODO!
+	--operator: #80868b;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #673ab7;  // this matches base16 - FIXME Base24 #;
+	--regex:    #00bcd4;  // this matches base16
+	--property: #80868b;  // base24 #;
+	--string:   #00e676;  // this matches base16
+	--literal:  #ff9800;  // FIXME Base24 #;
+	--hint:     #ffeb3b;  // FIXME Base24 #;
+
+
+    --success:  #00e676;  // 14 used by gruvbox dark
+    --warning:  #ff9800;  // 13 used by gruvbox dark
+    --info:     #00bcd4;  // 16 used by gruvbox dark
+    --error:    #f44336;  // matches base16 - 12 used by gruvbox dark
+}

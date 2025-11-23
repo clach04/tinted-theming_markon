@@ -1,0 +1,29 @@
+/*
+* Name: Rosé Pine Dawn
+* Author: Emilia Dunfelt &lt;edun@dunfelt.se&gt;
+*/
+
+html[data-theme="rose-pine-dawn"][data-mode="light"] {
+	--bg:       #faf4ed;
+	--bg-light: #fffaf3;
+	--text:     #575279;
+	--brand:    #575279;   // FIXME  Base24 #;
+	--accent:   #575279;  // FIXME Base24 #
+	--primary:  #575279;  TODO!
+	--secondary: #575279;  // FIXME Base24 #
+	--comment:  #797593;
+	--meta:      #575279;  // TODO!
+	--operator: #575279;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #ea9d34;  // this matches base16 - FIXME Base24 #;
+	--regex:    #56949f;  // this matches base16
+	--property: #575279;  // base24 #;
+	--string:   #286983;  // this matches base16
+	--literal:  #ea9d34;  // FIXME Base24 #;
+	--hint:     #d7827e;  // FIXME Base24 #;
+
+
+    --success:  #286983;  // 14 used by gruvbox dark
+    --warning:  #ea9d34;  // 13 used by gruvbox dark
+    --info:     #56949f;  // 16 used by gruvbox dark
+    --error:    #b4637a;  // matches base16 - 12 used by gruvbox dark
+}

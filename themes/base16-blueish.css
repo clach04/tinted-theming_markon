@@ -1,0 +1,29 @@
+/*
+* Name: Blueish
+* Author: Ben Mayoras
+*/
+
+html[data-theme="blueish"][data-mode="dark"] {
+	--bg:       #182430;
+	--bg-light: #243c54;
+	--text:     #c8e1f8;
+	--brand:    #c8e1f8;   // FIXME  Base24 #;
+	--accent:   #c8e1f8;  // FIXME Base24 #
+	--primary:  #c8e1f8;  TODO!
+	--secondary: #c8e1f8;  // FIXME Base24 #
+	--comment:  #74afe7;
+	--meta:      #c8e1f8;  // TODO!
+	--operator: #c8e1f8;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #ff84dd;  // this matches base16 - FIXME Base24 #;
+	--regex:    #5fd1ff;  // this matches base16
+	--property: #c8e1f8;  // base24 #;
+	--string:   #c3e88d;  // this matches base16
+	--literal:  #f6a85c;  // FIXME Base24 #;
+	--hint:     #f6cd5c;  // FIXME Base24 #;
+
+
+    --success:  #c3e88d;  // 14 used by gruvbox dark
+    --warning:  #f6a85c;  // 13 used by gruvbox dark
+    --info:     #5fd1ff;  // 16 used by gruvbox dark
+    --error:    #4ce587;  // matches base16 - 12 used by gruvbox dark
+}

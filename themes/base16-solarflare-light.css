@@ -1,0 +1,29 @@
+/*
+* Name: Solar Flare Light
+* Author: Chuck Harmston (https://chuck.harmston.ch)
+*/
+
+html[data-theme="solarflare-light"][data-mode="light"] {
+	--bg:       #f5f7fa;
+	--bg-light: #e8e9ed;
+	--text:     #586875;
+	--brand:    #586875;   // FIXME  Base24 #;
+	--accent:   #586875;  // FIXME Base24 #
+	--primary:  #586875;  TODO!
+	--secondary: #586875;  // FIXME Base24 #
+	--comment:  #667581;
+	--meta:      #586875;  // TODO!
+	--operator: #586875;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #a363d5;  // this matches base16 - FIXME Base24 #;
+	--regex:    #52cbb0;  // this matches base16
+	--property: #586875;  // base24 #;
+	--string:   #7cc844;  // this matches base16
+	--literal:  #e66b2b;  // FIXME Base24 #;
+	--hint:     #e4b51c;  // FIXME Base24 #;
+
+
+    --success:  #7cc844;  // 14 used by gruvbox dark
+    --warning:  #e66b2b;  // 13 used by gruvbox dark
+    --info:     #52cbb0;  // 16 used by gruvbox dark
+    --error:    #ef5253;  // matches base16 - 12 used by gruvbox dark
+}

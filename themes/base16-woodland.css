@@ -1,0 +1,29 @@
+/*
+* Name: Woodland
+* Author: Jay Cornwall (https://jcornwall.com)
+*/
+
+html[data-theme="woodland"][data-mode="dark"] {
+	--bg:       #231e18;
+	--bg-light: #302b25;
+	--text:     #cabcb1;
+	--brand:    #cabcb1;   // FIXME  Base24 #;
+	--accent:   #cabcb1;  // FIXME Base24 #
+	--primary:  #cabcb1;  TODO!
+	--secondary: #cabcb1;  // FIXME Base24 #
+	--comment:  #b4a490;
+	--meta:      #cabcb1;  // TODO!
+	--operator: #cabcb1;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #bb90e2;  // this matches base16 - FIXME Base24 #;
+	--regex:    #6eb958;  // this matches base16
+	--property: #cabcb1;  // base24 #;
+	--string:   #b7ba53;  // this matches base16
+	--literal:  #ca7f32;  // FIXME Base24 #;
+	--hint:     #e0ac16;  // FIXME Base24 #;
+
+
+    --success:  #b7ba53;  // 14 used by gruvbox dark
+    --warning:  #ca7f32;  // 13 used by gruvbox dark
+    --info:     #6eb958;  // 16 used by gruvbox dark
+    --error:    #d35c5c;  // matches base16 - 12 used by gruvbox dark
+}

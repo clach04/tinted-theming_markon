@@ -1,0 +1,29 @@
+/*
+* Name: Jabuti
+* Author: https://github.com/notusknot
+*/
+
+html[data-theme="jabuti"][data-mode="dark"] {
+	--bg:       #292a37;
+	--bg-light: #343545;
+	--text:     #c0cbe3;
+	--brand:    #c0cbe3;   // FIXME  Base24 #;
+	--accent:   #c0cbe3;  // FIXME Base24 #
+	--primary:  #c0cbe3;  TODO!
+	--secondary: #c0cbe3;  // FIXME Base24 #
+	--comment:  #50526b;
+	--meta:      #c0cbe3;  // TODO!
+	--operator: #c0cbe3;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #be95ff;  // this matches base16 - FIXME Base24 #;
+	--regex:    #ff7eb6;  // this matches base16
+	--property: #c0cbe3;  // base24 #;
+	--string:   #3fdaa4;  // this matches base16
+	--literal:  #efb993;  // FIXME Base24 #;
+	--hint:     #e1c697;  // FIXME Base24 #;
+
+
+    --success:  #3fdaa4;  // 14 used by gruvbox dark
+    --warning:  #efb993;  // 13 used by gruvbox dark
+    --info:     #ff7eb6;  // 16 used by gruvbox dark
+    --error:    #ec6a88;  // matches base16 - 12 used by gruvbox dark
+}

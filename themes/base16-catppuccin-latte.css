@@ -1,0 +1,29 @@
+/*
+* Name: Catppuccin Latte
+* Author: https://github.com/catppuccin/catppuccin
+*/
+
+html[data-theme="catppuccin-latte"][data-mode="light"] {
+	--bg:       #eff1f5;
+	--bg-light: #e6e9ef;
+	--text:     #4c4f69;
+	--brand:    #4c4f69;   // FIXME  Base24 #;
+	--accent:   #4c4f69;  // FIXME Base24 #
+	--primary:  #4c4f69;  TODO!
+	--secondary: #4c4f69;  // FIXME Base24 #
+	--comment:  #acb0be;
+	--meta:      #4c4f69;  // TODO!
+	--operator: #4c4f69;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #8839ef;  // this matches base16 - FIXME Base24 #;
+	--regex:    #179299;  // this matches base16
+	--property: #4c4f69;  // base24 #;
+	--string:   #40a02b;  // this matches base16
+	--literal:  #fe640b;  // FIXME Base24 #;
+	--hint:     #df8e1d;  // FIXME Base24 #;
+
+
+    --success:  #40a02b;  // 14 used by gruvbox dark
+    --warning:  #fe640b;  // 13 used by gruvbox dark
+    --info:     #179299;  // 16 used by gruvbox dark
+    --error:    #d20f39;  // matches base16 - 12 used by gruvbox dark
+}

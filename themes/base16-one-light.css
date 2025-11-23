@@ -1,0 +1,29 @@
+/*
+* Name: One Light
+* Author: Daniel Pfeifer (http://github.com/purpleKarrot)
+*/
+
+html[data-theme="one-light"][data-mode="light"] {
+	--bg:       #fafafa;
+	--bg-light: #f0f0f1;
+	--text:     #383a42;
+	--brand:    #383a42;   // FIXME  Base24 #;
+	--accent:   #383a42;  // FIXME Base24 #
+	--primary:  #383a42;  TODO!
+	--secondary: #383a42;  // FIXME Base24 #
+	--comment:  #696c77;
+	--meta:      #383a42;  // TODO!
+	--operator: #383a42;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #a626a4;  // this matches base16 - FIXME Base24 #;
+	--regex:    #0184bc;  // this matches base16
+	--property: #383a42;  // base24 #;
+	--string:   #50a14f;  // this matches base16
+	--literal:  #d75f00;  // FIXME Base24 #;
+	--hint:     #c18401;  // FIXME Base24 #;
+
+
+    --success:  #50a14f;  // 14 used by gruvbox dark
+    --warning:  #d75f00;  // 13 used by gruvbox dark
+    --info:     #0184bc;  // 16 used by gruvbox dark
+    --error:    #ca1243;  // matches base16 - 12 used by gruvbox dark
+}

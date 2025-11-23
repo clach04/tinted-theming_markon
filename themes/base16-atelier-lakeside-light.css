@@ -1,0 +1,29 @@
+/*
+* Name: Atelier Lakeside Light
+* Author: Bram de Haan (http://atelierbramdehaan.nl)
+*/
+
+html[data-theme="atelier-lakeside-light"][data-mode="light"] {
+	--bg:       #ebf8ff;
+	--bg-light: #c1e4f6;
+	--text:     #516d7b;
+	--brand:    #516d7b;   // FIXME  Base24 #;
+	--accent:   #516d7b;  // FIXME Base24 #
+	--primary:  #516d7b;  TODO!
+	--secondary: #516d7b;  // FIXME Base24 #
+	--comment:  #5a7b8c;
+	--meta:      #516d7b;  // TODO!
+	--operator: #516d7b;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #6b6bb8;  // this matches base16 - FIXME Base24 #;
+	--regex:    #2d8f6f;  // this matches base16
+	--property: #516d7b;  // base24 #;
+	--string:   #568c3b;  // this matches base16
+	--literal:  #935c25;  // FIXME Base24 #;
+	--hint:     #8a8a0f;  // FIXME Base24 #;
+
+
+    --success:  #568c3b;  // 14 used by gruvbox dark
+    --warning:  #935c25;  // 13 used by gruvbox dark
+    --info:     #2d8f6f;  // 16 used by gruvbox dark
+    --error:    #d22d72;  // matches base16 - 12 used by gruvbox dark
+}

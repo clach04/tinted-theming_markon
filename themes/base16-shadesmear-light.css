@@ -1,0 +1,29 @@
+/*
+* Name: ShadeSmear Light
+* Author: Kyle Giammarco (http://kyle.giammar.co)
+*/
+
+html[data-theme="shadesmear-light"][data-mode="light"] {
+	--bg:       #dbdbdb;
+	--bg-light: #e4e4e4;
+	--text:     #232323;
+	--brand:    #232323;   // FIXME  Base24 #;
+	--accent:   #232323;  // FIXME Base24 #
+	--primary:  #232323;  TODO!
+	--secondary: #232323;  // FIXME Base24 #
+	--comment:  #1c1c1c;
+	--meta:      #232323;  // TODO!
+	--operator: #232323;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #d7ab54;  // this matches base16 - FIXME Base24 #;
+	--regex:    #c57d42;  // this matches base16
+	--property: #232323;  // base24 #;
+	--string:   #71983b;  // this matches base16
+	--literal:  #a64270;  // FIXME Base24 #;
+	--hint:     #307878;  // FIXME Base24 #;
+
+
+    --success:  #71983b;  // 14 used by gruvbox dark
+    --warning:  #a64270;  // 13 used by gruvbox dark
+    --info:     #c57d42;  // 16 used by gruvbox dark
+    --error:    #cc5450;  // matches base16 - 12 used by gruvbox dark
+}

@@ -1,0 +1,29 @@
+/*
+* Name: Nord Light
+* Author: threddast, based on fuxialexander&#39;s doom-nord-light-theme (Doom Emacs)
+*/
+
+html[data-theme="nord-light"][data-mode="light"] {
+	--bg:       #e5e9f0;
+	--bg-light: #c2d0e7;
+	--text:     #2e3440;
+	--brand:    #2e3440;   // FIXME  Base24 #;
+	--accent:   #2e3440;  // FIXME Base24 #
+	--primary:  #2e3440;  TODO!
+	--secondary: #2e3440;  // FIXME Base24 #
+	--comment:  #60728c;
+	--meta:      #2e3440;  // TODO!
+	--operator: #2e3440;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #97365b;  // this matches base16 - FIXME Base24 #;
+	--regex:    #398eac;  // this matches base16
+	--property: #2e3440;  // base24 #;
+	--string:   #4f894c;  // this matches base16
+	--literal:  #ac4426;  // FIXME Base24 #;
+	--hint:     #9a7500;  // FIXME Base24 #;
+
+
+    --success:  #4f894c;  // 14 used by gruvbox dark
+    --warning:  #ac4426;  // 13 used by gruvbox dark
+    --info:     #398eac;  // 16 used by gruvbox dark
+    --error:    #99324b;  // matches base16 - 12 used by gruvbox dark
+}

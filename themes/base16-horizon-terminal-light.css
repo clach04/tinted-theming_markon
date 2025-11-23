@@ -1,0 +1,29 @@
+/*
+* Name: Horizon Terminal Light
+* Author: Michaël Ball (http://github.com/michael-ball/)
+*/
+
+html[data-theme="horizon-terminal-light"][data-mode="light"] {
+	--bg:       #fdf0ed;
+	--bg-light: #fadad1;
+	--text:     #403c3d;
+	--brand:    #403c3d;   // FIXME  Base24 #;
+	--accent:   #403c3d;  // FIXME Base24 #
+	--primary:  #403c3d;  TODO!
+	--secondary: #403c3d;  // FIXME Base24 #
+	--comment:  #948c8a;
+	--meta:      #403c3d;  // TODO!
+	--operator: #403c3d;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #ee64ac;  // this matches base16 - FIXME Base24 #;
+	--regex:    #59e1e3;  // this matches base16
+	--property: #403c3d;  // base24 #;
+	--string:   #29d398;  // this matches base16
+	--literal:  #f9cec3;  // FIXME Base24 #;
+	--hint:     #fadad1;  // FIXME Base24 #;
+
+
+    --success:  #29d398;  // 14 used by gruvbox dark
+    --warning:  #f9cec3;  // 13 used by gruvbox dark
+    --info:     #59e1e3;  // 16 used by gruvbox dark
+    --error:    #e95678;  // matches base16 - 12 used by gruvbox dark
+}

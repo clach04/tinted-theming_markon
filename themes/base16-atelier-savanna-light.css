@@ -1,0 +1,29 @@
+/*
+* Name: Atelier Savanna Light
+* Author: Bram de Haan (http://atelierbramdehaan.nl)
+*/
+
+html[data-theme="atelier-savanna-light"][data-mode="light"] {
+	--bg:       #ecf4ee;
+	--bg-light: #dfe7e2;
+	--text:     #526057;
+	--brand:    #526057;   // FIXME  Base24 #;
+	--accent:   #526057;  // FIXME Base24 #
+	--primary:  #526057;  TODO!
+	--secondary: #526057;  // FIXME Base24 #
+	--comment:  #5f6d64;
+	--meta:      #526057;  // TODO!
+	--operator: #526057;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #55859b;  // this matches base16 - FIXME Base24 #;
+	--regex:    #1c9aa0;  // this matches base16
+	--property: #526057;  // base24 #;
+	--string:   #489963;  // this matches base16
+	--literal:  #9f713c;  // FIXME Base24 #;
+	--hint:     #a07e3b;  // FIXME Base24 #;
+
+
+    --success:  #489963;  // 14 used by gruvbox dark
+    --warning:  #9f713c;  // 13 used by gruvbox dark
+    --info:     #1c9aa0;  // 16 used by gruvbox dark
+    --error:    #b16139;  // matches base16 - 12 used by gruvbox dark
+}

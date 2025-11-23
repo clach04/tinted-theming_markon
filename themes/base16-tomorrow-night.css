@@ -1,0 +1,29 @@
+/*
+* Name: Tomorrow Night
+* Author: Chris Kempson (http://chriskempson.com)
+*/
+
+html[data-theme="tomorrow-night"][data-mode="dark"] {
+	--bg:       #1d1f21;
+	--bg-light: #282a2e;
+	--text:     #c5c8c6;
+	--brand:    #c5c8c6;   // FIXME  Base24 #;
+	--accent:   #c5c8c6;  // FIXME Base24 #
+	--primary:  #c5c8c6;  TODO!
+	--secondary: #c5c8c6;  // FIXME Base24 #
+	--comment:  #b4b7b4;
+	--meta:      #c5c8c6;  // TODO!
+	--operator: #c5c8c6;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #b294bb;  // this matches base16 - FIXME Base24 #;
+	--regex:    #8abeb7;  // this matches base16
+	--property: #c5c8c6;  // base24 #;
+	--string:   #b5bd68;  // this matches base16
+	--literal:  #de935f;  // FIXME Base24 #;
+	--hint:     #f0c674;  // FIXME Base24 #;
+
+
+    --success:  #b5bd68;  // 14 used by gruvbox dark
+    --warning:  #de935f;  // 13 used by gruvbox dark
+    --info:     #8abeb7;  // 16 used by gruvbox dark
+    --error:    #cc6666;  // matches base16 - 12 used by gruvbox dark
+}

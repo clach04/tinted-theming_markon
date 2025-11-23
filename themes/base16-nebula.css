@@ -1,0 +1,29 @@
+/*
+* Name: Nebula
+* Author: Gabriel Fontes (https://github.com/Misterio77)
+*/
+
+html[data-theme="nebula"][data-mode="dark"] {
+	--bg:       #22273b;
+	--bg-light: #414f60;
+	--text:     #a4a6a9;
+	--brand:    #a4a6a9;   // FIXME  Base24 #;
+	--accent:   #a4a6a9;  // FIXME Base24 #
+	--primary:  #a4a6a9;  TODO!
+	--secondary: #a4a6a9;  // FIXME Base24 #
+	--comment:  #87888b;
+	--meta:      #a4a6a9;  // TODO!
+	--operator: #a4a6a9;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #716cae;  // this matches base16 - FIXME Base24 #;
+	--regex:    #226f68;  // this matches base16
+	--property: #a4a6a9;  // base24 #;
+	--string:   #6562a8;  // this matches base16
+	--literal:  #94929e;  // FIXME Base24 #;
+	--hint:     #4f9062;  // FIXME Base24 #;
+
+
+    --success:  #6562a8;  // 14 used by gruvbox dark
+    --warning:  #94929e;  // 13 used by gruvbox dark
+    --info:     #226f68;  // 16 used by gruvbox dark
+    --error:    #777abc;  // matches base16 - 12 used by gruvbox dark
+}

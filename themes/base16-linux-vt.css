@@ -1,0 +1,29 @@
+/*
+* Name: Linux VT
+* Author: j-c-m (https://github.com/j-c-m/)
+*/
+
+html[data-theme="linux-vt"][data-mode="dark"] {
+	--bg:       #000000;
+	--bg-light: #333333;
+	--text:     #aaaaaa;
+	--brand:    #aaaaaa;   // FIXME  Base24 #;
+	--accent:   #aaaaaa;  // FIXME Base24 #
+	--primary:  #aaaaaa;  TODO!
+	--secondary: #aaaaaa;  // FIXME Base24 #
+	--comment:  #888888;
+	--meta:      #aaaaaa;  // TODO!
+	--operator: #aaaaaa;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #ff55ff;  // this matches base16 - FIXME Base24 #;
+	--regex:    #00aaaa;  // this matches base16
+	--property: #aaaaaa;  // base24 #;
+	--string:   #00aa00;  // this matches base16
+	--literal:  #ff5555;  // FIXME Base24 #;
+	--hint:     #ffff55;  // FIXME Base24 #;
+
+
+    --success:  #00aa00;  // 14 used by gruvbox dark
+    --warning:  #ff5555;  // 13 used by gruvbox dark
+    --info:     #00aaaa;  // 16 used by gruvbox dark
+    --error:    #aa0000;  // matches base16 - 12 used by gruvbox dark
+}

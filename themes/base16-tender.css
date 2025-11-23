@@ -1,0 +1,29 @@
+/*
+* Name: tender
+* Author: Jacobo Tabernero (https://github/com/jacoborus/tender.vim)
+*/
+
+html[data-theme="tender"][data-mode="dark"] {
+	--bg:       #282828;
+	--bg-light: #383838;
+	--text:     #eeeeee;
+	--brand:    #eeeeee;   // FIXME  Base24 #;
+	--accent:   #eeeeee;  // FIXME Base24 #
+	--primary:  #eeeeee;  TODO!
+	--secondary: #eeeeee;  // FIXME Base24 #
+	--comment:  #b8b8b8;
+	--meta:      #eeeeee;  // TODO!
+	--operator: #eeeeee;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #d3b987;  // this matches base16 - FIXME Base24 #;
+	--regex:    #73cef4;  // this matches base16
+	--property: #eeeeee;  // base24 #;
+	--string:   #c9d05c;  // this matches base16
+	--literal:  #dc9656;  // FIXME Base24 #;
+	--hint:     #ffc24b;  // FIXME Base24 #;
+
+
+    --success:  #c9d05c;  // 14 used by gruvbox dark
+    --warning:  #dc9656;  // 13 used by gruvbox dark
+    --info:     #73cef4;  // 16 used by gruvbox dark
+    --error:    #f43753;  // matches base16 - 12 used by gruvbox dark
+}

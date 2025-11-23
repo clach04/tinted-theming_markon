@@ -1,0 +1,29 @@
+/*
+* Name: Unikitty Light
+* Author: Josh W Lewis (@joshwlewis)
+*/
+
+html[data-theme="unikitty-light"][data-mode="light"] {
+	--bg:       #ffffff;
+	--bg-light: #e1e1e2;
+	--text:     #6c696e;
+	--brand:    #6c696e;   // FIXME  Base24 #;
+	--accent:   #6c696e;  // FIXME Base24 #
+	--primary:  #6c696e;  TODO!
+	--secondary: #6c696e;  // FIXME Base24 #
+	--comment:  #89878b;
+	--meta:      #6c696e;  // TODO!
+	--operator: #6c696e;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #aa17e6;  // this matches base16 - FIXME Base24 #;
+	--regex:    #149bda;  // this matches base16
+	--property: #6c696e;  // base24 #;
+	--string:   #17ad98;  // this matches base16
+	--literal:  #d65407;  // FIXME Base24 #;
+	--hint:     #dc8a0e;  // FIXME Base24 #;
+
+
+    --success:  #17ad98;  // 14 used by gruvbox dark
+    --warning:  #d65407;  // 13 used by gruvbox dark
+    --info:     #149bda;  // 16 used by gruvbox dark
+    --error:    #d8137f;  // matches base16 - 12 used by gruvbox dark
+}

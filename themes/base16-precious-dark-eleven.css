@@ -1,0 +1,29 @@
+/*
+* Name: Precious Dark Eleven
+* Author: 4lex4 &lt;4lex49@zoho.com&gt;
+*/
+
+html[data-theme="precious-dark-eleven"][data-mode="dark"] {
+	--bg:       #1c1e20;
+	--bg-light: #292b2d;
+	--text:     #b8b7b6;
+	--brand:    #b8b7b6;   // FIXME  Base24 #;
+	--accent:   #b8b7b6;  // FIXME Base24 #
+	--primary:  #b8b7b6;  TODO!
+	--secondary: #b8b7b6;  // FIXME Base24 #
+	--comment:  #a8a8a7;
+	--meta:      #b8b7b6;  // TODO!
+	--operator: #b8b7b6;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #b799fe;  // this matches base16 - FIXME Base24 #;
+	--regex:    #42bda7;  // this matches base16
+	--property: #b8b7b6;  // base24 #;
+	--string:   #95b658;  // this matches base16
+	--literal:  #ea9755;  // FIXME Base24 #;
+	--hint:     #d0a543;  // FIXME Base24 #;
+
+
+    --success:  #95b658;  // 14 used by gruvbox dark
+    --warning:  #ea9755;  // 13 used by gruvbox dark
+    --info:     #42bda7;  // 16 used by gruvbox dark
+    --error:    #ff8782;  // matches base16 - 12 used by gruvbox dark
+}

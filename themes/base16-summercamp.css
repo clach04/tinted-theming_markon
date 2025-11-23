@@ -1,0 +1,29 @@
+/*
+* Name: summercamp
+* Author: zoe firi (zoefiri.github.io)
+*/
+
+html[data-theme="summercamp"][data-mode="dark"] {
+	--bg:       #1c1810;
+	--bg-light: #2a261c;
+	--text:     #736e55;
+	--brand:    #736e55;   // FIXME  Base24 #;
+	--accent:   #736e55;  // FIXME Base24 #
+	--primary:  #736e55;  TODO!
+	--secondary: #736e55;  // FIXME Base24 #
+	--comment:  #5f5b45;
+	--meta:      #736e55;  // TODO!
+	--operator: #736e55;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #ff8080;  // this matches base16 - FIXME Base24 #;
+	--regex:    #5aebbc;  // this matches base16
+	--property: #736e55;  // base24 #;
+	--string:   #5ceb5a;  // this matches base16
+	--literal:  #fba11b;  // FIXME Base24 #;
+	--hint:     #f2ff27;  // FIXME Base24 #;
+
+
+    --success:  #5ceb5a;  // 14 used by gruvbox dark
+    --warning:  #fba11b;  // 13 used by gruvbox dark
+    --info:     #5aebbc;  // 16 used by gruvbox dark
+    --error:    #e35142;  // matches base16 - 12 used by gruvbox dark
+}

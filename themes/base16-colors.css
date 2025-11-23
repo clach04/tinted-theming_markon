@@ -1,0 +1,29 @@
+/*
+* Name: Colors
+* Author: mrmrs (http://clrs.cc)
+*/
+
+html[data-theme="colors"][data-mode="dark"] {
+	--bg:       #111111;
+	--bg-light: #333333;
+	--text:     #bbbbbb;
+	--brand:    #bbbbbb;   // FIXME  Base24 #;
+	--accent:   #bbbbbb;  // FIXME Base24 #
+	--primary:  #bbbbbb;  TODO!
+	--secondary: #bbbbbb;  // FIXME Base24 #
+	--comment:  #999999;
+	--meta:      #bbbbbb;  // TODO!
+	--operator: #bbbbbb;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #b10dc9;  // this matches base16 - FIXME Base24 #;
+	--regex:    #7fdbff;  // this matches base16
+	--property: #bbbbbb;  // base24 #;
+	--string:   #2ecc40;  // this matches base16
+	--literal:  #ff851b;  // FIXME Base24 #;
+	--hint:     #ffdc00;  // FIXME Base24 #;
+
+
+    --success:  #2ecc40;  // 14 used by gruvbox dark
+    --warning:  #ff851b;  // 13 used by gruvbox dark
+    --info:     #7fdbff;  // 16 used by gruvbox dark
+    --error:    #ff4136;  // matches base16 - 12 used by gruvbox dark
+}

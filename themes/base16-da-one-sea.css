@@ -1,0 +1,29 @@
+/*
+* Name: Da One Sea
+* Author: NNB (https://github.com/NNBnh)
+*/
+
+html[data-theme="da-one-sea"][data-mode="dark"] {
+	--bg:       #22273d;
+	--bg-light: #374059;
+	--text:     #ffffff;
+	--brand:    #ffffff;   // FIXME  Base24 #;
+	--accent:   #ffffff;  // FIXME Base24 #
+	--primary:  #ffffff;  TODO!
+	--secondary: #ffffff;  // FIXME Base24 #
+	--comment:  #c8c8c8;
+	--meta:      #ffffff;  // TODO!
+	--operator: #ffffff;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #e799ff;  // this matches base16 - FIXME Base24 #;
+	--regex:    #8af5ff;  // this matches base16
+	--property: #ffffff;  // base24 #;
+	--string:   #98c379;  // this matches base16
+	--literal:  #ffc387;  // FIXME Base24 #;
+	--hint:     #ff9470;  // FIXME Base24 #;
+
+
+    --success:  #98c379;  // 14 used by gruvbox dark
+    --warning:  #ffc387;  // 13 used by gruvbox dark
+    --info:     #8af5ff;  // 16 used by gruvbox dark
+    --error:    #fa7883;  // matches base16 - 12 used by gruvbox dark
+}

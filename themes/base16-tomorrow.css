@@ -1,0 +1,29 @@
+/*
+* Name: Tomorrow
+* Author: Chris Kempson (http://chriskempson.com)
+*/
+
+html[data-theme="tomorrow"][data-mode="light"] {
+	--bg:       #ffffff;
+	--bg-light: #e0e0e0;
+	--text:     #373b41;
+	--brand:    #373b41;   // FIXME  Base24 #;
+	--accent:   #373b41;  // FIXME Base24 #
+	--primary:  #373b41;  TODO!
+	--secondary: #373b41;  // FIXME Base24 #
+	--comment:  #969896;
+	--meta:      #373b41;  // TODO!
+	--operator: #373b41;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #8959a8;  // this matches base16 - FIXME Base24 #;
+	--regex:    #3e999f;  // this matches base16
+	--property: #373b41;  // base24 #;
+	--string:   #718c00;  // this matches base16
+	--literal:  #f5871f;  // FIXME Base24 #;
+	--hint:     #eab700;  // FIXME Base24 #;
+
+
+    --success:  #718c00;  // 14 used by gruvbox dark
+    --warning:  #f5871f;  // 13 used by gruvbox dark
+    --info:     #3e999f;  // 16 used by gruvbox dark
+    --error:    #c82829;  // matches base16 - 12 used by gruvbox dark
+}

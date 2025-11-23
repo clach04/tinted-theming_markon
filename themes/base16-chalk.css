@@ -1,0 +1,29 @@
+/*
+* Name: Chalk
+* Author: Chris Kempson (http://chriskempson.com)
+*/
+
+html[data-theme="chalk"][data-mode="dark"] {
+	--bg:       #151515;
+	--bg-light: #202020;
+	--text:     #d0d0d0;
+	--brand:    #d0d0d0;   // FIXME  Base24 #;
+	--accent:   #d0d0d0;  // FIXME Base24 #
+	--primary:  #d0d0d0;  TODO!
+	--secondary: #d0d0d0;  // FIXME Base24 #
+	--comment:  #b0b0b0;
+	--meta:      #d0d0d0;  // TODO!
+	--operator: #d0d0d0;  // this matches base16 - FIXME Base24 #;
+	--keyword:  #e1a3ee;  // this matches base16 - FIXME Base24 #;
+	--regex:    #12cfc0;  // this matches base16
+	--property: #d0d0d0;  // base24 #;
+	--string:   #acc267;  // this matches base16
+	--literal:  #eda987;  // FIXME Base24 #;
+	--hint:     #ddb26f;  // FIXME Base24 #;
+
+
+    --success:  #acc267;  // 14 used by gruvbox dark
+    --warning:  #eda987;  // 13 used by gruvbox dark
+    --info:     #12cfc0;  // 16 used by gruvbox dark
+    --error:    #fb9fb1;  // matches base16 - 12 used by gruvbox dark
+}

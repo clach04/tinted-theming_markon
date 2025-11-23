@@ -1,0 +1,3 @@
+markon:
+  extension: ".css"
+  output: "themes/"

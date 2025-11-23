@@ -1,0 +1,29 @@
+/*
+* Name: {{scheme-name}}
+* Author: {{scheme-author}}
+*/
+
+html[data-theme="{{scheme-slug}}"][data-mode="{{scheme-variant}}"] {
+	--bg:       #{{base00-hex}};
+	--bg-light: #{{base01-hex}};
+	--text:     #{{base05-hex}};
+	--brand:    #{{base05-hex}};   // FIXME  Base24 #{{base12-hex}};
+	--accent:   #{{base05-hex}};  // FIXME Base24 #{{base16-hex}}
+	--primary:  #{{base05-hex}};  TODO!
+	--secondary: #{{base05-hex}};  // FIXME Base24 #{{base14-hex}}
+	--comment:  #{{base04-hex}};
+	--meta:      #{{base05-hex}};  // TODO!
+	--operator: #{{base05-hex}};  // this matches base16 - FIXME Base24 #{{base16-hex}};
+	--keyword:  #{{base0E-hex}};  // this matches base16 - FIXME Base24 #{{base12-hex}};
+	--regex:    #{{base0C-hex}};  // this matches base16
+	--property: #{{base05-hex}};  // base24 #{{base16-hex}};
+	--string:   #{{base0B-hex}};  // this matches base16
+	--literal:  #{{base09-hex}};  // FIXME Base24 #{{base13-hex}};
+	--hint:     #{{base0A-hex}};  // FIXME Base24 #{{base15-hex}};
+
+
+    --success:  #{{base0B-hex}};  // 14 used by gruvbox dark
+    --warning:  #{{base09-hex}};  // 13 used by gruvbox dark
+    --info:     #{{base0C-hex}};  // 16 used by gruvbox dark
+    --error:    #{{base08-hex}};  // matches base16 - 12 used by gruvbox dark
+}

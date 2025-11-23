@@ -1,8 +1,6 @@
-# tinted-theming-project-template <img alt="Color wheel" src="https://raw.githubusercontent.com/tinted-theming/home/refs/heads/main/color_wheel.png" width="100" align="right" style="padding-top:0.6rem;">
+# tinted-theming Markon <img alt="Color wheel" src="https://raw.githubusercontent.com/tinted-theming/home/refs/heads/main/color_wheel.png" width="100" align="right" style="padding-top:0.6rem;">
 
-Use this template for new Tinted Theming / Base16 / Base24 projects.
-ADD OVERVIEW HERE.
-
+Experimental https://github.com/metaory/markon theme/scheme generator
 
 ## Install
 
@@ -12,9 +10,9 @@ ADD INSTALL INSTRUCTIONS/NOTES HERE.
 
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/tinted-theming/YOUR_PROJECT_HERE/graphs/contributors).
 
-| [![Jamy](https://github.com/jamygolden.png?size=100)](https://github.com/JamyGolden) | [![YOUR_NAME_HERE](https://github.com/YOUR_NAME_HERE.png?size=100)](https://github.com/YOUR_NAME_HERE) |
+| [![Jamy](https://github.com/clach04.png?size=100)](https://github.com/clach04) | [![YOUR_NAME_HERE](https://github.com/YOUR_NAME_HERE.png?size=100)](https://github.com/YOUR_NAME_HERE) |
 | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
-| [Jamy](https://github.com/JamyGolden)                                                | [YOUR_NAME_HERE](https://github.com/YOUR_NAME_HERE)                                                    |
+| [Jamy](https://github.com/clach04)                                                | [YOUR_NAME_HERE](https://github.com/YOUR_NAME_HERE)                                                    |
 
 ## Community
 
